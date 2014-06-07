@@ -77,6 +77,9 @@ GEM
     foundation-rails (5.2.3.0)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
+    golfscrape (0.0.7)
+      hashie
+      nokogiri
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -91,6 +94,7 @@ GEM
     guard-rspec (4.2.9)
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
+    hashie (3.0.0)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (2.0.8)
@@ -241,6 +245,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   foundation-rails
+  golfscrape
   guard-bundler
   guard-rails
   guard-rspec

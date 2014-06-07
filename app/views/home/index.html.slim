@@ -1,1 +1,40 @@
-h3 Home
+- if current_user
+  h4 My Team
+  table
+    tr
+      th Player
+      th Today
+      th Through
+      th Total
+    tr
+      td Total
+      td = @my_today
+      td
+      td = @my_total
+    -@my_scores.each do |score|
+      tr
+        td = score.name
+        td = score.today
+        td = score.thru
+        td = score.strokes
+
+- @other_teams.each do |team|
+  h4 =team[:user]
+
+  table
+    tr
+      th Player
+      th Today
+      th Through
+      th Total
+    tr
+      td Total
+      td = team[:today]
+      td
+      td = team[:total]
+    -team[:scores].each do |score|
+      tr
+        td = score.name
+        td = score.today
+        td = score.thru
+        td = score.strokes

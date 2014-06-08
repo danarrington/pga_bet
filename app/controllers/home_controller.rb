@@ -2,7 +2,6 @@ class HomeController < ApplicationController
 
   def index
 
-
     leaderboard = Golfscrape::Client.new.leaderboard
 
     if current_user
@@ -12,7 +11,7 @@ class HomeController < ApplicationController
       @my_total =  @my_scores.inject(0){|sum, x| sum+x.total.to_i}
     end
 
-    other_players = User.all.select{|u| u.picks.count > 0 && u.id != current_user.id}
+    other_players = User.all.select{|u| u.picks.count > 0 && u.id != (current_user ? current_user.id : 0)}
 
     @other_teams = []
     other_players.each do |p|

@@ -9,4 +9,14 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def add_pick
+    @users = User.where('name not null').collect{|x| [x.name, x.id]}
+    @players = Player.all.collect{|x| [x.name, x.id]}
+  end
+
+  def submit_pick
+    User.find(params[:user_id]).players << Player.find(params[:player_id])
+    redirect_to :add_pick
+  end
+
 end

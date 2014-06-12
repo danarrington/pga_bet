@@ -1,9 +1,18 @@
 = form_tag do
   = label_tag(:user_id, "User")
-  = select_tag(:user_id, options_for_select(@users))
+  = select_tag(:user_id, options_for_select(@users), autofocus:"autofocus")
 
 
   = label_tag(:player_id, "Player")
   = select_tag(:player_id, options_for_select(@players))
 
   = submit_tag
+
+
+div
+  - @all_users.each do |u|
+    table
+      tr
+        th = u.name
+        - u.players.each do |p|
+          td = p.name

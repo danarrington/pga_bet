@@ -7,8 +7,8 @@ class HomeController < ApplicationController
     if current_user
       my_players = current_user.players.collect(&:name)
       @my_scores = leaderboard.select{|x| my_players.include?(x.name)}
-      @my_today =  @my_scores.inject(0){|sum, x| sum+x.today.to_i}
-      @my_total =  @my_scores.inject(0){|sum, x| sum+x.total.to_i}
+      @my_today =  calculate_today_score(@my_scores)
+      @my_total =  calculate_total_score(@my_scores)
     end
 
     other_players = User.all.select{|u| u.picks.count > 0 && u.id != (current_user ? current_user.id : 0)}
@@ -26,11 +26,11 @@ class HomeController < ApplicationController
   end
 
   def calculate_total_score(scores)
-    scores.select{|x| x.total != '-'}.sort{|x| x.total.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
+    scores.select{|x| x.total != '-'}.sort_by{|x| x.total.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
   end
 
   def calculate_today_score(scores)
-    scores.select{|x| x.today != '-'}.sort{|x| x.today.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
+    scores.select{|x| x.today != '-'}.sort_by{|x| x.today.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
   end
 
 

@@ -18,6 +18,6 @@ module ApplicationHelper
   end
 
   def edt_to_local t
-    ActiveSupport::TimeZone.new('America/New_York').parse(t).getlocal.strftime('%l:%M %P')
+    ActiveSupport::TimeZone.new('America/New_York').parse(t).in_time_zone('Pacific Time (US & Canada)').strftime('%l:%M %P')
   end
 end

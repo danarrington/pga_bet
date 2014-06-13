@@ -14,7 +14,7 @@
     -@my_scores.each do |score|
       tr
         td = score.name
-        td = score.today
+        td = score_or_time(score)
         td = score.thru
         td = score.total
 

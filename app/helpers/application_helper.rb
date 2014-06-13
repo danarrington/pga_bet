@@ -4,16 +4,20 @@ module ApplicationHelper
     if score.today == '-'
       case Time.now.wday
         when 4
-          score.first_round
+          edt_to_local score.first_round
         when 5
-          score.second_round
+          edt_to_local score.second_round
         when 6
-          score.third_round
+          edt_to_local score.third_round
         when 7
-          score.fourth_round
+          edt_to_local score.fourth_round
         end
     else
       score.today
     end
+  end
+
+  def edt_to_local t
+    ActiveSupport::TimeZone.new('America/New_York').parse(t).getlocal.strftime('%l:%M %P')
   end
 end

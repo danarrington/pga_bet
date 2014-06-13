@@ -17,8 +17,8 @@ class HomeController < ApplicationController
     other_players.each do |p|
       players = p.players.collect(&:name)
       scores = leaderboard.select{|x| players.include?(x.name)}
-      today =  scores.inject(0){|sum, x| sum+x.today.to_i}
-      total =  scores.inject(0){|sum, x| sum+x.total.to_i}
+      today =  calculate_today_score(scores)
+      total =  calculate_total_score(scores)
       @other_teams << {user: p.name, scores: scores, today: today, total: total}
     end
 

@@ -26,11 +26,12 @@ class HomeController < ApplicationController
   end
 
   def calculate_total_score(scores)
+    
     scores.select{|x| x.total != '-'}.sort_by{|x| x.total.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
   end
 
   def calculate_today_score(scores)
-    scores.select{|x| x.today != '-'}.sort_by{|x| x.today.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
+    scores.select{|x| x.today != '-'}.sort_by{|x| x.today.to_i}.take(4).inject(0){|sum, x| sum+x.today.to_i}
   end
 
 

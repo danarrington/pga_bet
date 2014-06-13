@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 
   def add_pick
     @users = User.where('name is not null').collect{|x| [x.name, x.id]}
-    @players = Player.all.collect{|x| [x.name, x.id]}
+    @players = Player.all.order(:name).collect{|x| [x.name, x.id]}
     @all_users = User.where('name is not null')
   end
 

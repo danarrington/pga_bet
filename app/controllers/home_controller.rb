@@ -25,9 +25,26 @@ class HomeController < ApplicationController
 
   end
 
-  def calculate_total_score(scores)
-    
-    scores.select{|x| x.total != '-'}.sort_by{|x| x.total.to_i}.take(4).inject(0){|sum, x| sum+x.total.to_i}
+  def calculate_total_score(player_scores)
+    total = 0
+    scores = get_round_scores(player_scores)
+    scores.each do |score|
+      total += score.sort.take(4).inject(:+) if score.any?
+    end
+    total += calculate_today_score(player_scores)
+    total
+  end
+
+  def get_round_scores(players)
+    scores = [[],[],[]]
+    day = Time.now.wday
+    par = 70
+    players.each do |player|
+      scores[0] << player.first_round.to_i - 70 if day > 4
+      scores[1] << player.second_round.to_i - 70 if day > 5
+      scores[2] << player.third_round.to_i - 70 if day > 6
+    end
+    scores
   end
 
   def calculate_today_score(scores)

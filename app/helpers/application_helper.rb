@@ -2,7 +2,7 @@ module ApplicationHelper
 
   def score_or_time(score)
     if score.today == '-'
-      case Time.now.wday
+      case Time.zone.now.wday
         when 4
           edt_to_local score.first_round
         when 5

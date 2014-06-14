@@ -14,7 +14,7 @@ class Player < ActiveRecord::Base
   end
 
   def self.get_today_score_from_round(player)
-    case Time.now.wday
+    case Time.zone.now.wday
       when 4
         player.first_round.to_i
       when 5

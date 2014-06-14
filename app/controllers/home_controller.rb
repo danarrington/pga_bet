@@ -37,7 +37,7 @@ class HomeController < ApplicationController
 
   def get_round_scores(players)
     scores = [[],[],[]]
-    day = Time.now.wday
+    day = Time.zone.now.wday
     par = 70
     players.each do |player|
       scores[0] << player.first_round.to_i - 70 if day > 4

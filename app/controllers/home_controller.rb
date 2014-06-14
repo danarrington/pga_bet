@@ -7,7 +7,7 @@ class HomeController < ApplicationController
     if current_user
       my_players = current_user.players.collect(&:name)
       @my_scores = leaderboard.select{|x| my_players.include?(x.name)}
-      @my_today =  calculate_today_score(@my_scores)
+      @my_today =  Player.calculate_today_score(@my_scores)
       @my_total =  calculate_total_score(@my_scores)
     end
 
@@ -17,7 +17,7 @@ class HomeController < ApplicationController
     other_players.each do |p|
       players = p.players.collect(&:name)
       scores = leaderboard.select{|x| players.include?(x.name)}
-      today =  calculate_today_score(scores)
+      today =  Player.calculate_today_score(scores)
       total =  calculate_total_score(scores)
       @other_teams << {user: p.name, scores: scores, today: today, total: total}
     end
@@ -31,7 +31,7 @@ class HomeController < ApplicationController
     scores.each do |score|
       total += score.sort.take(4).inject(:+) if score.any?
     end
-    total += calculate_today_score(player_scores)
+    total += Player.calculate_today_score(player_scores)
     total
   end
 
@@ -42,15 +42,10 @@ class HomeController < ApplicationController
     players.each do |player|
       scores[0] << player.first_round.to_i - 70 if day > 4
       scores[1] << player.second_round.to_i - 70 if day > 5
-      scores[2] << player.third_round.to_i - 70 if day > 6
+      scores[2] << player.third_round.to_i - 70 if day > 6 && player.third_round != '-'
     end
     scores
   end
-
-  def calculate_today_score(scores)
-    scores.select{|x| x.today != '-'}.sort_by{|x| x.today.to_i}.take(4).inject(0){|sum, x| sum+x.today.to_i}
-  end
-
 
 end
 

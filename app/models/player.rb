@@ -5,7 +5,7 @@ class Player < ActiveRecord::Base
     players.each do |player|
       if player.today == '-'
         score = get_today_score_from_round(player)
-        scores << score - 70 unless !score
+        scores << score - 70 unless !score || score < 10
       else
         scores << player.today.to_i
       end
@@ -16,13 +16,13 @@ class Player < ActiveRecord::Base
 
   def self.get_today_score_from_round(player)
     case Time.zone.now.wday
-      when 4
-        player.first_round.to_i
       when 5
-        player.second_round.to_i
+        player.first_round.to_i
       when 6
-        player.third_round.to_i
+        player.second_round.to_i
       when 7
+        player.third_round.to_i
+      when 0
         player.fourth_round.to_i
     end
   end
@@ -46,9 +46,9 @@ class Player < ActiveRecord::Base
     day = Time.zone.now.wday
     par = 70
     players.each do |player|
-      scores[0] << player.first_round.to_i - 70 if day > 4
-      scores[1] << player.second_round.to_i - 70 if day > 5
-      scores[2] << player.third_round.to_i - 70 if day > 6 && player.third_round != '-'
+      scores[0] << player.first_round.to_i - 70 if day > 4 || day == 0
+      scores[1] << player.second_round.to_i - 70 if day > 5 || day == 0
+      scores[2] << player.third_round.to_i - 70 if (day > 6 || day == 0) && !['-', 'MC'].include?(player.third_round)
     end
     scores
   end

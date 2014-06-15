@@ -34,8 +34,11 @@ class Player < ActiveRecord::Base
   def self.calculate_total_score(players)
     total = 0
     scores = get_round_scores(players)
+    i = 0
     scores.each do |score|
-      total += score.sort.take(4).inject(:+) if score.any?
+      scores_to_take = i > 1 ? 2 : 4
+      total += score.sort.take(scores_to_take).inject(:+) if score.any?
+      i += 1
     end
     total += Player.calculate_today_score(players)
     total

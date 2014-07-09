@@ -28,7 +28,8 @@ class Player < ActiveRecord::Base
   end
 
   def self.scores_to_keep
-    [7, 0].include?(Time.zone.now.wday)  ? 2 :4
+    puts Time.zone.now.wday
+    [6, 7].include?(Time.zone.now.wday)  ? 2 :4
   end
 
   def self.calculate_total_score(players)

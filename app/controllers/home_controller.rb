@@ -2,11 +2,10 @@ class HomeController < ApplicationController
 
   def index
 
-    leaderboard = Golfscrape::Client.new.leaderboard
+    leaderboard = Leaderboard.new
 
     if current_user
-      my_players = current_user.players.collect(&:name)
-      @my_scores = leaderboard.select{|x| my_players.include?(x.name)}
+      @my_scores = leaderboard.results_for_user(current_user)
       @my_today =  Player.calculate_today_score(@my_scores)
       @my_total =  Player.calculate_total_score(@my_scores)
     end
@@ -15,8 +14,7 @@ class HomeController < ApplicationController
 
     @other_teams = []
     other_players.each do |p|
-      players = p.players.collect(&:name)
-      scores = leaderboard.select{|x| players.include?(x.name)}
+      scores = leaderboard.results_for_user(p)
       today =  Player.calculate_today_score(scores)
       total =  Player.calculate_total_score(scores)
       @other_teams << {user: p.name, scores: scores, today: today, total: total}

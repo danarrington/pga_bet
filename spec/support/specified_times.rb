@@ -1,4 +1,10 @@
 module SpecifiedTimes
+  def sunday
+    Time.zone = "Pacific Time (US & Canada)"
+    sunday = Date.commercial(Date.today.year, Date.today.cweek, 7)
+    Time.new(sunday.year, sunday.month, sunday.day, 10, 0, 0).in_time_zone('Pacific Time (US & Canada)')
+  end
+
   def saturday
     Time.zone = "Pacific Time (US & Canada)"
     saturday = Date.commercial(Date.today.year, Date.today.cweek, 6)

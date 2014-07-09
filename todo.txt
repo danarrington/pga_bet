@@ -1,11 +1,8 @@
-Tests for data
- - Write a test with 4th day data that does 3rd round calculation correctly
- - Abstract player data so we get consistent results
- - Write tests for that
+Data Sanitaztion
+
+Time Issues
+- Associate picks with tournament
+-
 
 
- HomeController
 
- - leaderboard = LB.new
- - scores = lb.scores_for_user(user) (returns new wrapped scores)
- - my_total = Player.calculate_total(scores)

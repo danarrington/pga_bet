@@ -1,3 +1,2 @@
-class Tournament
-
+class Tournament < ActiveRecord::Base
 end

@@ -28,7 +28,6 @@ class Player < ActiveRecord::Base
   end
 
   def self.scores_to_keep
-    puts Time.zone.now.wday
     [6, 7].include?(Time.zone.now.wday)  ? 2 :4
   end
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140706231551) do
+ActiveRecord::Schema.define(version: 20140709022405) do
 
   create_table "picks", force: true do |t|
     t.integer  "user_id"
@@ -19,20 +19,23 @@ ActiveRecord::Schema.define(version: 20140706231551) do
     t.string   "tournament"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "tournament_id"
   end
+
+  add_index "picks", ["tournament_id"], name: "index_picks_on_tournament_id"
 
   create_table "players", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "tournament_id"
   end
 
   add_index "players", ["name"], name: "index_players_on_name", unique: true
-  add_index "players", ["tournament_id"], name: "index_players_on_tournament_id"
 
   create_table "tournaments", force: true do |t|
     t.date     "start"
+    t.string   "name"
+    t.integer  "course_par"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

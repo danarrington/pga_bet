@@ -14,5 +14,5 @@ div
     table
       tr
         th = u.name
-        - u.players.each do |p|
-          td = p.name
+        - u.current_picks.each do |p|
+          td = p.player.name

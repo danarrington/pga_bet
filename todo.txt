@@ -1,8 +1,5 @@
-Data Sanitaztion
-
-Time Issues
-- Associate picks with tournament
--
-
+x New picks get latest tournament
+- Only display picks from most recent tournament
+- Update pars to use tourney par
 
 

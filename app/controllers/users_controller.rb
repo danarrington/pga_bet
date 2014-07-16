@@ -16,7 +16,10 @@ class UsersController < ApplicationController
   end
 
   def submit_pick
-    User.find(params[:user_id]).players << Player.find(params[:player_id])
+    user = User.find(params[:user_id])
+    player = Player.find(params[:player_id])
+    tournament = Tournament.active
+    Pick.create(user: user, player: player, tournament: tournament)
     redirect_to :add_pick
   end
 

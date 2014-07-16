@@ -5,4 +5,9 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   has_many :picks
   has_many :players, :through => :picks
+
+
+  def current_picks
+    picks.where(tournament: Tournament.active).all
+  end
 end

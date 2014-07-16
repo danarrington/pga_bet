@@ -29,12 +29,12 @@ group :development, :test do
   gem 'sqlite3'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'faker'
 end
 group :test do
   gem 'capybara'
   gem 'timecop'
   gem 'database_cleaner'
-  gem 'faker'
   gem 'launchy'
   gem 'selenium-webdriver'
 end

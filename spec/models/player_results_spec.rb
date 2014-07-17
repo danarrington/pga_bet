@@ -20,13 +20,20 @@ describe PlayerResults do
       end
 
       it 'should set the thru property' do
-        expect(result.thru).to eq 12
+        expect(result.thru).to eq '12'
       end
 
       it 'should set the total property' do
         expect(result.total).to eq -11
       end
+    end
 
+    context 'when a round is over' do
+      let(:hashie) {Hashie::Mash.new({thru:'F'})}
+      subject(:result) { PlayerResults.new(hashie)}
+      it 'should set thru to F' do
+        expect(result.thru).to eq 'F'
+      end
     end
   end
 end

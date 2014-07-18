@@ -26,6 +26,13 @@ describe PlayerResults do
       it 'should set the total property' do
         expect(result.total).to eq -11
       end
+
+      it 'should set the round scores' do
+        expect(result.first_round).to eq 63
+        expect(result.second_round).to eq 65
+        expect(result.third_round).to eq 69
+        expect(result.fourth_round).to eq 48
+      end
     end
 
     context 'when a round is over' do

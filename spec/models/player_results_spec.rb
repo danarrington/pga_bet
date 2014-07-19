@@ -5,7 +5,7 @@ describe PlayerResults do
     context 'loading Ben Crane' do
       # leaberboard.first
       # <Hashie::Mash first_round="63" fourth_round="48" name="Ben Crane" position="1" second_round="65" strokes="-11" third_round="69" thru="12" today="+2" total="-11">
-      subject(:result) {PlayerResults.new(@leaderboard.first)}
+      subject(:result) {PlayerResults.new(@leaderboard.first, 70)}
       before :each do
         f = File.open(Rails.root.join 'spec/data/4th_round_midday.txt')
         @leaderboard = Marshal.load(f)
@@ -28,18 +28,51 @@ describe PlayerResults do
       end
 
       it 'should set the round scores' do
-        expect(result.first_round).to eq 63
-        expect(result.second_round).to eq 65
-        expect(result.third_round).to eq 69
-        expect(result.fourth_round).to eq 48
+        expect(result.first_round).to eq '63'
+        expect(result.second_round).to eq '65'
+        expect(result.third_round).to eq '69'
+        expect(result.fourth_round).to eq '48'
       end
     end
 
     context 'when a round is over' do
       let(:hashie) {Hashie::Mash.new({thru:'F'})}
-      subject(:result) { PlayerResults.new(hashie)}
+      subject(:result) { PlayerResults.new(hashie, 70)}
       it 'should set thru to F' do
         expect(result.thru).to eq 'F'
+      end
+    end
+
+    context 'on day two after missing cut' do
+      let(:hashie) {Hashie::Mash.new({today:'-', second_round: '73'})}
+      subject(:result) { PlayerResults.new(hashie, 72)}
+      it 'should set today score based on round' do
+        Timecop.travel(friday) do
+          expect(result.today).to eq 1
+        end
+      end
+
+      it 'should set started to true' do
+        Timecop.travel(friday) do
+          expect(result.started).to be true
+        end
+      end
+    end
+
+    context 'on day two before starting' do
+      let(:hashie) {Hashie::Mash.new({today:'-', second_round: '11:34 am'})}
+      subject(:result) { PlayerResults.new(hashie, 72)}
+
+      it 'should set started to false' do
+        Timecop.travel(friday) do
+          expect(result.started).to be false
+        end
+      end
+
+      it 'should set tee_time to 11:34 am' do
+        Timecop.travel(friday) do
+          expect(result.tee_time).to eq '11:34 am'
+        end
       end
     end
   end

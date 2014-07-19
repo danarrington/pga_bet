@@ -1,8 +1,9 @@
 class Leaderboard
 
   def results_for_user(user)
-    player_names = user.picks.where(tournament: Tournament.active).collect{|x| x.player.name}
-    leaderboard.select{|x| player_names.include?(x.name)}.map{|x| PlayerResults.new(x)}
+    tournament = Tournament.active
+    player_names = user.picks.where(tournament: tournament).collect{|x| x.player.name}
+    leaderboard.select{|x| player_names.include?(x.name)}.map{|x| PlayerResults.new(x, tournament.course_par)}
 
   end
 

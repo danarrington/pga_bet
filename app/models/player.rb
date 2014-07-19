@@ -3,29 +3,11 @@ class Player < ActiveRecord::Base
   def self.calculate_today_score(players)
     scores = []
     players.each do |player|
-      if player.today == '-'
-        score = get_today_score_from_round(player)
-        scores << score - 72 unless !score || score < 10
-      else
-        scores << player.today.to_i
-      end
-
+        scores << player.today
     end
     scores.sort.take(scores_to_keep).inject(0){|sum, x| sum+x}
   end
 
-  def self.get_today_score_from_round(player)
-    case Time.zone.now.wday
-      when 5
-        player.first_round.to_i
-      when 6
-        player.second_round.to_i
-      when 7
-        player.third_round.to_i
-      when 0
-        player.fourth_round.to_i
-    end
-  end
 
   def self.scores_to_keep
     [6, 7].include?(Time.zone.now.wday)  ? 2 :4

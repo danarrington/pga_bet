@@ -6,8 +6,9 @@ describe Player do
     context 'prior to the cut' do
       it 'only uses 4 scores' do
         players = players_with_scores(-1, -1, -1, -1, +3)
-
-        expect(Player.calculate_today_score(players)).to eq -4
+        Timecop.travel(friday) do
+          expect(Player.calculate_today_score(players)).to eq -4
+        end
       end
     end
     context 'with a player who missed the cut but had the 4th lowest score in the second round' do

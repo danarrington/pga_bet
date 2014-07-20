@@ -21,6 +21,9 @@ class PlayerResults
       if round_score.include?(':')
         @started = false
         @tee_time = round_score
+      elsif round_score == 'MC'
+        @started = false
+        'MC'
       else
         @started = true
         round_score.to_i-course_par
@@ -36,7 +39,7 @@ class PlayerResults
         @second_round
       when 6
         @third_round
-      when 7
+      when 0
         @fourth_round
     end
   end

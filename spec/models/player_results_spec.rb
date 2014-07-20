@@ -75,5 +75,19 @@ describe PlayerResults do
         end
       end
     end
+
+    context 'on day three after missing cut' do
+      let(:hashie) {Hashie::Mash.new({today:'-', third_round: 'MC'})}
+      subject(:result) { PlayerResults.new(hashie, 72)}
+      before :each do
+        Timecop.freeze saturday
+      end
+      after :each do
+        Timecop.return
+      end
+      it 'should set started to false' do
+        expect(result.started).to be false
+      end
+    end
   end
 end

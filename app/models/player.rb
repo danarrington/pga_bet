@@ -3,7 +3,7 @@ class Player < ActiveRecord::Base
   def self.calculate_today_score(players)
     scores = []
     players.each do |player|
-        scores << player.today
+        scores << player.today if player.started
     end
     scores.sort.take(scores_to_keep).inject(0){|sum, x| sum+x}
   end

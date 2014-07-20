@@ -30,6 +30,18 @@ describe Player do
         end
       end
     end
+
+    context 'with a player who has not started' do
+      it 'should only count players who have started' do
+        players = players_with_scores(-1, 2)
+        players << Hashie::Mash.new({today:'-', third_round: '11:29 am'})
+
+        Timecop.travel(saturday) do
+          expect(Player.calculate_today_score(players)).to eq 1
+        end
+      end
+    end
+
   end
 
   describe 'calculate_total_score' do
@@ -78,7 +90,7 @@ describe Player do
   def players_with_scores(*scores)
     ret = []
     scores.each do |s|
-      ret << PlayerResults.new(Hashie::Mash.new({today: s.to_s}))
+      ret << PlayerResults.new(Hashie::Mash.new({today: s.to_s}), 70)
     end
     ret
   end

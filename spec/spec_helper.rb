@@ -24,7 +24,7 @@ RSpec.configure do |config|
 
   config.include SpecifiedTimes
 
-  Timecop.safe_mode = true
+  #Timecop.safe_mode = true
   config.before(:each) do
 
   end

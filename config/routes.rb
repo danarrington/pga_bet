@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get '/players/update_players' => 'players#update_players'
   get '/users/add_pick' => 'users#add_pick', :as => :add_pick
   post '/users/add_pick' => 'users#submit_pick'
+  get '/all' => 'home#all_results'
   resources :users
 end

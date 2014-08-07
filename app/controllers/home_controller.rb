@@ -19,8 +19,16 @@ class HomeController < ApplicationController
       total =  Player.calculate_total_score(scores)
       @other_teams << {user: p.name, scores: scores, today: today, total: total}
     end
+  end
 
-
+  def all_results
+    leaderboard = Leaderboard.new
+    @teams = []
+    players = User.all.select{|u| u.picks.count > 0}
+    players.each do |p|
+      scores = leaderboard.results_for_user(p)
+      @teams << scores
+    end
   end
 
 

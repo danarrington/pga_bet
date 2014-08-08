@@ -84,6 +84,21 @@ describe Player do
           end
         end
       end
+
+      context 'with a player who withdraws' do
+        it 'does not count the WD score' do
+          players = []
+          players << player_with_round_scores(70, 70, nil, -1)
+          players << player_with_round_scores(70, 70, nil, -1)
+          players << player_with_round_scores(70, 70, nil, +1)
+          players << player_with_round_scores(70, 70, nil, +1)
+          players << player_with_round_scores('WD', 'WD', nil, 'WD')
+
+          Timecop.travel(saturday) do
+            expect(Player.calculate_total_score(players, tournament)).to eq -2
+          end
+        end
+      end
     end
   end
 

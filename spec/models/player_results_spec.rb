@@ -89,5 +89,15 @@ describe PlayerResults do
         expect(result.started).to be false
       end
     end
+
+    context 'on day two after withdrawing' do
+      let(:hashie) {Hashie::Mash.new({today:'WD', first_round: 'WD', second_round: 'WD', thru: 'WD'})}
+      subject(:result) { PlayerResults.new(hashie, 72)}
+      it 'should set started to false' do
+        Timecop.travel(friday) do
+          expect(result.started).to be false
+        end
+      end
+    end
   end
 end

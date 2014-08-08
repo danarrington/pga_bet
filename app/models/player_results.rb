@@ -12,22 +12,28 @@ class PlayerResults
     @today = get_today_score(score_data, course_par)
   end
 
+  private
+
   def get_today_score score_data, course_par
-    if score_data.today != '-'
-      @started = true
-      score_data.today.to_i
-    else
-      round_score = get_round_score_for_today
-      if round_score.include?(':')
+    case score_data.today
+      when '-'
+        round_score = get_round_score_for_today
+        if round_score.include?(':')
+          @started = false
+          @tee_time = round_score
+        elsif round_score == 'MC'
+          @started = false
+          'MC'
+        else
+          @started = true
+          round_score.to_i-course_par
+        end
+      when 'WD'
         @started = false
-        @tee_time = round_score
-      elsif round_score == 'MC'
-        @started = false
-        'MC'
+        'WD'
       else
         @started = true
-        round_score.to_i-course_par
-      end
+        score_data.today.to_i
     end
   end
 

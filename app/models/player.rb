@@ -31,8 +31,8 @@ class Player < ActiveRecord::Base
     day = Time.zone.now.wday
     par = tournament.course_par
     players.each do |player|
-      scores[0] << player.first_round.to_i - par if day > 4 || day == 0
-      scores[1] << player.second_round.to_i - par if day > 5 || day == 0
+      scores[0] << player.first_round.to_i - par if (day > 4 || day == 0) && player.first_round != 'WD'
+      scores[1] << player.second_round.to_i - par if (day > 5 || day == 0) && player.second_round != 'WD'
       scores[2] << player.third_round.to_i - par if (day > 6 || day == 0) && !['-', 'MC'].include?(player.third_round)
     end
     scores

@@ -46,12 +46,13 @@ describe Player do
   end
 
   describe 'calculate_total_score' do
+    let(:tournament) { create(:tournament)}
     context 'On day 1' do
       it 'only uses 4 today scores' do
         players = players_with_scores(-1, -1, -1, -1, +3)
 
         Timecop.travel(thursday) do
-          expect(Player.calculate_total_score(players)).to eq -4
+          expect(Player.calculate_total_score(players, tournament)).to eq -4
         end
       end
     end
@@ -59,28 +60,27 @@ describe Player do
     context 'On day 3' do
       it 'only counts 2 scores for saturday' do
         players = []
-        players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '-1'})
-        players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '-1'})
-        players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '+1'})
-        players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '+1'})
-        players << Hashie::Mash.new({first_round: '70', second_round: '70', today: 'E'})
+        players << player_with_round_scores(70, 70, nil, -1)
+        players << player_with_round_scores(70, 70, nil, -1)
+        players << player_with_round_scores(70, 70, nil, +1)
+        players << player_with_round_scores(70, 70, nil, 'E')
 
         Timecop.travel(saturday) do
-          expect(Player.calculate_total_score(players)).to eq -2
+          expect(Player.calculate_total_score(players, tournament)).to eq -2
         end
       end
 
       context 'with a player who missed the cut' do
         it 'calculates correctly' do
           players = []
-          players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '-1'})
-          players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '-1'})
-          players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '+1'})
-          players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '+1'})
-          players << Hashie::Mash.new({first_round: '70', second_round: '70', today: '-'})
+          players << player_with_round_scores(70, 70, nil, -1)
+          players << player_with_round_scores(70, 70, nil, -1)
+          players << player_with_round_scores(70, 70, nil, +1)
+          players << player_with_round_scores(70, 70, nil, +1)
+          players << player_with_round_scores(70, 70, nil, '-')
 
           Timecop.travel(saturday) do
-            expect(Player.calculate_total_score(players)).to eq -2
+            expect(Player.calculate_total_score(players, tournament)).to eq -2
           end
         end
       end
@@ -96,6 +96,8 @@ describe Player do
     ret
   end
 
-
+  def player_with_round_scores(first, second, third, today)
+    PlayerResults.new(Hashie::Mash.new({first_round: first.to_s, second_round: second.to_s, third_round: third.to_s, today: today}), tournament.course_par)
+  end
 
 end

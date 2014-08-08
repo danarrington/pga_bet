@@ -1,5 +1,6 @@
-x New picks get latest tournament
-x Only display picks from most recent tournament
+- Only show players with picks for tourney
+- Where is Kuch?
 - Update pars to use tourney par
+- Don't break on day before
 
 

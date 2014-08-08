@@ -13,9 +13,9 @@ class Player < ActiveRecord::Base
     [6, 0].include?(Time.zone.now.wday)  ? 2 :4
   end
 
-  def self.calculate_total_score(players)
+  def self.calculate_total_score(players, tournament)
     total = 0
-    scores = get_round_scores(players)
+    scores = get_round_scores(players, tournament)
     i = 0
     scores.each do |score|
       scores_to_take = i > 1 ? 2 : 4
@@ -26,14 +26,14 @@ class Player < ActiveRecord::Base
     total
   end
 
-  def self.get_round_scores(players)
+  def self.get_round_scores(players, tournament)
     scores = [[],[],[]]
     day = Time.zone.now.wday
-    par = 72
+    par = tournament.course_par
     players.each do |player|
-      scores[0] << player.first_round.to_i - 72 if day > 4 || day == 0
-      scores[1] << player.second_round.to_i - 72 if day > 5 || day == 0
-      scores[2] << player.third_round.to_i - 72 if (day > 6 || day == 0) && !['-', 'MC'].include?(player.third_round)
+      scores[0] << player.first_round.to_i - par if day > 4 || day == 0
+      scores[1] << player.second_round.to_i - par if day > 5 || day == 0
+      scores[2] << player.third_round.to_i - par if (day > 6 || day == 0) && !['-', 'MC'].include?(player.third_round)
     end
     scores
   end

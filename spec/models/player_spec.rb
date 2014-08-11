@@ -100,6 +100,23 @@ describe Player do
         end
       end
     end
+
+    context 'on day four' do
+      context 'with a player who withdraws' do
+        it 'does not count the WD score' do
+          players = []
+          players << player_with_round_scores(70, 70, 70, -1, 70)
+          players << player_with_round_scores(70, 70, 70, -1, 70)
+          players << player_with_round_scores(70, 70, 70, +1, 70)
+          players << player_with_round_scores(70, 70, 70, +1, 70)
+          players << player_with_round_scores('WD', 'WD', 'WD', 'WD', 'WD')
+
+          Timecop.travel(sunday) do
+            expect(Player.calculate_total_score(players, tournament)).to eq -2
+          end
+        end
+      end
+    end
   end
 
 
@@ -111,8 +128,8 @@ describe Player do
     ret
   end
 
-  def player_with_round_scores(first, second, third, today)
-    PlayerResults.new(Hashie::Mash.new({first_round: first.to_s, second_round: second.to_s, third_round: third.to_s, today: today}), tournament.course_par)
+  def player_with_round_scores(first, second, third, today, fourth = '-')
+    PlayerResults.new(Hashie::Mash.new({first_round: first.to_s, second_round: second.to_s, third_round: third.to_s, today: today, fourth_round: fourth}), tournament.course_par)
   end
 
 end

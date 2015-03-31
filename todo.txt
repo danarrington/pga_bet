@@ -1,6 +1,16 @@
+- Tourney controller
+  - What's the current tournament?
+  - Create as tourney?
+    - Do some math on if it looks like the most recent picks are 'old'
+  - Show all rounds scores instead of just overall and today?
+    - Maybe accordion to that?
+- Refactor get_round_score_for_today, it breaks on Monday/Tuesday
+
+
 - Only show players with picks for tourney
 - Where is Kuch?
 - Update pars to use tourney par
 - Don't break on day before
+- Desktop design needs some work
 
 

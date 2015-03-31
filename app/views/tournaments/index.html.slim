@@ -1,0 +1,24 @@
+.row
+  .small-12.columns
+    h3 Tournaments
+    .panel
+      h5 Current Available Tournament
+      p
+        strong Name: 
+        = @leaderboard.tournament.name
+      div
+        strong Par: 
+        = @leaderboard.tournament.par
+      a.button.tiny href='#' Create Tournament
+    .panel.last
+      h5 Last Tournament in DB
+      - if @tournament
+        p
+          strong Name: 
+          = @tournament.name
+        div
+          strong Started:
+          =< @tournament.start
+      - else
+        p
+          No current tournament

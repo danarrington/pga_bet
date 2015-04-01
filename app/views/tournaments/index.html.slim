@@ -9,7 +9,8 @@
       div
         strong Par: 
         = @leaderboard.tournament.par
-      a.button.tiny href='#' Create Tournament
+      = link_to 'Create Tournament', create_tourney_path, method: :post,
+        class: 'button tiny'
     .panel.last
       h5 Last Tournament in DB
       - if @tournament

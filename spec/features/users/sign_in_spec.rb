@@ -3,6 +3,9 @@
 #   I want to sign in
 #   So I can visit protected areas of the site
 feature 'Sign in', :devise do
+  #TODO: shouldn't need these
+  use_vcr_cassette 'monday'
+  let!(:tournament) {create(:tournament)}
 
   # Scenario: User cannot sign in if not registered
   #   Given I do not exist as a user

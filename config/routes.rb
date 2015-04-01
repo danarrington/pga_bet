@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/users/add_pick' => 'users#add_pick', :as => :add_pick
   post '/users/add_pick' => 'users#submit_pick'
   get '/all' => 'home#all_results'
-  get '/tourney' => 'tournaments#index', as: :tourney_path
+  get '/tourney' => 'tournaments#index', as: :tourney
+  post '/tourney/create' => 'tournaments#create', as: :create_tourney
   resources :users
 end

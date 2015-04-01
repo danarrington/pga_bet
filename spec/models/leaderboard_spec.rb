@@ -16,7 +16,9 @@ describe Leaderboard do
       fake_results = []
       fake_results << create(:player_hash, name: old_player.name)
       fake_results << create(:player_hash, name: new_player.name)
-      subject.instance_variable_set(:@leaderboard, fake_results)
+      lb = Golfscrape::Leaderboard.new
+      lb.results= fake_results
+      subject.instance_variable_set(:@leaderboard, lb)
 
 
       expect(leaderboard.results_for_user(user).count).to eq 1

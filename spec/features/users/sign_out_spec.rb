@@ -3,6 +3,9 @@
 #   I want to sign out
 #   So I can protect my account from unauthorized access
 feature 'Sign out', :devise do
+  #TODO: shouldn't need these
+  use_vcr_cassette 'monday'
+  let!(:tournament) {create(:tournament)}
 
   # Scenario: User signs out successfully
   #   Given I am signed in

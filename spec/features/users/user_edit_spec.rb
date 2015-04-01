@@ -7,6 +7,10 @@ Warden.test_mode!
 #   So I can change my email address
 feature 'User edit', :devise do
 
+  #TODO: shouldn't need these
+  use_vcr_cassette 'monday'
+  let!(:tournament) {create(:tournament)}
+
   after(:each) do
     Warden.test_reset!
   end

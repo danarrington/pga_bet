@@ -8,9 +8,15 @@ feature 'Sign Up', :devise do
   #   Given I am not signed in
   #   When I sign up with a valid email address and password
   #   Then I see a successful sign up message
-  scenario 'visitor can sign up with valid email address and password' do
-    sign_up_with('test@example.com', 'please123', 'please123')
-    expect(page).to have_content 'Welcome! You have signed up successfully.'
+  describe 'successfull sign up' do
+    #TODO: shouldn't need these
+    use_vcr_cassette 'monday'
+    let!(:tournament) {create(:tournament)}
+
+    scenario 'visitor can sign up with valid email address and password' do
+      sign_up_with('test@example.com', 'please123', 'please123')
+      expect(page).to have_content 'Welcome! You have signed up successfully.'
+    end
   end
 
   # Scenario: Visitor cannot sign up with invalid email address

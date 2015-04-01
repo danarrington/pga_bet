@@ -1,9 +1,9 @@
 - Tourney controller
-  - What's the current tournament?
-  - Create as tourney?
-    - Do some math on if it looks like the most recent picks are 'old'
-  - Show all rounds scores instead of just overall and today?
-    - Maybe accordion to that?
+  x What's the current tournament?
+  x Add vcr
+  x Create as tourney?
+- Show all rounds scores instead of just overall and today?
+  - Maybe accordion to that?
 - Refactor get_round_score_for_today, it breaks on Monday/Tuesday
 
 

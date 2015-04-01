@@ -11,4 +11,9 @@ Rails.application.routes.draw do
   get '/tourney' => 'tournaments#index', as: :tourney
   post '/tourney/create' => 'tournaments#create', as: :create_tourney
   resources :users
+
+  if Rails.env.development?
+    require 'mr_video'
+    mount MrVideo::Engine => '/mr_video'
+  end
 end

@@ -24,6 +24,7 @@ group :development do
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
   gem 'awesome_print'
+  gem 'mr_video'
 end
 group :development, :test do
   gem 'sqlite3'
@@ -31,7 +32,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'faker'
   gem 'vcr'
-  gem 'webmock'
 end
 group :test do
   gem 'capybara'
@@ -39,6 +39,7 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
+  gem 'webmock'
 end
 group :production do
   gem 'pg'

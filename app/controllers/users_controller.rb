@@ -10,8 +10,9 @@ class UsersController < ApplicationController
   end
 
   def add_pick
+    @selected_user_id = Pick.last.user.id if Pick.last.created_at > 1.minute.ago
     @users = User.where('name is not null').collect{|x| [x.name, x.id]}
-    @players = Player.all.order(:name).collect{|x| [x.name, x.id]}
+    @players = Player.where(active:true).order(:name).collect{|x| [x.name, x.id]}
     @all_users = User.where('name is not null')
   end
 

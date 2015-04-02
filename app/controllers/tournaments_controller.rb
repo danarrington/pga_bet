@@ -6,13 +6,15 @@ class TournamentsController < ApplicationController
 
   def create
     #TODO: refactor this into Golfscrape
-    tournament_details = Golfscrape::Client.new.leaderboard.tournament
+    @leaderboard = Golfscrape::Client.new.leaderboard
+    tournament_details = @leaderboard.tournament
     name_and_date = get_name_and_date(tournament_details.name)
 
-    Tournament.create(name:name_and_date[:name],
+    @tournament = Tournament.create(name:name_and_date[:name],
                       start: name_and_date[:start_date],
                       course_par: tournament_details.par)
-    redirect_to :tourney
+    @players = PlayersUpdater.update_players
+    render :index
   end
 
 

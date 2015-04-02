@@ -1,6 +1,7 @@
 = form_tag do
   = label_tag(:user_id, "User")
-  = select_tag(:user_id, options_for_select(@users), autofocus:"autofocus")
+  = select_tag(:user_id, options_for_select(@users, @selected_user_id), 
+    autofocus:"autofocus")
 
 
   = label_tag(:player_id, "Player")

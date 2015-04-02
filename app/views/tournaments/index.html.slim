@@ -20,6 +20,8 @@
         div
           strong Started:
           =< @tournament.start
+        - if @players
+          p #{@players[:new]} players added, #{@players[:updated]} updated
       - else
         p
           No current tournament

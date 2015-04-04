@@ -3,7 +3,7 @@ require 'spec_helper'
 describe TournamentsController do
 
   describe 'POST #create' do
-    use_vcr_cassette 'wednesday'
+    use_vcr_cassette 'wednesday', allow_playback_repeats: true
       
     it 'should create a new tournament' do
       expect {

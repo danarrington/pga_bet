@@ -1,6 +1,7 @@
 class PlayersUpdater
 
   def self.update_players
+    #TODO: Refactor this as a param, we're calling it too much
     leaderboard = Golfscrape::Client.new.leaderboard.results
 
     Player.update_all(active: false)

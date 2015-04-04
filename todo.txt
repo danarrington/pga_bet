@@ -2,10 +2,10 @@ x Tourney controller
   x What's the current tournament?
   x Add vcr
   x Create as tourney?
-- Better players list
-  - Add a new 'in latest tourney' flag to users
-  - Update players sets this if existing player
-  - Creating a tourney does this.
+x Better players list
+  x Add a new 'in latest tourney' flag to users
+  x Update players sets this if existing player
+  x Creating a tourney does this.
 - Show all rounds scores instead of just overall and today?
   - Maybe accordion to that?
 - Refactor get_round_score_for_today, it breaks on Monday/Tuesday

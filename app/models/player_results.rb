@@ -39,14 +39,14 @@ class PlayerResults
 
   def get_round_score_for_today
     case Time.zone.now.wday
-      when 4
-        @first_round
       when 5
         @second_round
       when 6
         @third_round
       when 0
         @fourth_round
+      else
+        @first_round
     end
   end
 end

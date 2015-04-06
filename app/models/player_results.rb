@@ -18,6 +18,7 @@ class PlayerResults
     case score_data.today
       when '-'
         round_score = get_round_score_for_today
+        puts round_score
         if round_score.include?(':')
           @started = false
           @tee_time = round_score
@@ -38,15 +39,11 @@ class PlayerResults
   end
 
   def get_round_score_for_today
-    case Time.zone.now.wday
-      when 5
-        @second_round
-      when 6
-        @third_round
-      when 0
-        @fourth_round
-      else
-        @first_round
+    %w(fourth third second first).each do |number|
+      score = instance_variable_get("@#{number}_round")
+      if score && score != '-'
+        return score
+      end
     end
   end
 end

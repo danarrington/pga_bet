@@ -1,3 +1,22 @@
+- Show all round scores
+  - Add accordion
+  - Get round scores in viewm model
+
+- Colorize used/unused round scores
+
+- Remove all usages of Timze.zone.now.wday (like we did for player_results)
+
+Old
+
+- Update pars to use tourney par
+- Desktop design needs some work
+- Add Hashie to gemfile if we use it.
+Done
+
+x Only show players with picks for tourney
+? Where is Kuch?
+x Don't break on day before
+x Refactor get_round_score_for_today, it breaks on Monday/Tuesday
 x Tourney controller
   x What's the current tournament?
   x Add vcr
@@ -6,16 +25,3 @@ x Better players list
   x Add a new 'in latest tourney' flag to users
   x Update players sets this if existing player
   x Creating a tourney does this.
-- Show all rounds scores instead of just overall and today?
-  - Maybe accordion to that?
-- Refactor get_round_score_for_today, it breaks on Monday/Tuesday
-
-
-- Add Hashie to gemfile if we use it.
-- Only show players with picks for tourney
-- Where is Kuch?
-- Update pars to use tourney par
-- Don't break on day before
-- Desktop design needs some work
-
-

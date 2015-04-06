@@ -1,5 +1,5 @@
 feature 'Creating tournaments' do
-  use_vcr_cassette 'friday_am', allow_playback_repeats: true
+  use_vcr_cassette 'sunday_pm', allow_playback_repeats: true
 
   scenario 'See what the current tournament is' do
     visit '/tourney'

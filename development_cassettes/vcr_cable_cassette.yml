@@ -1,0 +1,1467 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://sports.yahoo.com/golf/pga/leaderboard
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 04 Apr 2015 16:39:35 GMT
+      P3p:
+      - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
+        TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
+        ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+      X-Media-Esi:
+      - '1'
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=UTF-8
+      Vary:
+      - Host,Accept-Encoding,X-Ssl
+      Via:
+      - http/1.1 media-border98.global.media.gq1.yahoo.com (ApacheTrafficServer [cMsSf
+        ]), http/1.1 r06.ycpi.lax.yahoo.net (ApacheTrafficServer [cMsSf ])
+      Server:
+      - ATS
+      Age:
+      - '0'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"  \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n<head>\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n\n<link
+        type=\"text/css\" rel=\"stylesheet\" media=\"screen\" href=\"/assets/styles/lsm/site.jEZkIjfKYoZC;styles/lsm/golf/league.vinb09aq_tL4;styles/lsm/golf/pga/status_line.Sy8pWPvVkYqn;styles/lsm/golf/pga/leagueleaderboard.gcBFs_l6URbs.css?m\"
+        />\n<style type=\"text/css\" media=\"all\">\n\n\n#yspBanner { width:750px;
+        height:60px; background:url(http://l.yimg.com/a/i/us/sp/b/golf_60_pga_2.gif)
+        no-repeat #4F711F; overflow:hidden;  position:relative;}\n\n\n</style>\n\n<title>2015
+        Shell Houston Open - PGA Tour - Golf Leaderboard - Yahoo Sports</title>\n\n\n</head>\n\n\n<body
+        class=\"subIndexPage golf\" id=\"ysports\">\n  <div id=\"yspContentWrapper\"
+        class=\"yog-page\">\n    <!-- Start Header -->\n    <div id=\"hd\">\n      \n<!--
+        start edgepipe embed-top -->\n\n<!--[if lt IE 9]>\n                        <script
+        type=\"text/javascript\" src=\"http://l.yimg.com/os/mit/media/p/presentation/html5shiv-min-a88b231.js\"></script>\n
+        \                       <![endif]-->\n\n<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"http://l.yimg.com/zz/combo?os/mit/media/p/content/other/ad-controller-desktop-min-2e496c7.css&os/mit/media/p/content/base/v2-master-min-f784570.css&os/mit/media/p/content/base/v2-desktop-min-8180379.css&os/mit/media/p/content/grids/v2sg-desktop-min-386af90.css&os/mit/media/p/content/overrides/classic-overrides-min-c644875.css&os/mit/media/p/content/overrides/stencil-v2s-reset-overrides-min-0a29171.css\"
+        />\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://l.yimg.com/zz/combo?os/mit/media/m/content/sfl-notifier-min-ee15495.css\"
+        />\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://l.yimg.com/zz/combo?os/mit/media/themes/v2_base/base-min-41cfe10.css&os/mit/media/themes/v2_base/base-imagery-min-bec5796.css&os/mit/media/themes/v2_black/theme-glass-min-98c7652.css&os/mit/media/themes/v2_black/theme-imagery-min-21b0a1d.css&os/mit/media/p/sports/lang/en-us-min-c53ed2b.css\"
+        />\n\n<script type=\"text/javascript\" src=\"http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js\"></script>\n<script>if
+        (!window.YAHOO) { window.YAHOO = {}; } if (!YAHOO.Media) { YAHOO.Media = {};
+        } if (!YAHOO.widget) { YAHOO.widget = {}; }</script>\n<script>if (!window.YMedia)
+        { var YMedia = YUI(); YMedia.includes = []; YMedia.module_includes = []; }</script>\n<script>window.YMEDIA_REQ_ATTR
+        = {device:{\"os\":\"\",\"osver\":\"\"},instr:{request_id:\"70fa4ahai04u7\",authfb:0},csbeacon:function(isPjax,
+        spaceId) { if(! this._hasIssuedCsBeacon || isPjax) { this._hasIssuedCsBeacon
+        = true; var spaceId = spaceId || \"97476878\",    ssl = \"0\";if(typeof YAHOO
+        === \"object\" && typeof YAHOO.i13n === \"object\" && typeof YAHOO.i13n.sendComscoreEvent
+        === \"function\") {if(YAHOO.i13n.setEga){YAHOO.i13n.setEga(\"\");} if(YAHOO.i13n.setLTT){YAHOO.i13n.setLTT(\"-1\");}
+        if(YAHOO.i13n.setRdg){YAHOO.i13n.setRdg(\"\");} if(YAHOO.i13n.setSpaceid){YAHOO.i13n.setSpaceid(spaceId);}
+        YAHOO.i13n.setSsl(\"0\");YAHOO.i13n.sendComscoreEvent(); } } },_hasIssuedCsBeacon:false};</script><noscript><div><img
+        src=\"http://b.scorecardresearch.com/b?c1=2&c2=7241469&c7=sports.yahoo.com%2F__embed-top%2F&c5=97476878&c14=-1&cv=2.0&cj=1\"
+        style=\"display:none\" width=\"0\" height=\"0\" alt=\"\" /></div></noscript><script>window.YMEDIA_CRUMB
+        = \"\";</script><!-- fe425.global.media.gq1.yahoo.com compressed/chunked Sat
+        Apr  4 16:39:35 UTC 2015 -->\n\n<script>YUI.Env.add(window, 'unload', function()
+        { try { YMEDIA_REQ_ATTR.csbeacon(); } catch (e) {} });</script>\n<script>\n
+        \                               window.YAHOO = window.YAHOO || {};\n                                window.YAHOO.i13n
+        = window.YAHOO.i13n || {};\n\n                                YAHOO.i13n.beacon_server
+        = \"geo.yahoo.com\";\n                                YAHOO.i13n.YWA_CF_MAP
+        = {\"_p\":20,\"ad\":58,\"authfb\":11,\"bpos\":24,\"camp\":54,\"cat\":25,\"code\":55,\"cpos\":21,\"ct\":23,\"dcl\":26,\"dir\":108,\"domContentLoadedEventEnd\":44,\"elm\":56,\"elmt\":57,\"f\":40,\"ft\":51,\"grpt\":109,\"ilc\":39,\"itc\":111,\"loadEventEnd\":45,\"ltxt\":17,\"mpos\":110,\"mrkt\":12,\"pcp\":67,\"pct\":48,\"pd\":46,\"pkgt\":22,\"pos\":20,\"prov\":114,\"psp\":72,\"pst\":68,\"pstcat\":47,\"pt\":13,\"rescode\":27,\"responseEnd\":43,\"responseStart\":41,\"rspns\":107,\"sca\":53,\"sec\":18,\"site\":42,\"slk\":19,\"sort\":28,\"t1\":121,\"t2\":122,\"t3\":123,\"t4\":124,\"t5\":125,\"t6\":126,\"t7\":127,\"t8\":128,\"t9\":129,\"tar\":113,\"test\":14,\"v\":52,\"ver\":49,\"x\":50};\n
+        \                               YAHOO.i13n.YWA_ACTION_MAP = {\"click\":12,\"drag\":21,\"drop\":106,\"error\":99,\"hover\":17,\"hswipe\":19,\"hvr\":115,\"key\":13,\"rchvw\":100,\"scrl\":104,\"scrolldown\":16,\"scrollup\":15,\"secview\":18,\"secvw\":116,\"svct\":14,\"swp\":103};\n
+        \                               YAHOO.i13n.YWA_OUTCOME_MAP = {\"abuse\":51,\"close\":34,\"cmmt\":128,\"cnct\":127,\"comment\":49,\"connect\":36,\"cueauthview\":43,\"cueconnectview\":46,\"cuedcl\":61,\"cuehpset\":50,\"cueinfoview\":45,\"cueloadview\":44,\"cueswipeview\":42,\"cuetop\":48,\"dclent\":101,\"dclitm\":102,\"drop\":22,\"dtctloc\":118,\"end\":31,\"entitydeclaration\":40,\"exprt\":122,\"favorite\":56,\"fetch\":30,\"filter\":35,\"flagcat\":131,\"flagitm\":129,\"follow\":52,\"hpset\":27,\"imprt\":123,\"insert\":28,\"itemdeclaration\":37,\"lgn\":125,\"lgo\":126,\"login\":33,\"msgview\":47,\"navigate\":25,\"open\":29,\"pa\":111,\"pgnt\":113,\"pl\":112,\"prnt\":124,\"reauthfb\":24,\"reply\":54,\"retweet\":55,\"rmct\":32,\"rmloc\":120,\"rmsvct\":117,\"sbmt\":114,\"setlayout\":38,\"sh\":107,\"share\":23,\"slct\":121,\"slctfltr\":133,\"slctloc\":119,\"sort\":39,\"srch\":134,\"svct\":109,\"top\":26,\"undo\":41,\"unflagcat\":132,\"unflagitm\":130,\"unfollow\":53,\"unsvct\":110};\n
+        \                               \n                                YMedia.rapid
+        = {\n                                    rapidConfig: {\"spaceid\":\"97476878\",\"tracked_mods\":\"\",\"text_link_len\":8,\"client_only\":1,\"compr_type\":\"deflate\",\"ult_token_capture\":true,\"webworker_file\":\"\\/__rapid-worker-1.2.js\",\"test_id\":\"\",\"keys\":{\"ssl\":\"0\",\"juris\":\"US\",\"lang\":\"en-US\",\"lpstaid\":\"\",\"mrkt\":\"US\",\"pcp\":\"\",\"pct\":\"\",\"pd\":\"\",\"psp\":\"\",\"pst\":\"\",\"pstaid\":\"\",\"pstcat\":\"__embed-top\",\"pt\":\"\",\"pub\":\"\",\"site\":\"sports\",\"test\":\"\",\"ver\":\"grandslam\"},\"debug\":false,\"ywa\":{\"project_id\":\"10001078001479\",\"document_group\":\"\",\"document_name\":\"\",\"host\":\"y.analytics.yahoo.com\"},\"nofollow_class\":[\"rapid-nf\",\"rapidnofollow\",\"w-right-arrow\",\"yom-weather-locations\",\"yom-super-hero\"]},\n
+        \                                   rapidInstance: null,\n                                    moduleQueue:
+        [],\n                                    addModules: function(modInfo) {\n
+        \                                       this.moduleQueue.push(modInfo);\n
+        \                                   }\n                                };\n
+        \                           </script>\n\n        <script language=\"javascript\">\n
+        \       \nYUI.YUICfg = {\"gallery\":\"yui:gallery-2011.04.20-13-04\",\"groups\":{\"group01c9d8dea06e05460a64eed4dadd622b6\":{\"base\":\"http:\\/\\/l.yimg.com\\/\",\"comboBase\":\"http:\\/\\/l.yimg.com\\/zz\\/combo?\",\"modules\":{\"media-v2-chrome\":{\"path\":\"os\\/mit\\/media\\/p\\/presentation\\/v2-chrome-min-ccd9905.js\"},\"media-content-aft\":{\"path\":\"os\\/mit\\/media\\/p\\/content\\/content-aft-min-3bed2cc.js\"},\"media-content-aft-report\":{\"path\":\"os\\/mit\\/media\\/p\\/content\\/content-aft-report-min-e2bd45d.js\"},\"media-yaft2-aftnoad\":{\"path\":\"os\\/mit\\/media\\/p\\/content\\/yaft2-aftnoad-min-e5cc02b.js\"},\"media-yaft2-harbeacon\":{\"path\":\"os\\/mit\\/media\\/p\\/content\\/yaft2-harbeacon-min-d39e2d6.js\"},\"media-tracking\":{\"path\":\"os\\/mit\\/media\\/m\\/base\\/tracking-min-649ba6f.js\"},\"media-imageloader\":{\"path\":\"os\\/mit\\/media\\/m\\/base\\/imageloader-min-649ba6f.js\"},\"media-imageloader-bootstrap\":{\"path\":\"os\\/mit\\/media\\/m\\/base\\/imageloader-bootstrap-min-649ba6f.js\"},\"media-af-beacon\":{\"path\":\"os\\/mit\\/media\\/p\\/common\\/af-beacon-min-4e5a259.js\"},\"media-rapid-tracking\":{\"path\":\"os\\/mit\\/media\\/p\\/common\\/rapid-tracking-min-913be2c.js\"}},\"combine\":true,\"filter\":\"min\",\"root\":\"\\/\"}},\"combine\":true,\"allowRollup\":true,\"comboBase\":\"http:\\/\\/l.yimg.com\\/zz\\/combo?\",\"fetchCSS\":false,\"maxURLLength\":\"2000\"}\nYUI.YUICfg.root='yui:'+YUI.version+'/build/';\nYMedia.applyConfig(YUI.YUICfg);\nYUI.Env[YUI.version].base
+        = 'http://l.yimg.com/';\nYUI.Env[YUI.version].comboBase = 'http://l.yimg.com/zz/combo?';\nYUI.Env[YUI.version].root
+        = 'yui:'+YUI.version+'/build/';\nYMedia.use(\"media-rmp\",\"media-viewport-loader\",\"media-v2-chrome\",\"media-content-aft\",\"media-content-aft-report\",\"media-yaft2-aftnoad\",\"media-yaft2-harbeacon\",\"media-tracking\",\"node-base\",\"event-custom\",\"dom-deprecated\",\"node-deprecated\",\"substitute\",\"media-imageloader\",\"media-imageloader-bootstrap\",\"base-base\",\"node-style\",\"node-screen\",\"media-af-beacon\",\"json-stringify\",\"querystring-stringify-simple\",\"media-rapid-tracking\",\"base\",\"node\",function(Y){\n
+        \         \n    Y.later(10, this, function() {Y.applyConfig({debug: false});});\n
+        \   Y.later(10, this, function() {\n                YUI.namespace(\"Media\").LANGDIR='ltr';\n
+        \               YUI.namespace(\"Media\").CONTENT_ID = \"\";\n                });\n
+        \   Y.later(10, this, function() {\n                            (function
+        () {\n                                function focusSearch() {\n                                    var
+        a = Y.one('#mnp-search_box') || Y.one('#UHSearchBox');\n                                    if
+        (Y.UA && (Y.UA.ios || Y.UA.android)) {\n                                        return;\n
+        \                                   }\n                                    if
+        (a) {\n                                        a.focus();\n                                    }
+        else {\n                                        window.setTimeout(focusSearch,300);\n
+        \                                   }\n                                }\n
+        \                               focusSearch();\n                            })();\n
+        \                           });\n    Y.later(10, this, function() {if (Y.Media
+        && Y.Media.Chrome) {\n                    Y.Media.pageChrome = Y.Media.Chrome(Y,\n
+        \                   {\n                        site: 'sports',\n                        lang:
+        'en-US',\n                        region: 'US',\n                        spaceId:
+        '97476878',\n                        contentId: '',\n                        gridType:
+        'index',\n                        device: 'full',\n                        deviceOS:
+        (typeof YMEDIA_REQ_ATTR !== 'undefined' && YMEDIA_REQ_ATTR.device && YMEDIA_REQ_ATTR.device.os)
+        || '',\n                        deviceOSVer: (typeof YMEDIA_REQ_ATTR !== 'undefined'
+        && YMEDIA_REQ_ATTR.device && YMEDIA_REQ_ATTR.device.osver) || '',\n                        projectId:
+        '10001078001479',\n                        enableYwaTracking: '0',\n                        enable2xImgs:
+        '0',\n                        imgItemsSelector: '.js .yog-bd img',\n                        enableViewportManagement:
+        '0',\n                        viewportItemsSelector: '.js .yog-content img,.yog-smartphone.js
+        .yog-bd img',\n                        transparentImgUrl: 'http://l.yimg.com/os/mit/media/m/base/images/transparent-649ba6f.png',\n
+        \                       enableRapidTracking: 1,\n                        rapidConf
+        : {\"spaceid\":\"97476878\",\"tracked_mods\":\"\",\"text_link_len\":8,\"client_only\":1,\"compr_type\":\"deflate\",\"ult_token_capture\":true,\"webworker_file\":\"\\/__rapid-worker-1.2.js\",\"test_id\":\"\",\"keys\":{\"ssl\":\"0\",\"juris\":\"US\",\"lang\":\"en-US\",\"lpstaid\":\"\",\"mrkt\":\"US\",\"pcp\":\"\",\"pct\":\"\",\"pd\":\"\",\"psp\":\"\",\"pst\":\"\",\"pstaid\":\"\",\"pstcat\":\"__embed-top\",\"pt\":\"\",\"pub\":\"\",\"site\":\"sports\",\"test\":\"\",\"ver\":\"grandslam\"},\"debug\":false,\"ywa\":{\"project_id\":\"10001078001479\",\"document_group\":\"\",\"document_name\":\"\",\"host\":\"y.analytics.yahoo.com\"},\"nofollow_class\":[\"rapid-nf\",\"rapidnofollow\",\"w-right-arrow\",\"yom-weather-locations\",\"yom-super-hero\"]},\n
+        \                       bucketId : '',\n                        baseImageryFallbackCss
+        : 'http://l.yimg.com/os/mit/media/themes/v2_base/base-imagery-fallback-min-5c5abcd.css',\n
+        \                       baseImageryFallbackCssLteIe7 : 'http://l.yimg.com/os/mit/media/themes/v2_base/base-imagery-fallback-lteIE7-min-5c5abcd.css',\n
+        \                       enableGlassTheme : '1',\n                        backgroundImageUrl
+        : 'http://l.yimg.com/os/mit/media/themes/v2_black/images/theme_bkground-e506c3a.jpg'\n
+        \                   });\n                };});\n    Y.later(10, this, function()
+        {Y.namespace(\"Global.Media\").ILBoot = new Y.ImageLoaderBootstrap(200);});\n
+        \   Y.later(10, this, function() {// create RapidTracking object reusing existing
+        moduleQueue\n                            YMedia.rapid = new Y.Media.RapidTracking({\n
+        \                               instance:    YMedia.rapid && YMedia.rapid.rapidInstance,\n
+        \                               moduleQueue: YMedia.rapid && YMedia.rapid.moduleQueue,\n
+        \                               rapidConfig: YMedia.rapid && YMedia.rapid.rapidConfig,\n
+        \                               config: {\n                                    selectors:
+        {\n                                        'bd'   : 'body',\n                                        'mods'
+        : '.yom-mod'\n                                    }\n                                }\n
+        \                           });});\n           \n});\n\n        \n        </script>\n\n<!--
+        myproperty:myservice-US:0:Success -->\n<!-- fe363.global.media.gq1.yahoo.com
+        compressed/chunked Sat Apr  4 16:39:35 UTC 2015 -->\n\n<!-- end edgepipe embed-top
+        -->\n<link type=\"text/css\" rel=\"stylesheet\" media=\"screen\" href=\"/assets/eJx1z0FPwjAYxvFPtAJVJIsnYiBCgCFTI6emvH3Zxrp29O2G3ad3wZjs4uk5_P6XB4hGLRcaMwmB7TifNd0kyl8_L8_QE9XWeRKU25oFmF9K1J5eQvaLhcdboVAY2YocpUInztZ6dMx_P6FrtevkNr63tZahZ0LpIGeyOa_lARbNcq7uDLaqrBmpgkBbahyyNJ1Q2hze_LHbDpNAdVRZ9bds_PUw3Zk466Jk_18HOUJZGBaXZvVx3ZwMJH7Y9u8t08fVbbpch_07vw4xc9Io0rJiJsEZnh4BFo7_AAmCcwI,.css?z&m\"
+        />\n    <script>\n      var YUI_config = { combine:true,base:\"http://l.yimg.com/\",comboBase:\"http://l.yimg.com/zz/combo?\",gallery:\"yui:gallery-2011.04.20-13-04\",groups:{yui2:{combine:true,base:\"http://l.yimg.com/d/lib/yui/2in3.4/2.9.0/build/\",comboBase:\"http://l.yimg.com/zz/combo?\",root:\"/d/lib/yui/2in3.4/2.9.0/build/\",patterns:{\"yui2-\":{configFn:function(me){if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\\.js/,'.css');me.path=me.path.replace(/\\/yui2-skin/,'/assets/skins/sam/yui2-skin');}}}}},sports:{bucket:\"\",combine:true,base:\"http://l.yimg.com/os/mit/media/m/sports/\",comboBase:\"http://l.yimg.com/zz/combo?\",root:\"/os/mit/media/m/sports/\",modules:{\"ys-plugin-overlay-surround\":{path:\"plugin-overlay-surround-min-145300.js\",requires:[\"plugin\",\"base-build\",\"node-screen\",\"event-resize\"]},\"ys-plugin-overlay-close\":{path:\"plugin-overlay-close-min-140631.js\",requires:[\"plugin\",\"base-build\",\"node-event-delegate\"]},\"ys-plugin-playernote-view\":{path:\"plugin-playernote-view-min-145300.js\",requires:[\"plugin\",\"base-build\"]},\"ys-playernote-views-notes\":{path:\"playernote-views-default-min-140773.js\",requires:[\"plugin\",\"base-build\"]},\"ys-playernote\":{path:\"playernote-min-157732.js\",requires:[\"overlay\",\"io-base\",\"json-parse\",\"ys-plugin-overlay-surround\",\"ys-plugin-overlay-close\",\"dd-plugin\",\"ys-playernote-css\",\"substitute\",\"ys-plugin-playernote-view\"]},\"ys-playernotes\":{path:\"playernotes-min-150286.js\",requires:[\"node-event-delegate\",\"base-build\",\"selector-css3\"]},\"ys-playernote-tabs\":{path:'playernote-tabs-min-323571.js',requires:['plugin','base-build','node-event-delegate','transition','ys-playernote-tabs-css']},\"ys-playernote-tabs-css\":{path:'playernote-tabs-min-323571.css',type:'css'},\"ys-playernote-css\":{path:\"playernote-min-153108.css\",type:\"css\"},\"ys-playernote-views-twitter\":{path:'playernote-views-twitter-min-145300.js',requires:['ys-plugin-playernote-view','ys-playernote-views-twitter-css','node-event-delegate','node-style','selector-css3']},\"ys-playernote-views-twitter-css\":{path:'playernote-views-twitter-min-199290.css',/*todo*/type:'css'}}},media:{combine:true,base:\"http://l.yimg.com/d/lib/media/m/\",comboBase:\"http://l.yimg.com/zz/combo?\",root:\"/d/lib/media/m/\",modules:{\"social_buttons\":{path:\"social_buttons/social-buttons-min-4519.js\",requires:[\"node-base\",\"widget\",\"substitute\",\"querystring-stringify-simple\",\"intl\",\"fb_all\",\"json-parse\",\"jsonp\"]},\"media:socialbuttons_en-US\":{path:\"social_buttons/l10n/strings_en-us-min-4540.js\",requires:[\"intl\"]}}}},modules:{\"fb_all\":{fullpath:\"https://connect.facebook.net/en_US/all.js\"},\"ysp-scorestream\":{fullpath:\"/assets/js/common/ysp-mod/ysp-scorestream._mxTkcYFonxO.js?m\",requires:['gallery-comet-stream','io-base','event-custom','json','node','base','querystring-stringify']},\"ysp-photo-carousel\":{fullpath:\"/assets/js/manager._btYBpoQfSQ1;js/carousel.1G250Ffh2zOb.js?m\"},\"ywa\":{fullpath:\"http://d.yimg.com/mi/vs3/ywa.js\"},\"disclosure\":{fullpath:\"http://l.yimg.com/a/lib/platforms/vitality/disc/rm/disclosure-1.4.js\"},\"yep3\":{fullpath:\"http://yep.video.yahoo.com/js/3/videoplayer-min.js\"},\"ysp-i13n\":{fullpath:\"/assets/js/i13n.xMViRFzNDqfi.js?m\"}}
+        };\n      YUI_config.root = \"yui:3.16.0/build/\";\n    </script>\n    <script>\n
+        \           YAHOO = window.YAHOO || {};\n      YAHOO.Sports = YAHOO.Sports
+        || {};\n      YAHOO.Sports.canonical_url = 'http://sports.yahoo.com/golf/pga/leaderboard';\n
+        \     YAHOO.Sports.crumb = '';\n      YAHOO.Sports.domain = 'sports.yahoo.com';\n
+        \     YAHOO.Sports.intl = 'us';\n      YAHOO.Sports.league = 'golf';\n      YAHOO.Sports.spaceid
+        = '97476878';\n            YAHOO.Media = YAHOO.Media || {};\n      YAHOO.Media.Facebook
+        = YAHOO.Media.Facebook || {};\n      YAHOO.Media.Facebook.init = {\n       appId
+        \     : '111580892213144',\n       logging    : true,\n       status     :
+        true,\n       cookie     : false,\n       xfbml      : true,\n       oauth
+        \     : true,\n       channelUrl : 'http://sports.yahoo.com/dynamic/fb/channel.html'\n
+        \     };\n    </script><script type=\"text/javascript\" charset=\"utf-8\"
+        src=\"/assets/eJx1kluTojAQhX9R4l2HmidvaM0owjgi-mIlECBK0pEEUX79gu5u7T7MU6rO-ar7VE6fdetR8FYXW7jdepAUAEUgELsxaTD7GPnfn2zRn83D9_O_ZAhSstBwkEhwie10Gg3EpRjFO_E_SCQX5C93hdxUJS2G3D02XD1GGyKNxsidB7tN_GFVlmocrWpU4wVaJdbotnRpu9fIhlCNV4GyM-FP0sXu_JoCF86wz_aaBgsvWMbjRk5BsJOAqMiYxrLXf8zLlbinJTRmyWUEJablzUssbfZBZ_ZcG0LOTFpHPYDnXh1a9t6M0ziCSJKwHJ-oOUwUePHW6zyXkxwKzTLcWXQHbTtOu9WGvlIJAbL10ArVIZ5vTEJG67DYUcd7xoSffKvTD2xE8oxglI4Hu2Wu3XCb_gByZiHFJTI5CS9cJpgV5HoIP73IpdNnGSXByeE8qYa3ow_2ttGKzJwoGAMCw5fig_HBziNr31i805P4vvb5l105s2vMG1ERydCfL1jT6aZi19ElHLi_WzT1uSBJbjx5lR0xfTGg8NpjZ8u09zt_-zyMOHtAYbDTXwfDzbFaL2PnFweG454,.js?z&m\"></script>\n<!--
+        {ULT:BEGIN-SECTION;sec=beta} --><!-- {ULT:END-SECTION} -->\n<link type='text/css'
+        rel='stylesheet' href='http://l.yimg.com/zz/combo?kx/yucs/uh3/uh/1132/css/uh_non_mail-min.css&kx/yucs/uh_common/meta/3/css/meta-min.css&kx/yucs/uh3/top-bar/366/css/no_icons-min.css&kx/yucs/uh3/search/css/588/blue_border-min.css&kx/yucs/uh3/get-the-app/151/css/get_the_app-min.css'/>
+        \ <script type=\"text/javascript\">\n    YUI({\n     modules: {\n       uh2_js:
+        {\n         fullpath: \"http://l.yimg.com/zz/combo?kx/yucs/uh3/uh/1078/js/uh-min.js&kx/yucs/uh3/uh/1078/js/gallery-jsonp-min.js&kx/yucs/uh3/uh/1134/js/menu_utils_v3-min.js&kx/yucs/uh3/uh/1078/js/localeDateFormat-min.js&kx/yucs/uh3/uh/1078/js/timestamp_library_v2-min.js&kx/yucs/uh3/uh/1104/js/logo_debug-min.js&kx/yucs/uh3/switch-theme/6/js/switch_theme-min.js&kx/yucs/uhc/meta/66/js/meta-min.js&kx/yucs/uh_common/beacon/18/js/beacon-min.js&kx/yucs/uh2/comet/84/js/cometd-yui3-min.js&kx/yucs/uh2/comet/84/js/conn-min.js&kx/yucs/uh2/comet/84/js/dark-test-min.js&kx/yucs/uh3/disclaimer/384/js/disclaimer_seed-min.js&kx/yucs/uh3/top-bar/321/js/top_bar_v3-min.js&kx/yucs/uh3/search/598/js/search-min.js&kx/yucs/uh3/search/611/js/search_plugin-min.js&kx/yucs/uh2/common/145/js/jsonp-super-cached-min.js&kx/yucs/uh3/avatar/31/js/avatar-min.js&kx/yucs/uh3/mail-link/96/js/mailcount_ssl-min.js&kx/yucs/uh3/help/83/js/help_menu_v3-min.js&kx/yucs/uhc/rapid/41/js/uh_rapid-min.js&kx/yucs/uh3/get-the-app/148/js/inputMaskClient-min.js&kx/yucs/uh3/get-the-app/160/js/get_the_app-min.js&kx/yucs/uh3/location/10/js/uh_locdrop-min.js\"\n
+        \      }\n     }\n    }).use('event',function(Y) {\n      Y.on('contentready',
+        function(){\n        Y.use('uh2_js');\n      }, '#yUnivHead');\n    });\n
+        \ </script>            <!-- Platform: v2 -->\n            <header id=\"yog-hd\"
+        class=\"yog-hd\">\n              <!-- Start Include: header : Include Method:
+        Fallback --><section id=\"header\" class=\"yom-header yom-header-property-0
+        yom-mod\"><style>#header,#y-hd,#hd .yfi_doc,#yfi_hd{background:#fff !important}#yfin_gs
+        #yfimh #yucsHead,#yfin_gs #yfi_doc #yucsHead,#yfin_gs #yfi_fp_hd #yucsHead,#yfin_gs
+        #y-hd #yucsHead,#yfin_gs #yfi_hd #yucsHead,#yfin_gs #yfi-doc #yucsHead{-webkit-box-shadow:0
+        0 9px 0 #490f76 !important;-moz-box-shadow:0 0 9px 0 #490f76 !important;box-shadow:0
+        0 9px 0 #490f76 !important;border-bottom:1px solid #490f76 !important}#yog-hd,#yfi-hd,#ysp-hd,#hd,#yfimh,#yfi_hd,#yfi_fp_hd,#masthead,#yfi_nav_header
+        #navigation,#y-nav #navigation,.ad_in_head{background-color:#fff;background-image:none}#header,#hd
+        .yfi_doc,#y-hd .yfi_doc,#yfi_hd .yfi_doc{width:100% !important}#yucs{margin:0
+        auto;width:970px}#yfi_nav_header,.y-nav-legobg,#y-nav #navigation{margin:0
+        auto;width:970px}#yucs .yucs-avatar{height:22px;width:22px}#yucs #yucs-profile_text
+        .yuhead-name-greeting{display:none}#yucs #yucs-profile_text .yuhead-name{top:0;max-width:65px}#yucs-profile_text{max-width:65px}#yog-bd
+        .yom-stage{background:transparent}#yog-hd{height:84px}.yog-bd,.yog-grid{padding:4px
+        10px}.nav-stack ul.yog-grid{padding:0}#yucs #yucs-search.yucs-bbb .yucs-button_theme{background:-moz-linear-gradient(top,
+        #6b6461 0, #4f4b49 100%);background:-webkit-gradient(linear, left top, left
+        bottom, color-stop(0%, #6b6461), color-stop(100%, #4f4b49));background:-webkit-linear-gradient(top,
+        #6b6461 0, #4f4b49 100%);background:-o-linear-gradient(top, #6b6461 0, #4f4b49
+        100%);background:-ms-linear-gradient(top, #6b6461 0, #4f4b49 100%);background:linear-gradient(to
+        bottom, #6b6461 0, #4f4b49 100%);-webkit-box-shadow:inset 0 1px 3px 0 #b0a5a0;box-shadow:inset
+        0 1px 3px 0 #b0a5a0;background-color:#6b6461;background-color:transparent\\0/IE9;background-color:transparent\\9;*background:none;border:1px
+        solid #2c2a29}#yucs #yucs-search.yucs-bbb #yucs-prop_search_button_wrapper
+        .yucs-gradient{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b6461',
+        endColorstr='#4f4b49',GradientType=0 );-ms-filter:\"progid:DXImageTransform.Microsoft.gradient(
+        startColorstr='#6b6461', endColorstr='#4f4b49',GradientType=0 )\";background-color:#6b6461\\0/IE9}#yucs
+        #yucs-search.yucs-bbb #yucs-prop_search_button_wrapper{*border:1px solid #2c2a29}#yucs
+        #yucs-search .yucs-button_theme{background:#4d4946;border:0;box-shadow:0 2px
+        #2d2b29}@media all{#yucs.yucs-mc,#yucs-top-inner{width:auto !important;margin:0
+        !important}#yucsHead{_text-align:left !important}#yucs-top-inner,#yucs.yucs-mc{min-width:970px
+        !important;max-width:1240px !important;padding-left:10px !important;padding-right:10px
+        !important}#yucs.yucs-mc{_width:970px !important;_margin:0 !important}#yucsHead
+        #yucs .yucs-fl-left #yucs-search{position:absolute;left:190px !important;max-width:none
+        !important;margin-left:0;_left:190px;_width:510px !important}.yog-ad-billboard
+        #yucs-top-inner,.yog-ad-billboard #yucs.yucs-mc{max-width:1130px !important}#yucs
+        .yog-cp{position:inherit}}#yucs #yucs-logo{width:150px !important;height:34px
+        !important}#yucs #yucs-logo div{width:94px !important;margin:0 auto !important}.lt
+        #yucs-logo div{background-position:-121px center !important}#yucs-logo a{margin-left:-13px
+        !important}</style><style>#yog-hd .yom-bar, #yog-hd .yom-nav, #y-nav, #hd
+        .ysp-full-bar,  #yfi_nav_header, #hd .mast {\r\nfloat: none;\r\nwidth: 970px;\r\nmargin:
+        0 auto;\r\n}\r\n\r\n#yog-bd .yom-stage {\r\nbackground: transparent;\r\n}\r\n\r\n#y-nav
+        .yom-nav {\r\npadding-top: 0px;\r\n}\r\n\r\n#ysp-search-assist .bd {\r\ndisplay:none;\r\n}\r\n\r\n#ysp-search-assist
+        h4 {\r\npadding-left: 8px;\r\n}\r\n\r\n\r\n    #yfi-portfolios-multi-quotes
+        #y-nav, #yfi-portfolios-multi-quotes #navigation, #yfi-portfolios-multi-quotes
+        .y-nav-legobg, \r\n    #yfi-portfolios-my-portfolios #y-nav, #yfi-portfolios-my-portfolios
+        #navigation, #yfi-portfolios-my-portfolios .y-nav-legobg {\r\n        width
+        : 100%;\r\n    }</style> <div id=\"yucsHead\" class=\"yucs-sports yucs-en-us
+        \ yucs-standard\"><!-- meta --><div id=\"yucs-meta\" data-authstate=\"signedout\"
+        data-cobrand=\"standard\" data-crumb=\"\" data-mc-crumb=\"\" data-gta=\"\"
+        data-device=\"desktop\" data-experience=\"GS\" data-firstname=\"\" data-style=\"\"
+        data-flight=\"1428165575\" data-forcecobrand=\"standard\" data-guid=\"\" data-host=\"sports.yahoo.com\"
+        data-https=\"0\" data-languagetag=\"en-us\" data-property=\"sports\" data-protocol=\"http\"
+        data-shortfirstname=\"\" data-shortuserid=\"\" data-status=\"active\" data-spaceid=\"\"
+        data-test_id=\"\" data-userid=\"\" data-stickyheader=\"true\" data-headercollapse=\"\"
+        data-uh-test=\"acctswitch\" ></div><!-- /meta --><div id=\"yucs-comet\" style=\"display:none;\"></div><div
+        id=\"yucs-disclaimer\" class=\"yucs-disclaimer yucs-activate yucs-hide yucs-property-sports
+        yucs-fcb- \" data-cobrand=\"standard\" data-cu = \"0\" data-dsstext=\"Want
+        a better search experience? {dssLink}Set your Search to Yahoo{linkEnd}\" data-dsstext-mobile=\"Search
+        Less, Find More\" data-dsstext-mobile-ok=\"OK\" data-dsstext-mobile-set-search=\"Set
+        Search to Yahoo\" data-dssstbtext=\"Yahoo is the preferred search engine for
+        Firefox. Switch now.\" data-dssstb-ok=\"Yes\" data-dssstb-no=\"Not Now\" data-ylt-link=\"https://search.yahoo.com/searchset?pn=\"
+        data-ylt-dssbarclose=\"/\" data-ylt-dssbaropen=\"/\" data-ylt-dssstb-link=\"https://downloads.yahoo.com/sp-firefox\"
+        data-ylt-dssstbbarclose=\"/\" data-ylt-dssstbbaropen=\"/\" data-ylt-dssCookieCleanedSuccess=\"/\"
+        data-ylt-dssCookieCleanedFailed=\"/\" data-linktarget=\"_top\" data-lang=\"en-us\"
+        data-property=\"sports\" data-device=\"Desktop\" data-close-txt=\"Close this
+        window\" data-maybelater-txt = \"Maybe Later\" data-killswitch = \"0\" data-host=\"sports.yahoo.com\"
+        data-spaceid=\"\" data-pn=\"\" data-dss-cookie-cleanup=\"\" data-pn-en-ca-mobile-frontpage=\"\"
+        data-pn-de-de-mobile-frontpage=\"\" data-pn-es-es-mobile-frontpage=\"\" data-pn-fr-fr-mobile-frontpage=\"\"
+        data-pn-en-in-mobile-frontpage=\"\" data-pn-it-it-mobile-frontpage=\"\" data-pn-en-us-mobile-frontpage=\"\"
+        data-pn-en-sg-mobile-frontpage=\"\" data-pn-en-gb-mobile-frontpage=\"\" data-pn-en-us-mobile-mail=\"\"
+        data-pn-en-ca-mobile-mail=\"\" data-pn-de-de-mobile-mail=\"\" data-pn-es-es-mobile-mail=\"\"
+        data-pn-fr-fr-mobile-mail=\"\" data-pn-en-in-mobile-mail=\"\" data-pn-it-it-mobile-mail=\"\"
+        data-pn-en-sg-mobile-mail=\"\" data-pn-en-gb-mobile-mail=\"\" data-pn-pt-br-mobile-mail=\"\"
+        data-pn-en-us-tablet-frontpage=\"\" data-pn-en-us-tablet-mail=\"\" data-pn-en-ca-tablet-mail=\"\"
+        data-pn-de-de-tablet-mail=\"\" data-pn-es-es-tablet-mail=\"\" data-pn-fr-fr-tablet-mail=\"\"
+        data-pn-en-in-tablet-mail=\"\" data-pn-it-it-tablet-mail=\"\" data-pn-en-sg-tablet-mail=\"\"
+        data-pn-en-gb-tablet-mail=\"\" data-pn-pt-br-tablet-mail=\"\" data-news-search-yahoo-com=\"\"
+        data-answers-search-yahoo-com=\"\" data-finance-search-yahoo-com=\"\" data-images-search-yahoo-com=\"\"
+        data-video-search-yahoo-com=\"\" data-sports-search-yahoo-com=\"\" data-shopping-search-yahoo-com=\"\"
+        data-shopping-yahoo-com=\"\" data-us-qa-trunk-news-search-yahoo-com =\"\"
+        data-dss=\"1\"></div>  <div id=\"yucs-top-bar\" class='yucs-ps' ><div id='yucs-top-inner'><ul
+        id=\"yucs-top-list\"><li id=\"yucs-top-home\"><a href=\"https://www.yahoo.com/\"
+        ><span class=\"sp yucs-top-ico\"></span>Home</a></li><li id=\"yucs-top-mail\"><a
+        href=\"https://mail.yahoo.com/?.intl=us&.lang=en-US&.src=ym\" >Mail</a></li><li
+        id=\"yucs-top-search\"><a href=\"https://search.yahoo.com/search\" >Search</a></li><li
+        id=\"yucs-top-news\"><a href=\"http://news.yahoo.com/\" >News</a></li><li
+        id=\"yucs-top-sports\"><a href=\"http://sports.yahoo.com/\" >Sports</a></li><li
+        id=\"yucs-top-finance\"><a href=\"http://finance.yahoo.com/\" >Finance</a></li><li
+        id=\"yucs-top-weather\"><a href=\"https://weather.yahoo.com/\" >Weather</a></li><li
+        id=\"yucs-top-games\"><a href=\"https://games.yahoo.com/\" >Games</a></li><li
+        id=\"yucs-top-answers\"><a href=\"https://answers.yahoo.com/\" >Answers</a></li><li
+        id=\"yucs-top-screen\"><a href=\"https://screen.yahoo.com/\" >Screen</a></li><li
+        id=\"yucs-top-flickr\"><a href=\"https://www.flickr.com/\" >Flickr</a></li><li
+        id=\"yucs-top-mobile\"><a href=\"https://mobile.yahoo.com/\" >Mobile</a></li><li
+        id='yucs-more' class='yucs-menu yucs-more-activate' data-ylt=\"/\"><a href=\"http://everything.yahoo.com/\"
+        id='yucs-more-link'>More<span class=\"sp yucs-top-ico\"></span></a><div id='yucs-top-menu'><div
+        class=\"yui3-menu-content\"><ul class=\"yucs-hide yucs-leavable\"><li id='yucs-top-politics'><a
+        href=\"https://www.yahoo.com/politics\" >Politics</a></li><li id='yucs-top-celebrity'><a
+        href=\"https://celebrity.yahoo.com/\" >Celebrity</a></li><li id='yucs-top-movies'><a
+        href=\"https://www.yahoo.com/movies\" >Movies</a></li><li id='yucs-top-music'><a
+        href=\"https://www.yahoo.com/music\" >Music</a></li><li id='yucs-top-tv'><a
+        href=\"https://www.yahoo.com/tv\" >TV</a></li><li id='yucs-top-groups'><a
+        href=\"https://groups.yahoo.com/\" >Groups</a></li><li id='yucs-top-health'><a
+        href=\"https://www.yahoo.com/health\" >Health</a></li><li id='yucs-top-style'><a
+        href=\"https://www.yahoo.com/style\" >Style</a></li><li id='yucs-top-beauty'><a
+        href=\"https://www.yahoo.com/beauty\" >Beauty</a></li><li id='yucs-top-food'><a
+        href=\"https://www.yahoo.com/food\" >Food</a></li><li id='yucs-top-parenting'><a
+        href=\"https://www.yahoo.com/parenting\" >Parenting</a></li><li id='yucs-top-makers'><a
+        href=\"https://www.yahoo.com/makers\" >Makers</a></li><li id='yucs-top-tech'><a
+        href=\"https://www.yahoo.com/tech\" >Tech</a></li><li id='yucs-top-shopping'><a
+        href=\"http://shopping.yahoo.com/\" >Shopping</a></li><li id='yucs-top-travel'><a
+        href=\"https://www.yahoo.com/travel\" >Travel</a></li><li id='yucs-top-autos'><a
+        href=\"https://autos.yahoo.com/\" >Autos</a></li><li id='yucs-top-homes'><a
+        href=\"https://homes.yahoo.com/own-rent/\" >Homes</a></li></ul></div></div></li></ul></div><style>#yucs-top-ff-promo
+        { position:absolute; right:0; right:auto\\9; left:950px\\9; right:auto\\9\\0;
+        left:auto\\9\\0; margin-right:18px; display:block; white-space: nowrap; z-index:15001;}#yucs-top-ff-promo
+        img { border: none; height: 15px; width: 15px;}#yucs-top-ff-promo a span {
+        text-decoration: none; display: inline-block;}#yucs-ff-img { vertical-align:
+        middle; padding-right: 4px;}@media screen and (max-width:1150px) { #yucs-top-bar
+        #yucs-top-ff-promo { right: auto; left:950px; }}</style><li id='yucs-top-ff-promo'
+        class=\"yucs-hide\"><a href=\"https://www.mozilla.org/firefox/new/?utm_source=yahoo&amp;utm_medium=referral&amp;utm_campaign=y-uh&amp;utm_content=y-sports-try\"
+        target=\"_blank\"><img id=\"yucs-ff-img\" src='https://s.yimg.com/kx/yucs/uh3s/promo-ff/1/images/ff_icon-compressed.png'
+        width=\"15\" height=\"15\" alt=\"Firefox\" />Try Yahoo Sports on Firefox<span>&nbsp;&raquo;</span></a></li><script>
+        var s = false, ts,re2,sdts,v2= null, cookies = \"; \" + document.cookie, dss
+        = cookies.split(\"; DSS=\"), m, ua = window.navigator.userAgent.toLowerCase();
+        m = ua.match(/firefox\\/(\\d+)/); if (!m || (m && m[1] && parseInt(m[1]) <
+        34)) { if (ua.indexOf('version') >= 0 && ua.indexOf('crios') < 0) { s = true;
+        } if (!!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0) { s = true;
+        } if (dss && dss.length === 2) { re2 = new RegExp('sdts=(\\\\d+)'); v2 = re2.exec(dss[1]);
+        if (v2 && v2.length === 2) { sdts = v2[1]; } if (sdts && (parseInt(new Date().getTime())
+        - sdts) < 60480000) { s = true; } } if (!s) { m = document.getElementById('yucs-top-ff-promo');
+        m.className = m.className.replace(/yucs-hide/g,''); } }</script></div><div
+        id=\"yucs\" class=\"yucs yucs-mc  yog-grid\" data-lang=\"en-us\" data-property=\"sports\"
+        data-flight=\"1428165575\" data-linktarget=\"_top\" data-uhvc=\"/\"> <div
+        class=\"yucs-fl-left yog-cp\">   <div id=\"yucs-logo\"> <style> #yucs #yucs-logo-ani
+        { width:119px ; height:34px; background-image:url(https://s.yimg.com/rz/l/yahoo_sports_en-US_f_pw_119x34.png)
+        ; _background-image:url(https://s.yimg.com/rz/l/yahoo_sports_en-US_f_pw_119x34.gif)
+        ; *left: 0px; display:block ; visibility: visible; position: relative; clip:
+        auto; } .lt #yucs-logo-ani { background-position: 100% 0px !important; } .lt
+        #yucs[data-property='mail'] #yucs-logo-ani { background-position: -350px 0px
+        !important; } #yucs-logo { margin-top:0px!important; padding-top: 11px; width:
+        120px; } #yucs[data-property='homes'] #yucs-logo { width: 102px; } .advisor
+        #yucs-link-ani { left: 21px !important; } #yucs #yucs-logo a {margin-left:
+        0!important;}#yucs #yucs-link-ani {width: 100% !important;} @media only screen
+        and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio:
+        2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio:
+        2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution:
+        2dppx) { #yucs #yucs-logo-ani { background-image: url(https://s.yimg.com/rz/l/yahoo_sports_en-US_f_pw_119x34_2x.png)
+        !important; background-size: 243px 34px; } } </style> <div> <a id=\"yucs-logo-ani\"
+        class=\"\" href=\"http://sports.yahoo.com/\" target=\"_top\" data-alg=\"\">
+        Yahoo Sports </a> </div> <img id=\"imageCheck\" src=\"http://l.yimg.com/os/mit/media/m/base/images/transparent-1093278.png\"
+        alt=\"\"/> </div><noscript><style>#yucs #yucs-logo-ani {visibility: visible;position:
+        relative;clip: auto;}</style></noscript> <div id=\"yucs-search\" style=\"width:
+        570px; display: block;\" class=' yucs-search-activate'> <form role=\"search\"
+        class=\"yucs-search yucs-activate\" target=\"_top\" data-webaction=\"https://search.yahoo.com/search\"
+        action=\"https://sports.search.yahoo.com/search\" method=\"get\"> <table role=\"presentation\">
+        <tbody role=\"presentation\"> <tr role=\"presentation\"> <td class=\"yucs-form-input\"
+        role=\"presentation\"> <div id=\"yucs-input_wrap\"> <input autocomplete=\"off\"
+        class=\"yucs-search-input\" name=\"p\" type=\"search\" aria-describedby=\"mnp-search_box\"
+        data-yltvsearch=\"https://sports.search.yahoo.com/search\" data-yltvsearchsugg=\"/\"
+        data-satype=\"mini\" data-gosurl=\"https://search.yahoo.com/sugg/ss/gossip-us_ss/\"
+        data-pubid=\"102\" data-enter-ylt=\"https://sports.search.yahoo.com/search\"
+        data-enter-fr=\"\" data-maxresults=\"10\" data-resize=\"disable\" id=\"mnp-search_box\"
+        data-minlength=\"\" data-rapidbucket=\"\"/>  </div> </td><td NOWRAP class=\"yucs-form-btn\"
+        role=\"presentation\"><div id=\"yucs-prop_search_button_wrapper\" class=\"yucs-search-buttons\"><div
+        class=\"yucs-shadow\"><div class=\"yucs-gradient\"></div></div><button id=\"yucs-sprop_button\"
+        class=\"yucs-action_btn yucs-button_theme yucs-vsearch-button\" type=\"submit\"
+        data-vfr=\"uh3_sports_vert_gs\" onclick=\"var vfr = this.getAttribute('data-vfr');
+        if(vfr){document.getElementById('fr').value = vfr}\" data-vsearch=\"https://sports.search.yahoo.com/search\">Search
+        Sports</button></div><div id=\"yucs-web_search_button_wrapper\" class=\"yucs-search-buttons\"><div
+        class=\"yucs-shadow\"><div class=\"yucs-gradient\"></div></div><button id=\"yucs-search_button\"
+        class=\"yucs-action_btn yucs-wsearch-button\" onclick=\"var form=document.getElementById('yucs-search').children[0];var
+        wa=form.getAttribute('data-webaction');form.setAttribute('action',wa);\" type=\"submit\">Search
+        Web</button></div></td></tr> </tbody> </table> <input type=\"hidden\" id=\"fr\"
+        name=\"fr\" value=\"uh3_sports_web_gs\" />   </form> <div id=\"yucs-satray\"
+        class=\"sa-tray sa-hidden\" data-wstext=\"Search Web for: \" data-wsearch=\"https://search.yahoo.com/search\"
+        data-vfr=\"uh3_sports_vert_gs\" data-vsearch=\"https://sports.search.yahoo.com/search\"
+        data-vstext= \"Search News for: \" > </div></div></div><div class=\"yucs-fl-right\">
+        <div id=\"yucs-profile\" class=\"yucs-profile yucs-signedout\"> <a id=\"yucs-menu_link_profile_signed_out\"
+        href=\"https://login.yahoo.com/config/login?.src=spt&.intl=us&.lang=en-US&.done=http://sports.yahoo.com/\"
+        target=\"_top\" rel=\"nofollow\" class=\"sp yucs-fc\" aria-label=\"Profile\">
+        </a> <div id=\"yucs-profile_text\" class=\"yucs-fc\"> <a id=\"yucs-login_signIn\"
+        href=\"https://login.yahoo.com/config/login?.src=spt&.intl=us&.lang=en-US&.done=http://sports.yahoo.com/\"
+        target=\"_top\" rel=\"nofollow\" class=\"yucs-fc\"> Sign In </a> </div></div><div
+        class=\"yucs-mail_link yucs-mailpreview-ancestor\"><a id=\"yucs-mail_link_id\"
+        class=\"sp yltasis yucs-fc\" href=\"https://mail.yahoo.com/?.intl=us&.lang=en-US&.src=ym\"
+        rel=\"nofollow\" target=\"_top\"> Mail <span class=\"yucs-activate yucs-mail-count
+        yucs-hide yucs-alert-count-con\" data-uri-scheme=\"https\" data-uri-path=\"mg.mail.yahoo.com/mailservices/v1/newmailcount\"
+        data-authstate=\"signedout\" data-crumb=\"\" data-mc-crumb=\"\"><span class=\"yucs-alert-count\"></span></span></a><div
+        class=\"yucs-mail-preview-panel yucs-menu yucs-hide\" data-mail-txt=\"Mail\"
+        data-uri-scheme=\"http\" data-uri-path=\"ucs.query.yahoo.com/v1/console/yql\"
+        data-mail-view=\"Go to Mail\" data-mail-help-txt=\"Help\" data-mail-help-url=\"http://help.yahoo.com/l/us/yahoo/mail/ymail/\"
+        data-mail-loading-txt=\"Loading...\" data-languagetag=\"en-us\" data-mrd-crumb=\"\"
+        data-authstate=\"signedout\" data-middleauth-signin-text=\"Click here to view
+        your mail\" data-popup-login-url=\"https://login.yahoo.com/config/login_verify2?.pd=c%3DOIVaOGq62e5hAP8Tv..nr5E3&.src=sc\"
+        data-middleauthtext=\"You have {count} new messages.\" data-yltmessage-link=\"https://mrd.mail.yahoo.com/msg?mid={msgID}&fid=Inbox&src=uh&.crumb=\"
+        data-yltviewall-link=\"https://mail.yahoo.com/\" data-yltpanelshown=\"/\"
+        data-ylterror=\"/\" data-ylttimeout=\"/\" data-generic-error=\"We're unable
+        to preview your mail.<br>Go to Mail.\" data-nosubject=\"[No Subject]\" data-timestamp='short'></div></div>
+        <div id=\"yucs-help\" class=\"yucs-activate yucs-help yucs-menu_nav\"> <a
+        id=\"yucs-help_button\" class=\"sp yltasis\" href=\"javascript:void(0);\"
+        aria-label=\"Help\" rel=\"nofollow\"> <em class=\"yucs-hide yucs-menu_anchor\">Help</em>
+        </a> <div id=\"yucs-help_inner\" class=\"yucs-hide yucs-menu yucs-hm-activate\"
+        data-yltmenushown=\"/\"> <span class=\"sp yucs-dock\"></span> <ul id=\"yuhead-help-panel\">
+        <li><a class=\"yucs-acct-link\" href=\"https://login.yahoo.com/account/personalinfo?.intl=us&.lang=en-US&.done=http://sports.yahoo.com/&amp;.src=spt&amp;.intl=us&amp;.lang=en-US\"
+        target=\"_top\">Account Info</a></li> <li><a href=\"https://help.yahoo.com/l/us/yahoo/sports/\"
+        rel=\"nofollow\" >Help</a></li> <span class=\"yucs-separator\" role=\"presentation\"
+        style=\"display: block;\"></span><li><a href=\"http://feedback.yahoo.com/forums/207810\"
+        rel=\"nofollow\" >Suggestions</a></li>  </ul> </div></div>  <div id=\"yucs-network_link\"><a
+        id=\"yucs-home_link\" href=\"https://www.yahoo.com/\" rel=\"nofollow\" target=\"_top\"><em
+        class=\"sp\">Yahoo</em><span class=\"yucs-fc\">Home</span></a></div>  <!--
+        empty breaking news component -->     </div>   </div> <div id=\"yucs-location-js\"
+        class=\"yucs-hide yucs-offscreen yucs-location-activate\" data-appid=\"yahoo.locdrop.ucs.desktop\"
+        data-crumb=\"\"><!-- empty for ie --></div><div id=\"yUnivHead\" class=\"yucs-hide\"><!--
+        empty --></div><div id=\"yhelp_container\" class=\"yui3-skin-sam\"></div></div><!--
+        alert --><!-- /alert --></section><!-- fe442.global.media.gq1.yahoo.com compressed/chunked
+        Sat Apr  4 16:39:35 UTC 2015 -->\n<!-- End Include: header -->\n            </header><div
+        id=\"nt1\" class=\"mod\">\n    <!-- ESI ad insert: NT1--><div id=\"yom-ad-NT1\"
+        class=\"yom-ad yom-ad-NT1\" style=\"visibility: inherit;\"><center><div id=\"yom-ad-NT1-iframe\"
+        class=\"yom-ad\"><center><!-- SpaceID=0 robot -->\n</center></div></center></div><!--
+        ESI ad insert finished --></div>\n</script>\n\n<script type=\"text/javascript\"
+        charset=\"utf-8\" src=\"/assets/js/refresh.7pQCEx2f51TE.js?m\"></script>\n<script
+        type=\"text/javascript\">var refreshTime = 180; YAHOO.Sports.Refresh.init('/golf/pga/leaderboard',
+        180);</script>\n<noscript><meta http-equiv=\"refresh\" content=\"180\"></noscript>\t\t</div>\n\n
+        \   <!-- End Header -->\n    <div id=\"yspMainContentWrapper\" class=\"yog-bd\">\n
+        \     <div class=\"yog-wrap\">\n              <!-- Tag: ymedia:subtype=golf-tournament-leaderboard
+        -->\n          <div id=\"yog-np\" class=\"yog-col yog-np\">\n            <div
+        id=\"yog-nw\" class=\"yog-nw\">\n              <div id=\"yog-nav\" class=\"yog-nav\">\n
+        \               <!-- Start Include: mediacontentnavigation : Include Method:
+        Fallback --><div id=\"mediacontentnavigation\" class=\"yom-mod navigation
+        subnav-overlays\" role=\"navigation\" data-ylk=\"t1:a2;t2:lnav;sec:lnav;\">\n
+        \   <nav>\n        <ul id=\"navlist\" class=\"navlist\">\n                <li>\n
+        \                   <a href=\"/\" data-tags=\"iptc:subject=15000000, yct:001000001\"
+        data-cpos=\"1\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:1;\"
+        data-action-outcome=\"navigate\">Sports Home</a>\n                </li>\n
+        \               <li>\n                    <a href=\"https://tournament.fantasysports.yahoo.com/\"
+        data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:2;\"
+        data-action-outcome=\"navigate\">Tourney Pick'em</a>\n                </li>\n
+        \               <li>\n                    <a href=\"/fantasy\" data-tags=\"yct:001000854\"
+        data-cpos=\"3\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:3;\"
+        data-action-outcome=\"navigate\">Fantasy</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/nfl/\" data-tags=\"ysports:tag=nfl-tournament,
+        ymedia:category=000000196\" data-cpos=\"4\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:4;\"
+        data-action-outcome=\"navigate\">NFL</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/mlb/\" data-tags=\"ysports:tag=mlb-tournament,
+        ymedia:category=000000197\" data-cpos=\"5\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:5;\"
+        data-action-outcome=\"navigate\">MLB</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/nba/\" data-tags=\"ysports:tag=nba-tournament,
+        iptc:subject=15008001, ymedia:category=000000203\" data-cpos=\"6\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:6;\"
+        data-action-outcome=\"navigate\">NBA</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/nhl/\" data-tags=\"ysports:tag=nhl-tournament,
+        ymedia:category=000000225\" data-cpos=\"7\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:7;\"
+        data-action-outcome=\"navigate\">NHL</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/college-football/\" data-tags=\"yct:001001077\"
+        data-cpos=\"8\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:8;\"
+        data-action-outcome=\"navigate\">NCAAF</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/college-basketball/\" data-tags=\"yct:001001076\"
+        data-cpos=\"9\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:9;\"
+        data-action-outcome=\"navigate\">NCAAB</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/golf/\" data-tags=\"ysports:tag=golf-tournament,
+        media:mark=golf, yct:001000017\" data-cpos=\"10\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:10;\"
+        data-action-outcome=\"navigate\">Golf</a>\n                        <ul class=\"subnav
+        static\">\n                            <li>\n                                <a
+        href=\"http://golf.fantasysports.yahoo.com/\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:1;cat:Golf;\">Fantasy
+        Golf</a>\n                            </li>\n                            <li>\n
+        \                               <a href=\"/golf/tours\" class=\"no-pjax\"
+        data-tags=\"ymedia:subtype=golf-tournament-tours\" data-cpos=\"2\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:2;cat:Golf;\">Pro
+        Tours</a>\n                            </li>\n                            <li>\n
+        \                               <a href=\"/golf/pga/schedule\" class=\"no-pjax\"
+        data-tags=\"ymedia:subtype=golf-tournament-schedule\" data-cpos=\"3\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:3;cat:Golf;\">Schedule</a>\n
+        \                           </li>\n                            <li>\n                                <a
+        href=\"/golf/pga/leaderboard\" class=\"selected Fw-b no-pjax\" data-tags=\"ymedia:subtype=golf-tournament-leaderboard\"
+        data-cpos=\"4\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:4;cat:Golf;\">Leaderboard</a>\n
+        \                           </li>\n                            <li>\n                                <a
+        href=\"/golf/pga/players\" class=\"no-pjax\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:5;cat:Golf;\">Players</a>\n
+        \                           </li>\n                            <li>\n                                <a
+        href=\"/golf/pga/stats\" class=\"no-pjax\" data-tags=\"ymedia:subtype=golf-tournament-stats\"
+        data-cpos=\"6\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:6;cat:Golf;\">Stats</a>\n
+        \                           </li>\n                            <li>\n                                <a
+        href=\"/blogs/golf-devil-ball-golf/\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:7;cat:Golf;\">Devil
+        Ball Golf</a>\n                            </li>\n                            <li>\n
+        \                               <a href=\"/golf/featured/videos/\" data-tags=\"ysports:style=navigation_golfvideohome\"
+        data-cpos=\"8\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:8;cat:Golf;\">Video</a>\n
+        \                           </li>\n                            <li>\n                                <a
+        href=\"http://seatgeek.com/golf-tickets/\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-2;sec:lnav;elm:itm;elmt:cat;cpos:9;cat:Golf;\">Tickets</a>\n
+        \                           </li>\n                        </ul>\n                </li>\n
+        \               <li>\n                    <a href=\"/nascar/\" data-tags=\"ymedia:category=000000230\"
+        data-cpos=\"11\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:11;\"
+        data-action-outcome=\"navigate\">NASCAR</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/boxing/\" data-tags=\"ysports:tag=boxing-tournament,
+        iptc:subject=15014000, yct:001000844\" data-cpos=\"12\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:12;\"
+        data-action-outcome=\"navigate\">Boxing</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/ufc/\" data-tags=\"iptc:subject=15083000, yct:001000880\"
+        data-cpos=\"13\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:13;\"
+        data-action-outcome=\"navigate\">MMA</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/soccer/\" data-tags=\"Soccer Home, yct:001000028\"
+        data-cpos=\"14\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:14;\"
+        data-action-outcome=\"navigate\">Soccer</a>\n                </li>\n                <li>\n
+        \                   <a href=\"/more/\" data-tags=\"ysports:navigation=morepage\"
+        data-cpos=\"15\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:15;\"
+        data-action-outcome=\"navigate\">All Sports</a>\n                </li>\n                <li>\n
+        \                   <a href=\"http://www.rivals.com\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:16;\"
+        data-action-outcome=\"navigate\">Rivals</a>\n                </li>\n                <li>\n
+        \                   <a href=\"http://yahoosports.teamfanshop.com/\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:17;\"
+        data-action-outcome=\"navigate\">Shop</a>\n                </li>\n        </ul>\n
+        \   </nav>\n</div><!-- fe438.global.media.gq1.yahoo.com compressed/chunked
+        Sat Apr  4 16:39:35 UTC 2015 -->\n<!-- End Include: mediacontentnavigation
+        -->\n              </div>\n            </div>\n          </div>\n          <script
+        type=\"text/javascript\">\n            YUI().use('media-content-navigation-desktop',
+        'node-base', function(Y) {\n              new Y.Media.ContentNavigation({\n
+        \                config: {\n                    modId : 'mediacontentnavigation'\n
+        \                },\n                 chrome: Y.Media.pageChrome\n               });\n\n
+        \              Y.one('body').addClass('propertyness-golf');\n            });\n
+        \         </script>        <div id=\"yog-cp\" class=\"yog-col yog-cp\">\n
+        \         <div id=\"yog-cw\" class=\"yog-cw clearfix\">\n            <div
+        class=\"yom-mod yom-app\" id=\"yom-generic-primary\">\n      \n<div id=\"leaderboard\"
+        \ class=\"inprogress\">\n      \n  <div class=\"hd\">\n      <div class=\"header_section\">\n
+        \       \n<h1 class=\"yspPageHeader\">PGA Tour Leaderboard</h1>\n      \n
+        \     </div>\n                        <div class=\"weather\">\n                            <a
+        href=\"http://weather.yahoo.com/united-states/texas/humble-2425495/\"  title=\"Cloudy\"><img
+        src=\"http://l.yimg.com/a/i/us/we/31/26.gif\" border=0  alt=\"Cloudy\"></a>
+        \                           <a href=\"http://weather.yahoo.com/united-states/texas/humble-2425495/\"
+        class=\"loc\">Humble, TX</a>                          <span>Currently:&nbsp;66&deg;&nbsp;F</span>\n
+        \                       </div>\n\n\n    <div class=\"sevenTen\" id=\"statusLine\"
+        >\n\t<span class=\"ten\">Last Updated:  Friday, Apr  3, 2015 8:32 pm, EDT</span>\n\t<span
+        class=\"seven\">Scorecard information will be added at the completion of each
+        round</span>\n</div>\n\n  </div>\n    <div class=\"headerBlock\">\n        \n<h4
+        class=\"yspTitleBar\">Shell Houston Open (Apr 2&nbsp;-&nbsp;5)</h4>\n       <div
+        id=\"past_tours\">\n\n       <form name=\"tour_select\" method=\"get\">\n
+        \      <label for=\"tour_event\">Previous Tournaments</label>\n       <select
+        name=\"tour_event\" onChange=\"goTour()\">\n        <option value=\"http://www.pgatour.com/yahoo/2015/r/020/leaderboard.html\">Shell
+        Houston Open</option><option value=\"http://www.pgatour.com/yahoo/2015/r/041/leaderboard.html\">Valero
+        Texas Open</option><option value=\"http://www.pgatour.com/yahoo/2015/r/009/leaderboard.html\">Arnold
+        Palmer Invitational presented by Mastercard</option><option value=\"http://www.pgatour.com/yahoo/2015/r/475/leaderboard.html\">Valspar
+        Championship</option><option value=\"http://www.pgatour.com/yahoo/2015/r/473/leaderboard.html\">World
+        Golf Championships-Cadillac Championship</option><option value=\"http://www.pgatour.com/yahoo/leaderboard.html\">Puerto
+        Rico Open presented by seepuertorico.com</option><option value=\"http://www.pgatour.com/yahoo/leaderboard.html\">The
+        Honda Classic</option><option value=\"http://www.pgatour.com/yahoo/2015/r/007/leaderboard.html\">Northern
+        Trust Open</option><option value=\"http://www.pgatour.com/yahoo/leaderboard.html\">AT&T
+        Pebble Beach National Pro-Am</option><option value=\"http://www.pgatour.com/yahoo/2015/r/004/leaderboard.html\">Farmers
+        Insurance Open</option><option value=\"http://www.pgatour.com/yahoo/2015/r/003/leaderboard.html\">Waste
+        Management Phoenix Open</option><option value=\"http://www.pgatour.com/yahoo/leaderboard.html\">Humana
+        Challenge in partnership with the Clinton F</option><option value=\"http://www.pgatour.com/yahoo/2015/r/006/leaderboard.html\">Sony
+        Open in Hawaii</option><option value=\"http://www.pgatour.com/yahoo/2015/r/016/leaderboard.html\">Hyundai
+        Tournament of Champions</option><option value=\"http://www.pgatour.com/yahoo/2015/r/457/leaderboard.html\">OHL
+        Classic at Mayakoba</option><option value=\"http://www.pgatour.com/yahoo/2015/r/054/leaderboard.html\">Sanderson
+        Farms Championship</option><option value=\"http://www.pgatour.com/yahoo/2015/r/489/leaderboard.html\">World
+        Golf Championships-HSBC Champions</option><option value=\"http://www.pgatour.com/yahoo/2015/r/494/leaderboard.html\">CIMB
+        Classic</option><option value=\"http://www.pgatour.com/yahoo/2015/r/493/leaderboard.html\">The
+        McGladrey Classic</option><option value=\"http://www.pgatour.com/yahoo/2015/r/047/leaderboard.html\">Shriners
+        Hospitals for Children Open</option><option value=\"http://www.pgatour.com/yahoo/2015/r/464/leaderboard.html\">Frys.com
+        Open</option>       </select>\n       </form>\n       </div>\n                \n<ul
+        \ class=\"keyValueList\" >\n\t<li class=\"first course\"><em>Course:&nbsp;</em><span>Golf
+        Club of Houston - Tournament Course</span></li>\n\t<li class=\"par\"><em>Par:&nbsp;</em><span>72</span></li>\n\t<li
+        class=\"last \"><em>Yardage:&nbsp;</em><span>7,441</span>\n<div class=\"clr\"></div>\n</li>\n</ul>\n
+        \       \n<div class=\"clr\"></div>\n            </div>\n    \n<div id=\"leaderboardtable\">\n
+        \ <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"sportsTable\">\n
+        \   <thead>\n        <tr ><th class=\"position first\" colspan=\"1\"><a href=\"/golf/pga/leaderboard?sort=pos_display\">Pos</a></th>\n<th
+        class=\"player \" colspan=\"1\"><a href=\"/golf/pga/leaderboard?sort=name\">Name</a></th>\n<th
+        colspan=\"1\" class=\"\"><a href=\"/golf/pga/leaderboard?sort=rnd_display_1\">1</a></th>\n<th
+        colspan=\"1\" class=\"\"><a href=\"/golf/pga/leaderboard?sort=rnd_display_2\">2</a></th>\n<th
+        colspan=\"1\" class=\"\"><a href=\"/golf/pga/leaderboard?sort=rnd_display_3\">3</a></th>\n<th
+        colspan=\"1\" class=\"\"><a href=\"/golf/pga/leaderboard?sort=rnd_display_4\">4</a></th>\n<th
+        colspan=\"1\" class=\"\"><a href=\"/golf/pga/leaderboard?sort=today_display\">Today</a></th>\n<th
+        colspan=\"1\" class=\"\"><a href=\"/golf/pga/leaderboard?sort=completed_holes_display\">Thru</a></th>\n<th
+        class=\"total selected descending \" colspan=\"1\"><a href=\"/golf/pga/leaderboard?sort=total_display&order=asc\">Total</a></th>\n<th
+        colspan=\"1\" class=\"last\"><a href=\"/golf/pga/leaderboard?sort=strokes_display\">Strokes</a></th></tr>
+        \   </thead>\n    <tbody>\n        <tr class=\"oddRow\"><td class=\"position
+        first\">\n1\n</td>\n<td class=\"player \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Putnam/11153/scorecard/2015/18\">Andrew
+        Putnam</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n65\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-7\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-12\n</td>\n<td class=\"last\">\n132\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT2\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Phil+Mickelson/29/scorecard/2015/18\">Phil
+        Mickelson</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-11\n</td>\n<td class=\"last\">\n133\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT2\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Austin+Cook/18437/scorecard/2015/18\">Austin
+        Cook</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n65\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-7\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-11\n</td>\n<td class=\"last\">\n133\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT4\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Graham+DeLaet/6406/scorecard/2015/18\">Graham
+        DeLaet</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n134\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT4\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Luke+Guthrie/11784/scorecard/2015/18\">Luke
+        Guthrie</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n134\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Shawn+Stefani/10189/scorecard/2015/18\">Shawn
+        Stefani</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/JB+Holmes/5998/scorecard/2015/18\">J.B.
+        Holmes</a>\n</td>\n<td class=\"\">\n65\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jordan+Spieth/11107/scorecard/2015/18\">Jordan
+        Spieth</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Hunter+Mahan/3531/scorecard/2015/18\">Hunter
+        Mahan</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Mark+Wilson/991/scorecard/2015/18\">Mark
+        Wilson</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Victor+Dubuisson/8103/scorecard/2015/18\">Victor
+        Dubuisson</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Keegan+Bradley/10143/scorecard/2015/18\">Keegan
+        Bradley</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chris+Stroud/7297/scorecard/2015/18\">Chris
+        Stroud</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Alex+Prugh/9163/scorecard/2015/18\">Alex
+        Prugh</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Michael+Putnam/8064/scorecard/2015/18\">Michael
+        Putnam</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jonas+Blixt/7182/scorecard/2015/18\">Jonas
+        Blixt</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charles+Howell+III/577/scorecard/2015/18\">Charles
+        Howell III</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Russell+Henley/11062/scorecard/2015/18\">Russell
+        Henley</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Alex+Cejka/525/scorecard/2015/18\">Alex
+        Cejka</a>\n</td>\n<td class=\"\">\n65\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Nick+Watney/5974/scorecard/2015/18\">Nick
+        Watney</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Tony+Finau/8805/scorecard/2015/18\">Tony
+        Finau</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kelvin+Day/11541/scorecard/2015/18\">Kelvin
+        Day</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Paul+Casey/3946/scorecard/2015/18\">Paul
+        Casey</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Rose/1038/scorecard/2015/18\">Justin
+        Rose</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charley+Hoffman/696/scorecard/2015/18\">Charley
+        Hoffman</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Piercy/4726/scorecard/2015/18\">Scott
+        Piercy</a>\n</td>\n<td class=\"\">\n63\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n+2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Johnson+Wagner/5932/scorecard/2015/18\">Johnson
+        Wagner</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jhonattan+Vegas/5943/scorecard/2015/18\">Jhonattan
+        Vegas</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Rickie+Fowler/9633/scorecard/2015/18\">Rickie
+        Fowler</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Sergio+Garcia/1040/scorecard/2015/18\">Sergio
+        Garcia</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ryan+Moore/5217/scorecard/2015/18\">Ryan
+        Moore</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Cody+Gribble/13931/scorecard/2015/18\">Cody
+        Gribble</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Cameron+Tringale/10182/scorecard/2015/18\">Cameron
+        Tringale</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Gonzalo+FernandezCasta/3880/scorecard/2015/18\">Gonzalo
+        Fernandez-Casta</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brendan+Steele/9555/scorecard/2015/18\">Brendan
+        Steele</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chad+Collins/4484/scorecard/2015/18\">Chad
+        Collins</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charl+Schwartzel/4891/scorecard/2015/18\">Charl
+        Schwartzel</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chesson+Hadley/11378/scorecard/2015/18\">Chesson
+        Hadley</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jason+Bohn/3226/scorecard/2015/18\">Jason
+        Bohn</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/John+Huh/11092/scorecard/2015/18\">John
+        Huh</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/David+Hearn/5725/scorecard/2015/18\">David
+        Hearn</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Matt+Kuchar/737/scorecard/2015/18\">Matt
+        Kuchar</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Padraig+Harrington/404/scorecard/2015/18\">Padraig
+        Harrington</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Streelman/6074/scorecard/2015/18\">Kevin
+        Streelman</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Erik+Compton/3273/scorecard/2015/18\">Erik
+        Compton</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jim+Herman/9508/scorecard/2015/18\">Jim
+        Herman</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Thomas/10701/scorecard/2015/18\">Justin
+        Thomas</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Patrick+Reed/11250/scorecard/2015/18\">Patrick
+        Reed</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Michael+Thompson/9607/scorecard/2015/18\">Michael
+        Thompson</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Pat+Perez/3462/scorecard/2015/18\">Pat
+        Perez</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Tom+Hoge/11792/scorecard/2015/18\">Tom
+        Hoge</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Francesco+Molinari/3885/scorecard/2015/18\">Francesco
+        Molinari</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brendon+de+Jonge/6872/scorecard/2015/18\">Brendon
+        de Jonge</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/JJ+Henry/1020/scorecard/2015/18\">J.J.
+        Henry</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Derek+Ernst/13096/scorecard/2015/18\">Derek
+        Ernst</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Brown/8620/scorecard/2015/18\">Scott
+        Brown</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/KJ+Choi/659/scorecard/2015/18\">K.J.
+        Choi</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Daniel+Berger/13967/scorecard/2015/18\">Daniel
+        Berger</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Oscar+Fraustro/9525/scorecard/2015/18\">Oscar
+        Fraustro</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Whee+Kim/11715/scorecard/2015/18\">Whee
+        Kim</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Sung+Joon+Park/11067/scorecard/2015/18\">Sung
+        Joon Park</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Blayne+Barber/11782/scorecard/2015/18\">Blayne
+        Barber</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Sam+Saunders/8477/scorecard/2015/18\">Sam
+        Saunders</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charlie+Beljan/9721/scorecard/2015/18\">Charlie
+        Beljan</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Stewart+Cink/186/scorecard/2015/18\">Stewart
+        Cink</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ernie+Els/15/scorecard/2015/18\">Ernie
+        Els</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ben+Crane/3028/scorecard/2015/18\">Ben
+        Crane</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chez+Reavie/5000/scorecard/2015/18\">Chez
+        Reavie</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Bo+Van+Pelt/1685/scorecard/2015/18\">Bo
+        Van Pelt</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Adam+Hadwin/11148/scorecard/2015/18\">Adam
+        Hadwin</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kyle+Reifers/8618/scorecard/2015/18\">Kyle
+        Reifers</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jamie+Donaldson/3937/scorecard/2015/18\">Jamie
+        Donaldson</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brian+Davis/1060/scorecard/2015/18\">Brian
+        Davis</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Bill+Haas/3610/scorecard/2015/18\">Bill
+        Haas</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chad+Campbell/1219/scorecard/2015/18\">Chad
+        Campbell</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Billy+Hurley+III/8476/scorecard/2015/18\">Billy
+        Hurley III</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jason+Kokrak/9166/scorecard/2015/18\">Jason
+        Kokrak</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Danny+Lee/8922/scorecard/2015/18\">Danny
+        Lee</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Robert+Streb/11275/scorecard/2015/18\">Robert
+        Streb</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Louis+Oosthuizen/4894/scorecard/2015/18\">Louis
+        Oosthuizen</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Martin+Flores/8319/scorecard/2015/18\">Martin
+        Flores</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jarrod+Lyle/7544/scorecard/2015/18\">Jarrod
+        Lyle</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jeff+Overton/8259/scorecard/2015/18\">Jeff
+        Overton</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Blake+Adams/9059/scorecard/2015/18\">Blake
+        Adams</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jim+Renner/9323/scorecard/2015/18\">Jim
+        Renner</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jon+Curran/11159/scorecard/2015/18\">Jon
+        Curran</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Kisner/8615/scorecard/2015/18\">Kevin
+        Kisner</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Joost+Luiten/8048/scorecard/2015/18\">Joost
+        Luiten</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Hudson+Swafford/11161/scorecard/2015/18\">Hudson
+        Swafford</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Lee+Westwood/302/scorecard/2015/18\">Lee
+        Westwood</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Leonard/23/scorecard/2015/18\">Justin
+        Leonard</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Derek+Fathauer/9397/scorecard/2015/18\">Derek
+        Fathauer</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Aaron+Baddeley/3175/scorecard/2015/18\">Aaron
+        Baddeley</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Fredrik+Jacobson/1056/scorecard/2015/18\">Fredrik
+        Jacobson</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ryo+Ishikawa/9115/scorecard/2015/18\">Ryo
+        Ishikawa</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/David+Toms/163/scorecard/2015/18\">David
+        Toms</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brice+Garnett/8702/scorecard/2015/18\">Brice
+        Garnett</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Steven+Bowditch/5860/scorecard/2015/18\">Steven
+        Bowditch</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Angel+Cabrera/494/scorecard/2015/18\">Angel
+        Cabrera</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ken+Duke/532/scorecard/2015/18\">Ken
+        Duke</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jerry+Kelly/183/scorecard/2015/18\">Jerry
+        Kelly</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Troy+Merritt/9921/scorecard/2015/18\">Troy
+        Merritt</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brian+Harman/6937/scorecard/2015/18\">Brian
+        Harman</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Woody+Austin/25/scorecard/2015/18\">Woody
+        Austin</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Stallings/9183/scorecard/2015/18\">Scott
+        Stallings</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Anirban+Lahiri/10574/scorecard/2015/18\">Anirban
+        Lahiri</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Steve+Wheatcroft/4798/scorecard/2015/18\">Steve
+        Wheatcroft</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Fabian+Gomez/9155/scorecard/2015/18\">Fabian
+        Gomez</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Martin+Kaymer/6303/scorecard/2015/18\">Martin
+        Kaymer</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/John+Merrick/7280/scorecard/2015/18\">John
+        Merrick</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Matt+Jones/4932/scorecard/2015/18\">Matt
+        Jones</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Chappell/9800/scorecard/2015/18\">Kevin
+        Chappell</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Colt+Knost/9089/scorecard/2015/18\">Colt
+        Knost</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Will+MacKenzie/3534/scorecard/2015/18\">Will
+        MacKenzie</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jonathan+Randolph/11249/scorecard/2015/18\">Jonathan
+        Randolph</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Danny+Willett/9611/scorecard/2015/18\">Danny
+        Willett</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jonathan+Byrd/3623/scorecard/2015/18\">Jonathan
+        Byrd</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Langley/11158/scorecard/2015/18\">Scott
+        Langley</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/DA+Points/4148/scorecard/2015/18\">D.A.
+        Points</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Zac+Blair/14011/scorecard/2015/18\">Zac
+        Blair</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Carl+Pettersson/3968/scorecard/2015/18\">Carl
+        Pettersson</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Nick+Taylor/4027/scorecard/2015/18\">Nick
+        Taylor</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ben+Willman/5966/scorecard/2015/18\">Ben
+        Willman</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Smylie+Kaufman/18459/scorecard/2015/18\">Smylie
+        Kaufman</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Carlos+Ortiz/10730/scorecard/2015/18\">Carlos
+        Ortiz</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Nicholas+Thompson/8416/scorecard/2015/18\">Nicholas
+        Thompson</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Roger+Sloan/11044/scorecard/2015/18\">Roger
+        Sloan</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ricky+Barnes/3472/scorecard/2015/18\">Ricky
+        Barnes</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\n129\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Pinckney/11696/scorecard/2015/18\">Scott
+        Pinckney</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n147\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT130\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Bryce+Molder/2469/scorecard/2015/18\">Bryce
+        Molder</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n79\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n148\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT130\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/David+Lingmerth/11270/scorecard/2015/18\">David
+        Lingmerth</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n148\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT130\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Darren+Clarke/387/scorecard/2015/18\">Darren
+        Clarke</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n77\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n148\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Greg+Owen/1368/scorecard/2015/18\">Greg
+        Owen</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Robert+Allenby/259/scorecard/2015/18\">Robert
+        Allenby</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n76\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Cameron+Percy/3945/scorecard/2015/18\">Cameron
+        Percy</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n76\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Landry/10193/scorecard/2015/18\">Andrew
+        Landry</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT137\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Svoboda/8600/scorecard/2015/18\">Andrew
+        Svoboda</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n75\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n150\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT137\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Mikko+Ilonen/3604/scorecard/2015/18\">Mikko
+        Ilonen</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n76\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n150\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT137\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Max+Homa/13933/scorecard/2015/18\">Max
+        Homa</a>\n</td>\n<td class=\"\">\n80\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n150\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\n140\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Mark+Hubbard/14062/scorecard/2015/18\">Mark
+        Hubbard</a>\n</td>\n<td class=\"\">\n77\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n151\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\n141\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Tim+Wilkinson/5907/scorecard/2015/18\">Tim
+        Wilkinson</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n77\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n153\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT142\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Andres+Romero/4088/scorecard/2015/18\">Andres
+        Romero</a>\n</td>\n<td class=\"\">\n80\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n154\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT142\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Verplank/56/scorecard/2015/18\">Scott
+        Verplank</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n80\n</td>\n<td
+        class=\"\">\nDQ\n</td>\n<td class=\"\">\nDQ\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n154\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\n144\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Robert+Garrigus/3458/scorecard/2015/18\">Robert
+        Garrigus</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n36\n</td>\n<td
+        class=\"\">\nCUT\n</td>\n<td class=\"\">\nCUT\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n111\n</td>\n</tr>
+        \          </tbody>\n  </table>\n</div>\n    </div>\n\n<script type=\"text/javascript\">\nfunction
+        goTour()\n{\n  host = 'sports.yahoo.com';\n  selectObj = document.tour_select.tour_event;\n
+        \ index = document.tour_select.tour_event.selectedIndex;\n  \n  url = selectObj.options[index].value;\n\n
+        \ window.location.href = 'http://' + host + url;\n}\n</script>\n            </div>\n
+        \         </div>\n        </div>\n\n\n        <div id=\"yog-rp\" class=\"yog-col
+        yog-rp yog-sky\">\n          <div id=\"yog-rw\" class=\"yog-rw clearfix\">\n
+        \           <div class=\"yom-mod yom-app\" id=\"yom-generic-secondary\">\n
+        \         <div id=\"yspSubContentWrapper\">\n        <a name=\"subcontent\"></a>\n
+        \       <div id=\"yspAdWrapper\">\n  <!-- ESI ad insert: SKY--><div id=\"yom-ad-SKY\"
+        class=\"yom-ad yom-ad-SKY\" style=\"visibility: inherit;\"><center><div id=\"yom-ad-SKY-iframe\"
+        class=\"yom-ad\"><center><!-- SpaceID=0 robot -->\n</center></div></center></div><!--
+        ESI ad insert finished --></div> \n\n<div class=\"clr\"></div>\n      </div>\n
+        \               </div>\n    <!-- Start Include: mediafooterinfo : Include
+        Method: Fallback --><div id=\"mediafooterinfo\" class=\"yom-mod yom-footer-info
+        Pb-10 Ta-c Bd-t App_v2\" role=\"contentinfo\">\n    <div class=\"bd Lh-12
+        M-0 P-0 Fz-xs\">\n        <div class=\"copyright-providers Mb-10 Mt-0 P-0\">\n
+        \           <cite></cite>\n        </div>\n        <div class=\"disclaimer
+        Mb-10 Mt-0 P-0 Fz-s\">\n            <cite></cite>\n        </div>\n        <div
+        class=\"copyright Fz-xs Ta-c\">\n            <span class=\"Fz-xs Mx-4 D-b\">Yahoo
+        Sports - NBC Sports Network, Stats LLC, Opta. All Rights Reserved</span>\n
+        \           <ul class=\"D-ib M-0 P-0\">\n                <li class=\"first
+        D-i Fz-xs Mx-4 My-0 P-0\">\n                    <a href=\"http://help.yahoo.com/l/us/yahoo/sports/\">Help</a>
+        / <a href=\"https://yahoo.uservoice.com/forums/207810-us-sports-gs\">Suggestions</a>\n
+        \               </li>\n                <li class=\"D-i Fz-xs Mx-4 My-0 P-0\">\n
+        \                   <a href=\"http://info.yahoo.com/privacy/us/yahoo/\">Privacy</a>\n
+        \               </li>\n                <li class=\"D-i Fz-xs Mx-4 My-0 P-0\">\n
+        \                   <a href=\"http://info.yahoo.com/relevantads/\">About Our
+        Ads</a>\n                </li>\n                <li class=\"last D-i Fz-xs
+        Mx-4 My-0 P-0\">\n                    <a href=\"http://info.yahoo.com/legal/us/yahoo/utos/utos-173.html\">Terms</a>\n
+        \               </li>\n            </ul>\n        </div>\n        \n    </div>\n</div><!--
+        fe440.global.media.gq1.yahoo.com compressed/chunked Sat Apr  4 16:39:35 UTC
+        2015 -->\n<!-- End Include: mediafooterinfo -->          </div>\n        </div>\n
+        \     </div>\n    </div>\n    <!-- Start Footer -->\n    <div id=\"yspFooterWrapper\">\n
+        \     \n<div class=\"footer\">\n<script type=\"text/javascript\">\n(function(r)
+        {\n  if(! r) {\n    return;\n  }\n\n  if(typeof YMEDIA_REQ_ATTR === 'object'
+        && typeof YMEDIA_REQ_ATTR.instr === 'object') {\n    r.rapidConfig.keys =
+        r.rapidConfig.keys || {};\n    r.rapidConfig.keys.authfb = YMEDIA_REQ_ATTR.instr.authfb;\n
+        \   r.rapidConfig.keys.rid = YMEDIA_REQ_ATTR.instr.request_id;\n  }\n\n  if(typeof
+        r.initRapid === 'function') {\n    r.initRapid();\n  }\n\n  else if(YAHOO
+        && YAHOO.i13n && YAHOO.i13n.Rapid) {\n    r.rapidConfig.tracked_mods = typeof
+        r.rapidConfig.tracked_mods === 'object' && r.rapidConfig.tracked_mods.concat(r.moduleQueue)
+        || r.moduleQueue;\n    r.moduleQueue = [];\n    r.rapidInstance = new YAHOO.i13n.Rapid(r.rapidConfig);\n
+        \ }\n}(YMedia.rapid));\n\nYMedia.later(10, this, function() {\n  try {\n    YMEDIA_REQ_ATTR.csbeacon();\n
+        \ } catch (e) {\n  }\n});\n</script>\n<iframe id=\"yom-ad-darla-callframe-darla\"
+        style=\"display:none;\"></iframe><!-- ESI ad insert: SDARLA--><div id=\"yom-ad-SDARLA\"
+        class=\"yom-ad yom-ad-SDARLA\" style=\"visibility: inherit;\"><center><div
+        id=\"yom-ad-SDARLA-iframe\" class=\"yom-ad\"><center><script type='text/javascript'
+        src='http://l.yimg.com/rq/darla/2-8-8/js/g-r-min.js'></script><script type=\"text/x-safeframe\"
+        id=\"fc\" _ver=\"2-8-8\">{ \"positions\": [  ], \"meta\": { \"y\": { \"pageEndHTML\":
+        \"\", \"pos_list\": [ \"NT1\",\"SKY\" ], \"filtered\": [ \"NT1\",\"SKY\" ],
+        \"spaceID\": \"97476878\", \"host\": \"sports.yahoo.com\", \"lookupTime\":
+        \"1\", \"k2_uri\": \"\", \"fac_rt\": \"\", \"serveTime\":\"-1\", \"pvid\":
+        \"xYXsLzIwNi6QNdQMQWUywAExNzYuMVUgE8f_0OeI\", \"tID\": \"darla_prefetch_1428165575579_1357006470_1\",
+        \"npv\": \"1\", \"ep\": \"{\\\"site-attribute\\\":\\\"can_suppress_ugc=\\\\\\\"1\\\\\\\"\\\",\\\"ult\\\":{\\\"ln\\\":{\\\"slk\\\":\\\"ads\\\"}},\\\"nopageview\\\":true,\\\"ref\\\":\\\"http:\\\\/\\\\/sports.yahoo.com\\\\/golf\\\\/pga\\\\/leaderboard\\\",\\\"filter\\\":\\\"no_expandable;exp_iframe_expandable;\\\",\\\"darlaID\\\":\\\"darla_instance_1428165575579_1877655457_0\\\"}\",
+        \"pe\": \"\", \"pym\": \"\" } } } </script></center></div></center></div><!--
+        ESI ad insert finished --><!-- ESI ad insert: SDARLAEXTRA--><div id=\"yom-ad-SDARLAEXTRA\"
+        class=\"yom-ad yom-ad-SDARLAEXTRA\" style=\"visibility: inherit;\"><center><div
+        id=\"yom-ad-SDARLAEXTRA-iframe\" class=\"yom-ad\"><center><script type='text/javascript'>\nDARLA_CONFIG
+        = {\"useYAC\":0,\"usePE\":0,\"servicePath\":\"http:\\/\\/sports.yahoo.com\\/__darla\\/php\\/fc.php\",\"xservicePath\":\"\",\"beaconPath\":\"http:\\/\\/sports.yahoo.com\\/__darla\\/php\\/b.php\",\"renderPath\":\"\",\"allowFiF\":false,\"srenderPath\":\"http:\\/\\/l.yimg.com\\/rq\\/darla\\/2-8-8\\/html\\/r-sf.html\",\"renderFile\":\"http:\\/\\/l.yimg.com\\/rq\\/darla\\/2-8-8\\/html\\/r-sf.html\",\"sfbrenderPath\":\"http:\\/\\/l.yimg.com\\/rq\\/darla\\/2-8-8\\/html\\/r-sf.html\",\"msgPath\":\"http:\\/\\/sports.yahoo.com\\/__darla\\/2-8-8\\/html\\/msg.html\",\"cscPath\":\"http:\\/\\/l.yimg.com\\/rq\\/darla\\/2-8-8\\/html\\/r-csc.html\",\"root\":\"__darla\",\"edgeRoot\":\"http:\\/\\/l.yimg.com\\/rq\\/darla\\/2-8-8\",\"sedgeRoot\":\"https:\\/\\/s.yimg.com\\/rq\\/darla\\/2-8-8\",\"version\":\"2-8-8\",\"tpbURI\":\"\",\"hostFile\":\"http:\\/\\/l.yimg.com\\/rq\\/darla\\/2-8-8\\/js\\/g-r-min.js\",\"beaconsDisabled\":true,\"rotationTimingDisabled\":true,\"fdb_locale\":\"What
+        don't you like about this ad?|It's offensive|Something else|Thank you for
+        helping us improve your Yahoo experience|It's not relevant|It's distracting|I
+        don't like this ad|Send|Done|Why do I see ads?|Learn more about your feedback.\",\"positions\":{\"NT1\":[],\"SKY\":[]}};\nDARLA_CONFIG.servicePath
+        = DARLA_CONFIG.servicePath.replace(/\\:8033/g, \"\");\nDARLA_CONFIG.msgPath
+        = DARLA_CONFIG.msgPath.replace(/\\:8033/g, \"\");\nDARLA_CONFIG.k2E2ERate
+        = 2;\nDARLA_CONFIG.positions = {\"FOOT\":{\"w\":\"1\",\"h\":\"1\",\"dest\":\"yom-ad-FOOT-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"FOOT\",\"id\":\"FOOT\",\"clean\":\"yom-ad-FOOT\",\"rmxp\":0},\"SKY\":{\"w\":\"160\",\"h\":\"600\",\"dest\":\"yom-ad-SKY-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"SKY\",\"id\":\"SKY\",\"clean\":\"yom-ad-SKY\",\"rmxp\":0},\"NT1\":{\"w\":\"954\",\"h\":\"60\",\"dest\":\"yom-ad-NT1-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"NT1\",\"id\":\"NT1\",\"clean\":\"yom-ad-NT1\",\"rmxp\":0},\"LDRB2\":{\"w\":\"728\",\"h\":\"90\",\"dest\":\"yom-ad-LDRB2-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"LDRB2\",\"id\":\"LDRB2\",\"clean\":\"yom-ad-LDRB2\",\"rmxp\":0,\"metaSize\":true},\"LDRB\":{\"w\":\"728\",\"h\":\"90\",\"dest\":\"yom-ad-LDRB-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"LDRB\",\"id\":\"LDRB\",\"clean\":\"yom-ad-LDRB\",\"rmxp\":0,\"z\":20,\"metaSize\":true,\"supports\":{\"exp-ovr\":1,\"exp-push\":1}},\"LDRB-1\":{\"w\":\"728\",\"h\":\"90\",\"dest\":\"yom-ad-LDRB-iframe-lb\",\"fr\":\"expIfr_exp\",\"pos\":\"LDRB\",\"id\":\"LDRB-1\",\"clean\":\"yom-ad-LDRB-lb\",\"rmxp\":0,\"z\":20,\"metaSize\":true,\"supports\":{\"exp-ovr\":1,\"exp-push\":1}},\"LREC3\":{\"w\":\"300\",\"h\":\"250\",\"dest\":\"yom-ad-LREC3-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"LREC3\",\"id\":\"LREC3\",\"clean\":\"yom-ad-LREC3\",\"rmxp\":0,\"metaSize\":true,\"supports\":{\"exp-ovr\":1}},\"LREC2\":{\"w\":\"300\",\"h\":\"250\",\"dest\":\"yom-ad-LREC2-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"LREC2\",\"id\":\"LREC2\",\"clean\":\"yom-ad-LREC2\",\"rmxp\":0,\"metaSize\":true,\"supports\":{\"exp-ovr\":1}},\"LREC2-1\":{\"w\":\"300\",\"h\":\"250\",\"dest\":\"yom-ad-LREC2-iframe-lb\",\"fr\":\"expIfr_exp\",\"pos\":\"LREC2\",\"id\":\"LREC2-1\",\"clean\":\"yom-ad-LREC2-lb\",\"rmxp\":0,\"metaSize\":true,\"supports\":{\"exp-ovr\":1}},\"LREC\":{\"w\":\"300\",\"h\":\"250\",\"dest\":\"yom-ad-LREC-iframe\",\"fr\":\"expIfr_exp\",\"pos\":\"LREC\",\"id\":\"LREC\",\"clean\":\"yom-ad-LREC\",\"rmxp\":0,\"metaSize\":true,\"supports\":{\"exp-ovr\":1,\"lyr\":1}},\"LREC-1\":{\"w\":\"300\",\"h\":\"250\",\"dest\":\"yom-ad-LREC-iframe-lb\",\"fr\":\"expIfr_exp\",\"pos\":\"LREC\",\"id\":\"LREC-1\",\"clean\":\"yom-ad-LREC-lb\",\"rmxp\":0,\"metaSize\":true,\"supports\":{\"exp-ovr\":1,\"lyr\":1}}};DARLA_CONFIG.positions['DEFAULT']
+        = { meta: { title: document.title, url: document.URL || location.href, urlref:
+        document.referrer }};\nDARLA_CONFIG.events = {\"darla\":{\"lvl\":\"\",\"sp\":\"97476878\",\"npv\":true,\"bg\":\"\",\"sa\":\"can_suppress_ugc=\\\"1\\\"\",\"sa_orig\":\"can_suppress_ugc=\\\"1\\\"\",\"filter\":\"no_expandable;exp_iframe_expandable;\",\"mpid\":\"692\",\"mpnm\":\"yahoo_mobile_us_web\",\"locale\":\"US\",\"ps\":\"NT1,SKY\",\"ml\":\"\",\"mps\":\"\",\"ssl\":\"0\"}};DARLA_CONFIG.viewRate
+        = 100;YMedia.later(10, this, function() {YMedia.use(\"node-base\", function(Y){\n\n
+        \   /* YUI Ads Darla begins... */\n    YUI.AdsDarla = (function (){\n\n        var
+        NAME = 'AdsDarla',\n            LB_EVENT = 'lightbox',\n            AUTO_EVENT
+        = 'AUTO',\n            LREC3_EVENT = 'lrec3Event',\n            MUTEX_ADS
+        = {},\n            AD_PERF_COMP = [];\n\n        if (DARLA_CONFIG.positions
+        && DARLA_CONFIG.positions['TL1']) {\n            var navlink = Y.one('ul.navlist
+        li>a'),\n                linkcolor;\n            if (navlink) {\n                linkcolor
+        = navlink.getStyle('color');\n                DARLA_CONFIG.positions['TL1'].css
+        = \".ad-tl2b {overflow:hidden; text-align:left;} p {margin:0px;} .y-fp-pg-controls
+        {margin-top:5px; margin-bottom:5px;} #tl1_slug { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size:12px; color:\" + linkcolor + \";} #fc_align a {font-family:'Helvetica
+        Neue',Helvetica,Arial,sans-serif; font-size:11px; color:\" + linkcolor + \";}
+        a:link {text-decoration:none;} a:hover {color: \" + linkcolor + \";}\";\n
+        \           }\n        }\nvar priorityPosBatch = [],\n    deferredPosBatch
+        = [],\n    aboveTheFold = [],\n    perf_pos_set = false;\n\nDARLA_CONFIG.onSuccess
+        = function(act_evt_name, rendered_pos_ids)\n{   \n    var cnt = (rendered_pos_ids
+        && rendered_pos_ids.length) || 0,   \n        pos_id, pos_list = ['LREC','LREC2',
+        'LREC3'],\n        adContainer, adModule, reactSidekick;\n    \n    reactSidekick
+        = Y.one('#td-applet-react-sidekick_container');\n\n    for(var k in pos_list){
+        \n        pos_id = pos_list[k];\n        adModule = Y.one('.yog-rp #yom-ad-'
+        + pos_id);\n        if(!adModule) {\n            continue;\n        }\n        if
+        ('LREC' === pos_id) {\n            adModule.addClass('yom-app');\n            continue;\n
+        \       }\n        adContainer = adModule.one('div');\n        if(!adContainer\n
+        \            || (adContainer.getComputedStyle('width') === '1px'\n                 &&
+        adContainer.getComputedStyle('height') === '1px')\n             || adContainer.getComputedStyle('width')
+        === '0px'\n             || adContainer.getComputedStyle('height') === '0px'){\n
+        \           adModule.setStyle('display', 'none');\n            Y.log(pos_id
+        + ' is hidden because either it has no container, it is 1x1 blank ads or it
+        is not rendered', 'info', 'darla');\n            continue;\n        } else
+        if (reactSidekick && pos_id === 'LREC3' && adModule.getStyle('display') ===
+        'none') {\n            adModule.show();\n        }\n\n        if (!reactSidekick)
+        {\n          adModule.addClass('yom-app');\n        }\n    }                  \n
+        \   if (!cnt) {\n        return;   \n    }\n    Y.Global.fire('darla:success',
+        {    \n        positions: rendered_pos_ids     \n    });     \n    Y.log('fetch
+        ad success: ' + rendered_pos_ids.join(', '), 'info', 'darla');     \n};\n\nDARLA_CONFIG.onFailure
+        = function (eventId) {\n    var positions = null;\n    try {\n        positions
+        = DARLA_CONFIG.events[eventId].ps.split(',');\n    } catch (e) {}\n\n    Y.Global.fire('darla:failure',
+        {\n        positions: positions\n    });\n    Y.log('fetch ad failure ' +
+        eventId + (positions ? (': ' + positions.join(', ')) : ''), 'warn', 'darla');\n};\n\nDARLA_CONFIG.onFinishParse
+        = function(eventId, result) {\n    var noads = [], ps = result.ps(),\n        i,
+        l, position, posObj, mutexPos, posName, container, display, mast, set_ad_perf
+        = false, renderedPos = [],\n        re = /([A-Z0-9]+)(-[0-9]+)*/;\n\n    \n
+        \   if (AD_PERF_COMP.length > 0) {\n        set_ad_perf = true;\n    }\n            \n
+        \   for (i = 0, l = ps.length; i < l; i++) {\n        position = ps[i];\n
+        \       posObj = result.item(position);\n            \n            \n        if
+        (!posObj || posObj.hasErr) {\n            noads.push(position);\n            //
+        noad should be included in the selective rendering 2nd batch as well\n            deferredPosBatch.push(position);\n
+        \       } else {\n            // for selective rendering\n            if (aboveTheFold.indexOf(position)
+        >= 0) {\n                priorityPosBatch.push(position);\n            } else
+        {                   \n                deferredPosBatch.push(position);\n            }\n
+        \           \n            // for xAFT\n            if (posObj.size + '' !==
+        '1x1') {\n                renderedPos.push(position);\n            }\n        }\n
+        \   }\n            \n    if (set_ad_perf && !perf_pos_set) {\n        Y.log('set
+        ___allAdsPos___', 'info', 'darla');\n        window.___allAdsPos___ = renderedPos;\n
+        \       perf_pos_set = true;\n    } else {\n        Y.log('No need to set
+        ___allAdsPos___', 'info', 'darla');\n    }\n\n    /* MAST position is not
+        part of AUTO rotate \n    * so check MAST is already present & visible on
+        the page\n    * If yes, then add it to ps, so that MUTEX Ad containers are
+        as it is.\n    */\n    mast = Y.one('#yom-ad-MAST');\n    if (mast && parseInt(mast.getStyle('height'))
+        > 1 && mast.getStyle('display') !== 'none' && ps.indexOf('MAST') === -1) {\n
+        \       ps.push('MAST');                          \n    }\t\t\t\n\n    //
+        handle mutual exclusion for client side fetched ads only for lightbox\n    if
+        (eventId === LB_EVENT) {\n        for (position in MUTEX_ADS) {\n            if
+        (MUTEX_ADS.hasOwnProperty(position) && ps.indexOf(position) >= 0 && noads.indexOf(position)
+        === -1) {\n                for (i = 0, l = MUTEX_ADS[position].length; i <
+        l; i++) {\n                    mutexPos = MUTEX_ADS[position][i];\n                    if
+        (ps.indexOf(mutexPos) >= 0 && noads.indexOf(mutexPos) === -1) {\n\n                      /**
+        For FILM-1 (on lightbox) , if either LREC or LREC2 is returned with proper
+        Ads (not 1x1 pixel)\n                      *  then hide FILM-1 & show LRECs.\n
+        \                     */      \n                      if (position === 'FILM-1'
+        && result.item(mutexPos).size + '' !== '1x1') {\n                        noads.push(position);\n
+        \                     } else {                                            \n
+        \                       noads.push(mutexPos);\n                      }\n                    }\n
+        \               }\n            }\n        }\n\n        // handle LREC 1x1
+        blank ad from client side\n        if (ps.indexOf('LREC') >=0 && noads.indexOf('LREC')
+        === -1) {\n            if (result.item('LREC').size + '' === '1x1') {\n                noads.push('LREC');\n
+        \           }\n        }\n\n        for (i = 0, l = ps.length; i < l; i++)
+        {\n            position = ps[i];\n            posName = re.exec(position)[1];\n
+        \           container = Y.one('.yom-ad-'+posName);\n            if (container)
+        {\n                display = container.getStyle('display');\n                if
+        (display === 'none' && noads.indexOf(position) === -1) {\n                    container.show();\n
+        \               } else if (display !== 'none' && noads.indexOf(position) >=
+        0) {\n                    container.hide();\n                }\n            }\n
+        \       }\n    }\n\n    // reset the hight of the LDRB container\n    if (ps.indexOf('LDRB')
+        >= 0 && result.item('LDRB')) {\n        \n        if (noads.indexOf('LDRB')
+        <= 0){\n            var clearAdModule = Y.one('#yom-ad-LDRB');\n            if
+        (result.item('LDRB').size + '' !== '1x1') {\n                clearAdModule.setStyle('height',
+        '');\n                Y.log('LDRB height is reset to blank.', 'info', 'darla');\n
+        \           } else {\n                clearAdModule.setStyle('height', '5px');\n
+        \               Y.log('LDRB height is reset to 5px.', 'info', 'darla');\n
+        \           }\n        } else {\n            Y.log('LDRB is noad or size is
+        1x1', 'info', 'darla');\n        }\n    }\n\n    // reset the hight of the
+        MAST container\n    var clearAdModule = Y.one('#yom-ad-MAST');\n    clearAdModule.setStyle('height',
+        '');\n\n    // LREC3 React Sidekick C1Backfill\n    if (eventId === LREC3_EVENT
+        && typeof SidekickAdsHandlerInstance !== \"undefined\" && noads.indexOf('LREC3')
+        !== -1) {\n      YMedia.Global.fire(\"sidekick:backfill\");\n    }\n\n};\n
+        \   /* setting up DARLA events */\n    var w = window,\n        D = w.DARLA,\n
+        \       C = w.DARLA_CONFIG,\n        DM = w.DOC_DOMAIN_SET || 0;\n    if (D)
+        {\n        if (D && C) {\n            C.dm = DM;\n        }\n\n\n        /*
+        setting DARLA configuration */\n        DARLA.config(C);\n\n        /* prefetch
+        Ads if applicable */\n        DARLA.prefetched(\"fc\");\n\n        /* rendering
+        prefetched Ad */\n\n        DARLA.render();\n\n\n    }\n\n    return {\n        event:
+        function (eventId, spaceId, adsSa) {\n            if (window.DARLA && eventId)
+        {\n                var eventConfig = {};\n                if (!isNaN(spaceId))
+        {\n                    eventConfig.sp = spaceId;\n                }\n                /*
+        Site attributes */\n                adsSa = (typeof adsSa !== \"undefined\"
+        && adsSa !== null) ? adsSa : \"\";\n                eventConfig.sa = DARLA_CONFIG.events[eventId].sa_orig.replace
+        ? DARLA_CONFIG.events[eventId].sa_orig.replace(\"ADSSA\", adsSa) : \"\";\n
+        \               DARLA.event(eventId, eventConfig);\n            }\n        },\n
+        \       render: function() {\n            if (!!(Y.one('#yom-slideshow-lightbox')
+        || Y.one('#content-lightbox') || false)) {\n                /* skip configuring
+        DARLA in case of lightbox being triggered */\n            } else {\n                //
+        abort current darla action\n                if (DARLA && DARLA.abort) {\n
+        \                   DARLA.abort();\n                }\n\n                /*
+        setting DARLA configuration */\n                DARLA.config(DARLA_CONFIG);\n\n
+        \               /* prefetch Ads if applicable */\n                DARLA.prefetched(\"fc\");\n\n
+        \               /* rendering prefetched Ad */\n                DARLA.render();\n
+        \           }\n        }\n    };\n\n})(); /* End of YUI.AdsDarla */\n\nYUI.AdsDarla.darla
+        = { fetch: (Y.bind(YUI.AdsDarla.event, YUI.AdsDarla, 'darla')) };    YUI.AdsDarla.fetch
+        = YUI.AdsDarla.darla.fetch;\n    Y.Global.fire('darla:ready'); \n}); /* End
+        of YMedia */}); /* End of YMedia.later */var ___adLT___ = [];\nfunction onDarlaFinishPosRender(position)
+        {\n  if (window.performance !== undefined && window.performance.now !== undefined)
+        {\n    var ltime = window.performance.now();\n    ___adLT___.push(['AD_'+position,
+        Math.round(ltime)]);\n    setTimeout(function () {\n        if (window.LH
+        !== undefined && window.YAFT !== undefined && window.YAFT.isInitialized())
+        {\n          window.YAFT.triggerCustomTiming('yom-ad-'+position, '', ltime);\n
+        \       }\n    },1000);\n  }\n}\n\nif ((DARLA && DARLA.config) || DARLA_CONFIG)
+        {\n    var oldConf = DARLA.config() || DARLA_CONFIG || null;\n    if (oldConf)
+        {\n        if (oldConf.onFinishPosRender) {\n            (function() {\n                var
+        oldVersion = oldConf.onFinishPosRender;\n                oldConf.onFinishPosRender
+        = function(position) {\n                    onDarlaFinishPosRender(position);\n
+        \                   return oldVersion.apply(me, arguments);\n                };\n
+        \           })();\n        } else {\n            oldConf.onFinishPosRender
+        \ = onDarlaFinishPosRender;\n        }\n        DARLA.config(oldConf);\n    }\n}\n\n</script></center></div></center></div><!--
+        ESI ad insert finished --></div>\n<script type=\"text/javascript\">  YAHOO.Sports.oFlyout.oFantasy
+        = {\n             my_teams : {  h5 : 'My Teams and Leagues', ul : []},\n              other_games
+        : { h5  : 'Fantasy Games',\n                              text : '<ul class=\"other-games\"><li
+        class=\"odd\"><a href=\"http://football.fantasysports.yahoo.com\">Football</a></li><li
+        class=\"even\"><a href=\"http://baseball.fantasysports.yahoo.com\">Baseball</a></li><li
+        class=\"odd\"><a href=\"http://hockey.fantasysports.yahoo.com\">Hockey</a></li><li
+        class=\"even\"><a href=\"http://basketball.fantasysports.yahoo.com\">Basketball</a></li><li
+        class=\"odd\"><a href=\"http://football.fantasysports.yahoo.com/pickem\">Pro
+        Pick\\'em</a></li><li class=\"even\"><a href=\"http://football.fantasysports.yahoo.com/survival\">Survival
+        Football</a></li><li class=\"odd\"><a href=\"http://football.fantasysports.yahoo.com/college\">College
+        Pick\\'em</a></li><li class=\"even\"><a href=\"http://football.fantasysports.yahoo.com/bowl\">College
+        Bowl Pick\\'em</a></li><li class=\"odd\"><a href=\"http://golf.fantasysports.yahoo.com/\">Golf</a></li><li
+        class=\"even\"><a href=\"http://racing.fantasysports.yahoo.com/\">Auto Racing</a></li><li
+        class=\"odd\"><a href=\"http://sports.yahoo.com/fantasy/soccer/jointhegame\">Soccer</a></li><li
+        class=\"even\"><a href=\"http://fantasysports.yahoo.com/moregames\">More Games
+        &raquo;</a></li></ul>' }, more_link : false    };</script>\n    </div>\n    <!--
+        End Footer -->\n  </div>\n</body>\n</html>\n\n<!-- fe49.sports.gq1.yahoo.com
+        Sat Apr  4 09:39:35 PDT 2015 -->\n<!-- ad prefetch pagecsc setting -->"
+    http_version: 
+  recorded_at: Sat, 04 Apr 2015 16:39:36 GMT
+recorded_with: VCR 2.9.3

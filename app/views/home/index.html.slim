@@ -12,11 +12,16 @@
       td
       td = @my_total
     -@my_scores.each do |score|
-      tr
+      tr.js-player-row
         td = score.name
         td = score_or_time(score)
         td = score.thru
         td = score.total
+      tr.hide
+        td = score.first_round
+        td = score.second_round
+        td = score.third_round
+        td = score.fourth_round
 
 - @other_teams.each do |team|
   h4 =team[:user]
@@ -33,8 +38,13 @@
       td
       td = team[:total]
     -team[:scores].each do |score|
-      tr
+      tr.js-player-row
         td = score.name
         td = score_or_time(score)
         td = score.thru
         td = score.total
+      tr.hide
+        td = score.first_round
+        td = score.second_round
+        td = score.third_round
+        td = score.fourth_round

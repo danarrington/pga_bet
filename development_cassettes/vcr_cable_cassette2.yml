@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 06 Apr 2015 15:16:29 GMT
+      - Sat, 04 Apr 2015 16:39:35 GMT
       P3p:
       - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
         TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
@@ -33,8 +33,8 @@ http_interactions:
       Vary:
       - Host,Accept-Encoding,X-Ssl
       Via:
-      - http/1.1 media-border79.global.media.gq1.yahoo.com (ApacheTrafficServer [cMsSf
-        ]), http/1.1 r06.ycpi.gq1.yahoo.net (ApacheTrafficServer [cMsSf ])
+      - http/1.1 media-border98.global.media.gq1.yahoo.com (ApacheTrafficServer [cMsSf
+        ]), http/1.1 r06.ycpi.lax.yahoo.net (ApacheTrafficServer [cMsSf ])
       Server:
       - ATS
       Age:
@@ -64,7 +64,7 @@ http_interactions:
         (!window.YAHOO) { window.YAHOO = {}; } if (!YAHOO.Media) { YAHOO.Media = {};
         } if (!YAHOO.widget) { YAHOO.widget = {}; }</script>\n<script>if (!window.YMedia)
         { var YMedia = YUI(); YMedia.includes = []; YMedia.module_includes = []; }</script>\n<script>window.YMEDIA_REQ_ATTR
-        = {device:{\"os\":\"\",\"osver\":\"\"},instr:{request_id:\"d8m62uhai58qd\",authfb:0},csbeacon:function(isPjax,
+        = {device:{\"os\":\"\",\"osver\":\"\"},instr:{request_id:\"70fa4ahai04u7\",authfb:0},csbeacon:function(isPjax,
         spaceId) { if(! this._hasIssuedCsBeacon || isPjax) { this._hasIssuedCsBeacon
         = true; var spaceId = spaceId || \"97476878\",    ssl = \"0\";if(typeof YAHOO
         === \"object\" && typeof YAHOO.i13n === \"object\" && typeof YAHOO.i13n.sendComscoreEvent
@@ -73,8 +73,8 @@ http_interactions:
         YAHOO.i13n.setSsl(\"0\");YAHOO.i13n.sendComscoreEvent(); } } },_hasIssuedCsBeacon:false};</script><noscript><div><img
         src=\"http://b.scorecardresearch.com/b?c1=2&c2=7241469&c7=sports.yahoo.com%2F__embed-top%2F&c5=97476878&c14=-1&cv=2.0&cj=1\"
         style=\"display:none\" width=\"0\" height=\"0\" alt=\"\" /></div></noscript><script>window.YMEDIA_CRUMB
-        = \"\";</script><!-- fe675.global.media.gq1.yahoo.com compressed/chunked Mon
-        Apr  6 15:16:29 UTC 2015 -->\n\n<script>YUI.Env.add(window, 'unload', function()
+        = \"\";</script><!-- fe425.global.media.gq1.yahoo.com compressed/chunked Sat
+        Apr  4 16:39:35 UTC 2015 -->\n\n<script>YUI.Env.add(window, 'unload', function()
         { try { YMEDIA_REQ_ATTR.csbeacon(); } catch (e) {} });</script>\n<script>\n
         \                               window.YAHOO = window.YAHOO || {};\n                                window.YAHOO.i13n
         = window.YAHOO.i13n || {};\n\n                                YAHOO.i13n.beacon_server
@@ -135,8 +135,8 @@ http_interactions:
         {\n                                        'bd'   : 'body',\n                                        'mods'
         : '.yom-mod'\n                                    }\n                                }\n
         \                           });});\n           \n});\n\n        \n        </script>\n\n<!--
-        myproperty:myservice-US:0:Success -->\n<!-- fe580.global.media.gq1.yahoo.com
-        compressed/chunked Mon Apr  6 15:16:29 UTC 2015 -->\n\n<!-- end edgepipe embed-top
+        myproperty:myservice-US:0:Success -->\n<!-- fe363.global.media.gq1.yahoo.com
+        compressed/chunked Sat Apr  4 16:39:35 UTC 2015 -->\n\n<!-- end edgepipe embed-top
         -->\n<link type=\"text/css\" rel=\"stylesheet\" media=\"screen\" href=\"/assets/eJx1z0FPwjAYxvFPtAJVJIsnYiBCgCFTI6emvH3Zxrp29O2G3ad3wZjs4uk5_P6XB4hGLRcaMwmB7TifNd0kyl8_L8_QE9XWeRKU25oFmF9K1J5eQvaLhcdboVAY2YocpUInztZ6dMx_P6FrtevkNr63tZahZ0LpIGeyOa_lARbNcq7uDLaqrBmpgkBbahyyNJ1Q2hze_LHbDpNAdVRZ9bds_PUw3Zk466Jk_18HOUJZGBaXZvVx3ZwMJH7Y9u8t08fVbbpch_07vw4xc9Io0rJiJsEZnh4BFo7_AAmCcwI,.css?z&m\"
         />\n    <script>\n      var YUI_config = { combine:true,base:\"http://l.yimg.com/\",comboBase:\"http://l.yimg.com/zz/combo?\",gallery:\"yui:gallery-2011.04.20-13-04\",groups:{yui2:{combine:true,base:\"http://l.yimg.com/d/lib/yui/2in3.4/2.9.0/build/\",comboBase:\"http://l.yimg.com/zz/combo?\",root:\"/d/lib/yui/2in3.4/2.9.0/build/\",patterns:{\"yui2-\":{configFn:function(me){if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\\.js/,'.css');me.path=me.path.replace(/\\/yui2-skin/,'/assets/skins/sam/yui2-skin');}}}}},sports:{bucket:\"\",combine:true,base:\"http://l.yimg.com/os/mit/media/m/sports/\",comboBase:\"http://l.yimg.com/zz/combo?\",root:\"/os/mit/media/m/sports/\",modules:{\"ys-plugin-overlay-surround\":{path:\"plugin-overlay-surround-min-145300.js\",requires:[\"plugin\",\"base-build\",\"node-screen\",\"event-resize\"]},\"ys-plugin-overlay-close\":{path:\"plugin-overlay-close-min-140631.js\",requires:[\"plugin\",\"base-build\",\"node-event-delegate\"]},\"ys-plugin-playernote-view\":{path:\"plugin-playernote-view-min-145300.js\",requires:[\"plugin\",\"base-build\"]},\"ys-playernote-views-notes\":{path:\"playernote-views-default-min-140773.js\",requires:[\"plugin\",\"base-build\"]},\"ys-playernote\":{path:\"playernote-min-157732.js\",requires:[\"overlay\",\"io-base\",\"json-parse\",\"ys-plugin-overlay-surround\",\"ys-plugin-overlay-close\",\"dd-plugin\",\"ys-playernote-css\",\"substitute\",\"ys-plugin-playernote-view\"]},\"ys-playernotes\":{path:\"playernotes-min-150286.js\",requires:[\"node-event-delegate\",\"base-build\",\"selector-css3\"]},\"ys-playernote-tabs\":{path:'playernote-tabs-min-323571.js',requires:['plugin','base-build','node-event-delegate','transition','ys-playernote-tabs-css']},\"ys-playernote-tabs-css\":{path:'playernote-tabs-min-323571.css',type:'css'},\"ys-playernote-css\":{path:\"playernote-min-153108.css\",type:\"css\"},\"ys-playernote-views-twitter\":{path:'playernote-views-twitter-min-145300.js',requires:['ys-plugin-playernote-view','ys-playernote-views-twitter-css','node-event-delegate','node-style','selector-css3']},\"ys-playernote-views-twitter-css\":{path:'playernote-views-twitter-min-199290.css',/*todo*/type:'css'}}},media:{combine:true,base:\"http://l.yimg.com/d/lib/media/m/\",comboBase:\"http://l.yimg.com/zz/combo?\",root:\"/d/lib/media/m/\",modules:{\"social_buttons\":{path:\"social_buttons/social-buttons-min-4519.js\",requires:[\"node-base\",\"widget\",\"substitute\",\"querystring-stringify-simple\",\"intl\",\"fb_all\",\"json-parse\",\"jsonp\"]},\"media:socialbuttons_en-US\":{path:\"social_buttons/l10n/strings_en-us-min-4540.js\",requires:[\"intl\"]}}}},modules:{\"fb_all\":{fullpath:\"https://connect.facebook.net/en_US/all.js\"},\"ysp-scorestream\":{fullpath:\"/assets/js/common/ysp-mod/ysp-scorestream._mxTkcYFonxO.js?m\",requires:['gallery-comet-stream','io-base','event-custom','json','node','base','querystring-stringify']},\"ysp-photo-carousel\":{fullpath:\"/assets/js/manager._btYBpoQfSQ1;js/carousel.1G250Ffh2zOb.js?m\"},\"ywa\":{fullpath:\"http://d.yimg.com/mi/vs3/ywa.js\"},\"disclosure\":{fullpath:\"http://l.yimg.com/a/lib/platforms/vitality/disc/rm/disclosure-1.4.js\"},\"yep3\":{fullpath:\"http://yep.video.yahoo.com/js/3/videoplayer-min.js\"},\"ysp-i13n\":{fullpath:\"/assets/js/i13n.xMViRFzNDqfi.js?m\"}}
         };\n      YUI_config.root = \"yui:3.16.0/build/\";\n    </script>\n    <script>\n
@@ -206,7 +206,7 @@ http_interactions:
         \ yucs-standard\"><!-- meta --><div id=\"yucs-meta\" data-authstate=\"signedout\"
         data-cobrand=\"standard\" data-crumb=\"\" data-mc-crumb=\"\" data-gta=\"\"
         data-device=\"desktop\" data-experience=\"GS\" data-firstname=\"\" data-style=\"\"
-        data-flight=\"1428333389\" data-forcecobrand=\"standard\" data-guid=\"\" data-host=\"sports.yahoo.com\"
+        data-flight=\"1428165575\" data-forcecobrand=\"standard\" data-guid=\"\" data-host=\"sports.yahoo.com\"
         data-https=\"0\" data-languagetag=\"en-us\" data-property=\"sports\" data-protocol=\"http\"
         data-shortfirstname=\"\" data-shortuserid=\"\" data-status=\"active\" data-spaceid=\"\"
         data-test_id=\"\" data-userid=\"\" data-stickyheader=\"true\" data-headercollapse=\"\"
@@ -289,7 +289,7 @@ http_interactions:
         - sdts) < 60480000) { s = true; } } if (!s) { m = document.getElementById('yucs-top-ff-promo');
         m.className = m.className.replace(/yucs-hide/g,''); } }</script></div><div
         id=\"yucs\" class=\"yucs yucs-mc  yog-grid\" data-lang=\"en-us\" data-property=\"sports\"
-        data-flight=\"1428333389\" data-linktarget=\"_top\" data-uhvc=\"/\"> <div
+        data-flight=\"1428165575\" data-linktarget=\"_top\" data-uhvc=\"/\"> <div
         class=\"yucs-fl-left yog-cp\">   <div id=\"yucs-logo\"> <style> #yucs #yucs-logo-ani
         { width:119px ; height:34px; background-image:url(https://s.yimg.com/rz/l/yahoo_sports_en-US_f_pw_119x34.png)
         ; _background-image:url(https://s.yimg.com/rz/l/yahoo_sports_en-US_f_pw_119x34.gif)
@@ -371,8 +371,8 @@ http_interactions:
         class=\"yucs-hide yucs-offscreen yucs-location-activate\" data-appid=\"yahoo.locdrop.ucs.desktop\"
         data-crumb=\"\"><!-- empty for ie --></div><div id=\"yUnivHead\" class=\"yucs-hide\"><!--
         empty --></div><div id=\"yhelp_container\" class=\"yui3-skin-sam\"></div></div><!--
-        alert --><!-- /alert --></section><!-- fe320.global.media.gq1.yahoo.com compressed/chunked
-        Mon Apr  6 15:16:29 UTC 2015 -->\n<!-- End Include: header -->\n            </header><div
+        alert --><!-- /alert --></section><!-- fe442.global.media.gq1.yahoo.com compressed/chunked
+        Sat Apr  4 16:39:35 UTC 2015 -->\n<!-- End Include: header -->\n            </header><div
         id=\"nt1\" class=\"mod\">\n    <!-- ESI ad insert: NT1--><div id=\"yom-ad-NT1\"
         class=\"yom-ad yom-ad-NT1\" style=\"visibility: inherit;\"><center><div id=\"yom-ad-NT1-iframe\"
         class=\"yom-ad\"><center><!-- SpaceID=0 robot -->\n</center></div></center></div><!--
@@ -461,8 +461,8 @@ http_interactions:
         data-action-outcome=\"navigate\">Rivals</a>\n                </li>\n                <li>\n
         \                   <a href=\"http://yahoosports.teamfanshop.com/\" data-ylk=\"itc:0;tar:sports.yahoo.com;ct:naventry;rspns:nav;t1:a2;t2:lnav;t3:st;t4:m-1;sec:lnav;elm:itm;elmt:cat;cpos:17;\"
         data-action-outcome=\"navigate\">Shop</a>\n                </li>\n        </ul>\n
-        \   </nav>\n</div><!-- fe309.global.media.gq1.yahoo.com compressed/chunked
-        Mon Apr  6 15:16:29 UTC 2015 -->\n<!-- End Include: mediacontentnavigation
+        \   </nav>\n</div><!-- fe438.global.media.gq1.yahoo.com compressed/chunked
+        Sat Apr  4 16:39:35 UTC 2015 -->\n<!-- End Include: mediacontentnavigation
         -->\n              </div>\n            </div>\n          </div>\n          <script
         type=\"text/javascript\">\n            YUI().use('media-content-navigation-desktop',
         'node-base', function(Y) {\n              new Y.Media.ContentNavigation({\n
@@ -475,12 +475,12 @@ http_interactions:
         \ class=\"inprogress\">\n      \n  <div class=\"hd\">\n      <div class=\"header_section\">\n
         \       \n<h1 class=\"yspPageHeader\">PGA Tour Leaderboard</h1>\n      \n
         \     </div>\n                        <div class=\"weather\">\n                            <a
-        href=\"http://weather.yahoo.com/united-states/texas/humble-2425495/\"  title=\"Mostly
-        Cloudy\"><img src=\"http://l.yimg.com/a/i/us/we/31/28.gif\" border=0  alt=\"Mostly
-        Cloudy\"></a>                            <a href=\"http://weather.yahoo.com/united-states/texas/humble-2425495/\"
-        class=\"loc\">Humble, TX</a>                          <span>Currently:&nbsp;75&deg;&nbsp;F</span>\n
+        href=\"http://weather.yahoo.com/united-states/texas/humble-2425495/\"  title=\"Cloudy\"><img
+        src=\"http://l.yimg.com/a/i/us/we/31/26.gif\" border=0  alt=\"Cloudy\"></a>
+        \                           <a href=\"http://weather.yahoo.com/united-states/texas/humble-2425495/\"
+        class=\"loc\">Humble, TX</a>                          <span>Currently:&nbsp;66&deg;&nbsp;F</span>\n
         \                       </div>\n\n\n    <div class=\"sevenTen\" id=\"statusLine\"
-        >\n\t<span class=\"ten\">Last Updated:  Sunday, Apr  5, 2015 6:26 pm, EDT</span>\n\t<span
+        >\n\t<span class=\"ten\">Last Updated:  Friday, Apr  3, 2015 8:32 pm, EDT</span>\n\t<span
         class=\"seven\">Scorecard information will be added at the completion of each
         round</span>\n</div>\n\n  </div>\n    <div class=\"headerBlock\">\n        \n<h4
         class=\"yspTitleBar\">Shell Houston Open (Apr 2&nbsp;-&nbsp;5)</h4>\n       <div
@@ -524,373 +524,363 @@ http_interactions:
         class=\"total selected descending \" colspan=\"1\"><a href=\"/golf/pga/leaderboard?sort=total_display&order=asc\">Total</a></th>\n<th
         colspan=\"1\" class=\"last\"><a href=\"/golf/pga/leaderboard?sort=strokes_display\">Strokes</a></th></tr>
         \   </thead>\n    <tbody>\n        <tr class=\"oddRow\"><td class=\"position
-        first\">\nT1\n</td>\n<td class=\"player \">\n<a id=\"\" href=\"/golf/pga/players/JB+Holmes/5998/scorecard/2015/18\">J.B.
-        Holmes</a>\n</td>\n<td class=\"\">\n65\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n64\n</td>\n<td class=\"\">\n-8\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-16\n</td>\n<td class=\"last\">\n272\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT1\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Johnson+Wagner/5932/scorecard/2015/18\">Johnson
-        Wagner</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n66\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-16\n</td>\n<td class=\"last\">\n272\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT1\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jordan+Spieth/11107/scorecard/2015/18\">Jordan
-        Spieth</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\n67\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-16\n</td>\n<td class=\"last\">\n272\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\n4\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Russell+Henley/11062/scorecard/2015/18\">Russell
-        Henley</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n68\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-14\n</td>\n<td class=\"last\">\n274\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT5\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Brendon+de+Jonge/6872/scorecard/2015/18\">Brendon
-        de Jonge</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n67\n</td>\n<td
-        class=\"\">\n68\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n-5\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-13\n</td>\n<td class=\"last\">\n275\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT5\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Keegan+Bradley/10143/scorecard/2015/18\">Keegan
-        Bradley</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-13\n</td>\n<td class=\"last\">\n275\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT5\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Cameron+Tringale/10182/scorecard/2015/18\">Cameron
-        Tringale</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n-4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-13\n</td>\n<td class=\"last\">\n275\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT5\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Charles+Howell+III/577/scorecard/2015/18\">Charles
-        Howell III</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-13\n</td>\n<td class=\"last\">\n275\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\n9\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Paul+Casey/3946/scorecard/2015/18\">Paul
-        Casey</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-12\n</td>\n<td class=\"last\">\n276\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\n10\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Piercy/4726/scorecard/2015/18\">Scott
-        Piercy</a>\n</td>\n<td class=\"\">\n63\n</td>\n<td class=\"\">\n74\n</td>\n<td
-        class=\"\">\n66\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n+2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-11\n</td>\n<td class=\"last\">\n277\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT11\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Charley+Hoffman/696/scorecard/2015/18\">Charley
-        Hoffman</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n74\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n-5\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n278\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT11\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Pat+Perez/3462/scorecard/2015/18\">Pat
-        Perez</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n-5\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n278\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT11\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Kyle+Reifers/8618/scorecard/2015/18\">Kyle
-        Reifers</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n-4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n278\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT11\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Chad+Collins/4484/scorecard/2015/18\">Chad
-        Collins</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n278\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT11\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Alex+Cejka/525/scorecard/2015/18\">Alex
-        Cejka</a>\n</td>\n<td class=\"\">\n65\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n278\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT11\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Austin+Cook/18437/scorecard/2015/18\">Austin
-        Cook</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n65\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n+3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n278\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Victor+Dubuisson/8103/scorecard/2015/18\">Victor
-        Dubuisson</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n78\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n-6\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/John+Huh/11092/scorecard/2015/18\">John
-        Huh</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n-4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Charlie+Beljan/9721/scorecard/2015/18\">Charlie
-        Beljan</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Chris+Stroud/7297/scorecard/2015/18\">Chris
-        Stroud</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n74\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jason+Bohn/3226/scorecard/2015/18\">Jason
-        Bohn</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n67\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
+        first\">\n1\n</td>\n<td class=\"player \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Putnam/11153/scorecard/2015/18\">Andrew
+        Putnam</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n65\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-7\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-12\n</td>\n<td class=\"last\">\n132\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT2\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Phil+Mickelson/29/scorecard/2015/18\">Phil
         Mickelson</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n67\n</td>\n<td
-        class=\"\">\n75\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Luke+Guthrie/11784/scorecard/2015/18\">Luke
-        Guthrie</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT17\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Patrick+Reed/11250/scorecard/2015/18\">Patrick
-        Reed</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\n67\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n279\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Adam+Hadwin/11148/scorecard/2015/18\">Adam
-        Hadwin</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/David+Hearn/5725/scorecard/2015/18\">David
-        Hearn</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n-4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Mark+Wilson/991/scorecard/2015/18\">Mark
-        Wilson</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\n76\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Brendan+Steele/9555/scorecard/2015/18\">Brendan
-        Steele</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n67\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Whee+Kim/11715/scorecard/2015/18\">Whee
-        Kim</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jonas+Blixt/7182/scorecard/2015/18\">Jonas
-        Blixt</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n74\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Nick+Watney/5974/scorecard/2015/18\">Nick
-        Watney</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Putnam/11153/scorecard/2015/18\">Andrew
-        Putnam</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n65\n</td>\n<td
-        class=\"\">\n76\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Daniel+Berger/13967/scorecard/2015/18\">Daniel
-        Berger</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Hunter+Mahan/3531/scorecard/2015/18\">Hunter
-        Mahan</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Michael+Putnam/8064/scorecard/2015/18\">Michael
-        Putnam</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT25\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Shawn+Stefani/10189/scorecard/2015/18\">Shawn
-        Stefani</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n69\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n+4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n280\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT37\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Ben+Crane/3028/scorecard/2015/18\">Ben
-        Crane</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n281\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT37\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Chez+Reavie/5000/scorecard/2015/18\">Chez
-        Reavie</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n-3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n281\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT37\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Brown/8620/scorecard/2015/18\">Scott
-        Brown</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n281\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT37\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Rose/1038/scorecard/2015/18\">Justin
-        Rose</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n281\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT37\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Sergio+Garcia/1040/scorecard/2015/18\">Sergio
-        Garcia</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\n69\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n+2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n281\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Tony+Finau/8805/scorecard/2015/18\">Tony
-        Finau</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n77\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n-4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Alex+Prugh/9163/scorecard/2015/18\">Alex
-        Prugh</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n75\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Charl+Schwartzel/4891/scorecard/2015/18\">Charl
-        Schwartzel</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-11\n</td>\n<td class=\"last\">\n133\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT2\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Austin+Cook/18437/scorecard/2015/18\">Austin
+        Cook</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n65\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-7\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-11\n</td>\n<td class=\"last\">\n133\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT4\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Graham+DeLaet/6406/scorecard/2015/18\">Graham
         DeLaet</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n67\n</td>\n<td
-        class=\"\">\n75\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Cody+Gribble/13931/scorecard/2015/18\">Cody
-        Gribble</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Gonzalo+FernandezCasta/3880/scorecard/2015/18\">Gonzalo
-        Fernandez-Casta</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Streelman/6074/scorecard/2015/18\">Kevin
-        Streelman</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n69\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n+2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT42\n</td>\n<td class=\"player
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n134\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT4\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Luke+Guthrie/11784/scorecard/2015/18\">Luke
+        Guthrie</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-10\n</td>\n<td class=\"last\">\n134\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Shawn+Stefani/10189/scorecard/2015/18\">Shawn
+        Stefani</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/JB+Holmes/5998/scorecard/2015/18\">J.B.
+        Holmes</a>\n</td>\n<td class=\"\">\n65\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jordan+Spieth/11107/scorecard/2015/18\">Jordan
+        Spieth</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Hunter+Mahan/3531/scorecard/2015/18\">Hunter
+        Mahan</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Mark+Wilson/991/scorecard/2015/18\">Mark
+        Wilson</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT6\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Victor+Dubuisson/8103/scorecard/2015/18\">Victor
+        Dubuisson</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-9\n</td>\n<td class=\"last\">\n135\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Keegan+Bradley/10143/scorecard/2015/18\">Keegan
+        Bradley</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chris+Stroud/7297/scorecard/2015/18\">Chris
+        Stroud</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Alex+Prugh/9163/scorecard/2015/18\">Alex
+        Prugh</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Michael+Putnam/8064/scorecard/2015/18\">Michael
+        Putnam</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jonas+Blixt/7182/scorecard/2015/18\">Jonas
+        Blixt</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT12\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charles+Howell+III/577/scorecard/2015/18\">Charles
+        Howell III</a>\n</td>\n<td class=\"\">\n66\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-8\n</td>\n<td class=\"last\">\n136\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Russell+Henley/11062/scorecard/2015/18\">Russell
+        Henley</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Alex+Cejka/525/scorecard/2015/18\">Alex
+        Cejka</a>\n</td>\n<td class=\"\">\n65\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Nick+Watney/5974/scorecard/2015/18\">Nick
+        Watney</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Tony+Finau/8805/scorecard/2015/18\">Tony
+        Finau</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Kelvin+Day/11541/scorecard/2015/18\">Kelvin
         Day</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n68\n</td>\n<td class=\"\">\n77\n</td>\n<td class=\"\">\n+5\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n282\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT50\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Chesson+Hadley/11378/scorecard/2015/18\">Chesson
-        Hadley</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\n75\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n283\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT50\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Stewart+Cink/186/scorecard/2015/18\">Stewart
-        Cink</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n283\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT50\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Sung+Joon+Park/11067/scorecard/2015/18\">Sung
-        Joon Park</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n283\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT50\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Thomas/10701/scorecard/2015/18\">Justin
-        Thomas</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n283\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT50\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/KJ+Choi/659/scorecard/2015/18\">K.J.
-        Choi</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n68\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n+3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n283\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT55\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Erik+Compton/3273/scorecard/2015/18\">Erik
-        Compton</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n284\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT55\n</td>\n<td class=\"player
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Paul+Casey/3946/scorecard/2015/18\">Paul
+        Casey</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Rose/1038/scorecard/2015/18\">Justin
+        Rose</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charley+Hoffman/696/scorecard/2015/18\">Charley
+        Hoffman</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Piercy/4726/scorecard/2015/18\">Scott
+        Piercy</a>\n</td>\n<td class=\"\">\n63\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n+2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT18\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Johnson+Wagner/5932/scorecard/2015/18\">Johnson
+        Wagner</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-7\n</td>\n<td class=\"last\">\n137\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Jhonattan+Vegas/5943/scorecard/2015/18\">Jhonattan
         Vegas</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n71\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n+3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n284\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Blayne+Barber/11782/scorecard/2015/18\">Blayne
-        Barber</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n75\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n-2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Derek+Ernst/13096/scorecard/2015/18\">Derek
-        Ernst</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n74\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Francesco+Molinari/3885/scorecard/2015/18\">Francesco
-        Molinari</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n74\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Ryan+Moore/5217/scorecard/2015/18\">Ryan
-        Moore</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n76\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Ernie+Els/15/scorecard/2015/18\">Ernie
-        Els</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n72\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Bo+Van+Pelt/1685/scorecard/2015/18\">Bo
-        Van Pelt</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n+3\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/JJ+Henry/1020/scorecard/2015/18\">J.J.
-        Henry</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n69\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n+4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT57\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jim+Herman/9508/scorecard/2015/18\">Jim
-        Herman</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n70\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n+4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-3\n</td>\n<td class=\"last\">\n285\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT65\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Tom+Hoge/11792/scorecard/2015/18\">Tom
-        Hoge</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\n76\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n-1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-2\n</td>\n<td class=\"last\">\n286\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT65\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Sam+Saunders/8477/scorecard/2015/18\">Sam
-        Saunders</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\n73\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n+1\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-2\n</td>\n<td class=\"last\">\n286\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT67\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Oscar+Fraustro/9525/scorecard/2015/18\">Oscar
-        Fraustro</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n75\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-1\n</td>\n<td class=\"last\">\n287\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT67\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Michael+Thompson/9607/scorecard/2015/18\">Michael
-        Thompson</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\n76\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\nE\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-1\n</td>\n<td class=\"last\">\n287\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT67\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Padraig+Harrington/404/scorecard/2015/18\">Padraig
-        Harrington</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\n74\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n+2\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-1\n</td>\n<td class=\"last\">\n287\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\n70\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Matt+Kuchar/737/scorecard/2015/18\">Matt
-        Kuchar</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\n71\n</td>\n<td class=\"\">\n78\n</td>\n<td class=\"\">\n+6\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\nE\n</td>\n<td class=\"last\">\n288\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\n71\n</td>\n<td class=\"player
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Rickie+Fowler/9633/scorecard/2015/18\">Rickie
         Fowler</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\n77\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n+4\n</td>\n<td
-        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n+3\n</td>\n<td class=\"last\">\n291\n</td>\n</tr><tr
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Sergio+Garcia/1040/scorecard/2015/18\">Sergio
+        Garcia</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ryan+Moore/5217/scorecard/2015/18\">Ryan
+        Moore</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Cody+Gribble/13931/scorecard/2015/18\">Cody
+        Gribble</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Cameron+Tringale/10182/scorecard/2015/18\">Cameron
+        Tringale</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Gonzalo+FernandezCasta/3880/scorecard/2015/18\">Gonzalo
+        Fernandez-Casta</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brendan+Steele/9555/scorecard/2015/18\">Brendan
+        Steele</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chad+Collins/4484/scorecard/2015/18\">Chad
+        Collins</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charl+Schwartzel/4891/scorecard/2015/18\">Charl
+        Schwartzel</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chesson+Hadley/11378/scorecard/2015/18\">Chesson
+        Hadley</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jason+Bohn/3226/scorecard/2015/18\">Jason
+        Bohn</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n11:10 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT28\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/John+Huh/11092/scorecard/2015/18\">John
+        Huh</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-6\n</td>\n<td class=\"last\">\n138\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/David+Hearn/5725/scorecard/2015/18\">David
+        Hearn</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Matt+Kuchar/737/scorecard/2015/18\">Matt
+        Kuchar</a>\n</td>\n<td class=\"\">\n67\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n11:20 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Padraig+Harrington/404/scorecard/2015/18\">Padraig
+        Harrington</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Streelman/6074/scorecard/2015/18\">Kevin
+        Streelman</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Erik+Compton/3273/scorecard/2015/18\">Erik
+        Compton</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n11:30 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jim+Herman/9508/scorecard/2015/18\">Jim
+        Herman</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Thomas/10701/scorecard/2015/18\">Justin
+        Thomas</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Patrick+Reed/11250/scorecard/2015/18\">Patrick
+        Reed</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n11:40 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Michael+Thompson/9607/scorecard/2015/18\">Michael
+        Thompson</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Pat+Perez/3462/scorecard/2015/18\">Pat
+        Perez</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT41\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Tom+Hoge/11792/scorecard/2015/18\">Tom
+        Hoge</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n11:50 am</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-5\n</td>\n<td class=\"last\">\n139\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Francesco+Molinari/3885/scorecard/2015/18\">Francesco
+        Molinari</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brendon+de+Jonge/6872/scorecard/2015/18\">Brendon
+        de Jonge</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n67\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-5\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/JJ+Henry/1020/scorecard/2015/18\">J.J.
+        Henry</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Derek+Ernst/13096/scorecard/2015/18\">Derek
+        Ernst</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Brown/8620/scorecard/2015/18\">Scott
+        Brown</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/KJ+Choi/659/scorecard/2015/18\">K.J.
+        Choi</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:10 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Daniel+Berger/13967/scorecard/2015/18\">Daniel
+        Berger</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Oscar+Fraustro/9525/scorecard/2015/18\">Oscar
+        Fraustro</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Whee+Kim/11715/scorecard/2015/18\">Whee
+        Kim</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:20 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Sung+Joon+Park/11067/scorecard/2015/18\">Sung
+        Joon Park</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Blayne+Barber/11782/scorecard/2015/18\">Blayne
+        Barber</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Sam+Saunders/8477/scorecard/2015/18\">Sam
+        Saunders</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n12:30 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Charlie+Beljan/9721/scorecard/2015/18\">Charlie
+        Beljan</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Stewart+Cink/186/scorecard/2015/18\">Stewart
+        Cink</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-4\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ernie+Els/15/scorecard/2015/18\">Ernie
+        Els</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n12:40 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ben+Crane/3028/scorecard/2015/18\">Ben
+        Crane</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-1\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chez+Reavie/5000/scorecard/2015/18\">Chez
+        Reavie</a>\n</td>\n<td class=\"\">\n68\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\nE\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Bo+Van+Pelt/1685/scorecard/2015/18\">Bo
+        Van Pelt</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class='tee_time '>\n12:50 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-6\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Adam+Hadwin/11148/scorecard/2015/18\">Adam
+        Hadwin</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-2\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT52\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kyle+Reifers/8618/scorecard/2015/18\">Kyle
+        Reifers</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class='tee_time '>\n1:00 pm</td>\n<td class='tee_time '>\n-</td>\n<td class=\"\">\n-3\n</td>\n<td
+        class=\"\">\nF\n</td>\n<td class=\"total selected \">\n-4\n</td>\n<td class=\"last\">\n140\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Blake+Adams/9059/scorecard/2015/18\">Blake
-        Adams</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Chad+Campbell/1219/scorecard/2015/18\">Chad
-        Campbell</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jon+Curran/11159/scorecard/2015/18\">Jon
-        Curran</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jamie+Donaldson/3937/scorecard/2015/18\">Jamie
+        Donaldson</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
@@ -899,8 +889,38 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jamie+Donaldson/3937/scorecard/2015/18\">Jamie
-        Donaldson</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Bill+Haas/3610/scorecard/2015/18\">Bill
+        Haas</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Chad+Campbell/1219/scorecard/2015/18\">Chad
+        Campbell</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Billy+Hurley+III/8476/scorecard/2015/18\">Billy
+        Hurley III</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jason+Kokrak/9166/scorecard/2015/18\">Jason
+        Kokrak</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Danny+Lee/8922/scorecard/2015/18\">Danny
+        Lee</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n66\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Robert+Streb/11275/scorecard/2015/18\">Robert
+        Streb</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Louis+Oosthuizen/4894/scorecard/2015/18\">Louis
+        Oosthuizen</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
@@ -909,38 +929,18 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Bill+Haas/3610/scorecard/2015/18\">Bill
-        Haas</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Billy+Hurley+III/8476/scorecard/2015/18\">Billy
-        Hurley III</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jason+Kokrak/9166/scorecard/2015/18\">Jason
-        Kokrak</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Danny+Lee/8922/scorecard/2015/18\">Danny
-        Lee</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n66\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Jarrod+Lyle/7544/scorecard/2015/18\">Jarrod
         Lyle</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Louis+Oosthuizen/4894/scorecard/2015/18\">Louis
-        Oosthuizen</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jeff+Overton/8259/scorecard/2015/18\">Jeff
+        Overton</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jeff+Overton/8259/scorecard/2015/18\">Jeff
-        Overton</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Blake+Adams/9059/scorecard/2015/18\">Blake
+        Adams</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
@@ -949,43 +949,13 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT72\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Robert+Streb/11275/scorecard/2015/18\">Robert
-        Streb</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jon+Curran/11159/scorecard/2015/18\">Jon
+        Curran</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n141\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Aaron+Baddeley/3175/scorecard/2015/18\">Aaron
-        Baddeley</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n73\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Derek+Fathauer/9397/scorecard/2015/18\">Derek
-        Fathauer</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n69\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Brice+Garnett/8702/scorecard/2015/18\">Brice
-        Garnett</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Ryo+Ishikawa/9115/scorecard/2015/18\">Ryo
-        Ishikawa</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Fredrik+Jacobson/1056/scorecard/2015/18\">Fredrik
-        Jacobson</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n73\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Kisner/8615/scorecard/2015/18\">Kevin
         Kisner</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Leonard/23/scorecard/2015/18\">Justin
-        Leonard</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n70\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
@@ -999,53 +969,63 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Lee+Westwood/302/scorecard/2015/18\">Lee
+        Westwood</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Justin+Leonard/23/scorecard/2015/18\">Justin
+        Leonard</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Derek+Fathauer/9397/scorecard/2015/18\">Derek
+        Fathauer</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Aaron+Baddeley/3175/scorecard/2015/18\">Aaron
+        Baddeley</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Fredrik+Jacobson/1056/scorecard/2015/18\">Fredrik
+        Jacobson</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ryo+Ishikawa/9115/scorecard/2015/18\">Ryo
+        Ishikawa</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/David+Toms/163/scorecard/2015/18\">David
         Toms</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n70\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT87\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Lee+Westwood/302/scorecard/2015/18\">Lee
-        Westwood</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brice+Garnett/8702/scorecard/2015/18\">Brice
+        Garnett</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n142\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Woody+Austin/25/scorecard/2015/18\">Woody
-        Austin</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Steven+Bowditch/5860/scorecard/2015/18\">Steven
         Bowditch</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Angel+Cabrera/494/scorecard/2015/18\">Angel
         Cabrera</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n69\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Ken+Duke/532/scorecard/2015/18\">Ken
         Duke</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Fabian+Gomez/9155/scorecard/2015/18\">Fabian
-        Gomez</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Brian+Harman/6937/scorecard/2015/18\">Brian
-        Harman</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n70\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Jerry+Kelly/183/scorecard/2015/18\">Jerry
         Kelly</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Anirban+Lahiri/10574/scorecard/2015/18\">Anirban
-        Lahiri</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n69\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
@@ -1054,48 +1034,38 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Brian+Harman/6937/scorecard/2015/18\">Brian
+        Harman</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Woody+Austin/25/scorecard/2015/18\">Woody
+        Austin</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Stallings/9183/scorecard/2015/18\">Scott
         Stallings</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n68\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Anirban+Lahiri/10574/scorecard/2015/18\">Anirban
+        Lahiri</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Steve+Wheatcroft/4798/scorecard/2015/18\">Steve
         Wheatcroft</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT98\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Fabian+Gomez/9155/scorecard/2015/18\">Fabian
+        Gomez</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n143\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Jonathan+Byrd/3623/scorecard/2015/18\">Jonathan
-        Byrd</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n68\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Chappell/9800/scorecard/2015/18\">Kevin
-        Chappell</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Matt+Jones/4932/scorecard/2015/18\">Matt
-        Jones</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Martin+Kaymer/6303/scorecard/2015/18\">Martin
         Kaymer</a>\n</td>\n<td class=\"\">\n70\n</td>\n<td class=\"\">\n74\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Colt+Knost/9089/scorecard/2015/18\">Colt
-        Knost</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Langley/11158/scorecard/2015/18\">Scott
-        Langley</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Will+MacKenzie/3534/scorecard/2015/18\">Will
-        MacKenzie</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n69\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
@@ -1104,18 +1074,48 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/DA+Points/4148/scorecard/2015/18\">D.A.
-        Points</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Matt+Jones/4932/scorecard/2015/18\">Matt
+        Jones</a>\n</td>\n<td class=\"\">\n72\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Kevin+Chappell/9800/scorecard/2015/18\">Kevin
+        Chappell</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Colt+Knost/9089/scorecard/2015/18\">Colt
+        Knost</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Will+MacKenzie/3534/scorecard/2015/18\">Will
+        MacKenzie</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n69\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Jonathan+Randolph/11249/scorecard/2015/18\">Jonathan
         Randolph</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Danny+Willett/9611/scorecard/2015/18\">Danny
         Willett</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Jonathan+Byrd/3623/scorecard/2015/18\">Jonathan
+        Byrd</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n68\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Scott+Langley/11158/scorecard/2015/18\">Scott
+        Langley</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT109\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/DA+Points/4148/scorecard/2015/18\">D.A.
+        Points</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n73\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n144\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
@@ -1124,33 +1124,33 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Smylie+Kaufman/18459/scorecard/2015/18\">Smylie
-        Kaufman</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n72\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Carl+Pettersson/3968/scorecard/2015/18\">Carl
         Pettersson</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Nick+Taylor/4027/scorecard/2015/18\">Nick
         Taylor</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        class=\"oddRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Ben+Willman/5966/scorecard/2015/18\">Ben
         Willman</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n70\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT120\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Smylie+Kaufman/18459/scorecard/2015/18\">Smylie
+        Kaufman</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n145\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Ricky+Barnes/3472/scorecard/2015/18\">Ricky
-        Barnes</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Carlos+Ortiz/10730/scorecard/2015/18\">Carlos
+        Ortiz</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Carlos+Ortiz/10730/scorecard/2015/18\">Carlos
-        Ortiz</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n72\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Nicholas+Thompson/8416/scorecard/2015/18\">Nicholas
+        Thompson</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n71\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
@@ -1159,8 +1159,8 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT125\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Nicholas+Thompson/8416/scorecard/2015/18\">Nicholas
-        Thompson</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n71\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Ricky+Barnes/3472/scorecard/2015/18\">Ricky
+        Barnes</a>\n</td>\n<td class=\"\">\n74\n</td>\n<td class=\"\">\n72\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n146\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\n129\n</td>\n<td class=\"player
@@ -1169,8 +1169,8 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n147\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT130\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Darren+Clarke/387/scorecard/2015/18\">Darren
-        Clarke</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n77\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Bryce+Molder/2469/scorecard/2015/18\">Bryce
+        Molder</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n79\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n148\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT130\n</td>\n<td class=\"player
@@ -1179,13 +1179,23 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n148\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT130\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Bryce+Molder/2469/scorecard/2015/18\">Bryce
-        Molder</a>\n</td>\n<td class=\"\">\n69\n</td>\n<td class=\"\">\n79\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Darren+Clarke/387/scorecard/2015/18\">Darren
+        Clarke</a>\n</td>\n<td class=\"\">\n71\n</td>\n<td class=\"\">\n77\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n148\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Greg+Owen/1368/scorecard/2015/18\">Greg
+        Owen</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n74\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
+        class=\"evenRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
         \">\n<a id=\"\" href=\"/golf/pga/players/Robert+Allenby/259/scorecard/2015/18\">Robert
         Allenby</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n76\n</td>\n<td
+        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
+        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
+        class=\"oddRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
+        \">\n<a id=\"\" href=\"/golf/pga/players/Cameron+Percy/3945/scorecard/2015/18\">Cameron
+        Percy</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n76\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
@@ -1193,19 +1203,9 @@ http_interactions:
         Landry</a>\n</td>\n<td class=\"\">\n76\n</td>\n<td class=\"\">\n73\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
-        class=\"oddRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Greg+Owen/1368/scorecard/2015/18\">Greg
-        Owen</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n74\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
-        class=\"evenRow\"><td class=\"position first\">\nT133\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Cameron+Percy/3945/scorecard/2015/18\">Cameron
-        Percy</a>\n</td>\n<td class=\"\">\n73\n</td>\n<td class=\"\">\n76\n</td>\n<td
-        class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
-        class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n149\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT137\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Max+Homa/13933/scorecard/2015/18\">Max
-        Homa</a>\n</td>\n<td class=\"\">\n80\n</td>\n<td class=\"\">\n70\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Svoboda/8600/scorecard/2015/18\">Andrew
+        Svoboda</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n75\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n150\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\nT137\n</td>\n<td class=\"player
@@ -1214,8 +1214,8 @@ http_interactions:
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n150\n</td>\n</tr><tr
         class=\"oddRow\"><td class=\"position first\">\nT137\n</td>\n<td class=\"player
-        \">\n<a id=\"\" href=\"/golf/pga/players/Andrew+Svoboda/8600/scorecard/2015/18\">Andrew
-        Svoboda</a>\n</td>\n<td class=\"\">\n75\n</td>\n<td class=\"\">\n75\n</td>\n<td
+        \">\n<a id=\"\" href=\"/golf/pga/players/Max+Homa/13933/scorecard/2015/18\">Max
+        Homa</a>\n</td>\n<td class=\"\">\n80\n</td>\n<td class=\"\">\n70\n</td>\n<td
         class=\"\">\nMC\n</td>\n<td class=\"\">\nMC\n</td>\n<td class=\"\">\n-\n</td>\n<td
         class=\"\">\n-\n</td>\n<td class=\"total selected \">\n-\n</td>\n<td class=\"last\">\n150\n</td>\n</tr><tr
         class=\"evenRow\"><td class=\"position first\">\n140\n</td>\n<td class=\"player
@@ -1273,7 +1273,7 @@ http_interactions:
         Ads</a>\n                </li>\n                <li class=\"last D-i Fz-xs
         Mx-4 My-0 P-0\">\n                    <a href=\"http://info.yahoo.com/legal/us/yahoo/utos/utos-173.html\">Terms</a>\n
         \               </li>\n            </ul>\n        </div>\n        \n    </div>\n</div><!--
-        fe316.global.media.gq1.yahoo.com compressed/chunked Mon Apr  6 15:16:29 UTC
+        fe440.global.media.gq1.yahoo.com compressed/chunked Sat Apr  4 16:39:35 UTC
         2015 -->\n<!-- End Include: mediafooterinfo -->          </div>\n        </div>\n
         \     </div>\n    </div>\n    <!-- Start Footer -->\n    <div id=\"yspFooterWrapper\">\n
         \     \n<div class=\"footer\">\n<script type=\"text/javascript\">\n(function(r)
@@ -1295,8 +1295,8 @@ http_interactions:
         \"\", \"pos_list\": [ \"NT1\",\"SKY\" ], \"filtered\": [ \"NT1\",\"SKY\" ],
         \"spaceID\": \"97476878\", \"host\": \"sports.yahoo.com\", \"lookupTime\":
         \"1\", \"k2_uri\": \"\", \"fac_rt\": \"\", \"serveTime\":\"-1\", \"pvid\":
-        \"K38BoTIwNi7yZ9o1FiFiBAGkNzYuMVUio03_jhkI\", \"tID\": \"darla_prefetch_1428333389226_1559089376_1\",
-        \"npv\": \"1\", \"ep\": \"{\\\"site-attribute\\\":\\\"can_suppress_ugc=\\\\\\\"1\\\\\\\"\\\",\\\"ult\\\":{\\\"ln\\\":{\\\"slk\\\":\\\"ads\\\"}},\\\"nopageview\\\":true,\\\"ref\\\":\\\"http:\\\\/\\\\/sports.yahoo.com\\\\/golf\\\\/pga\\\\/leaderboard\\\",\\\"filter\\\":\\\"no_expandable;exp_iframe_expandable;\\\",\\\"darlaID\\\":\\\"darla_instance_1428333389226_1479824964_0\\\"}\",
+        \"xYXsLzIwNi6QNdQMQWUywAExNzYuMVUgE8f_0OeI\", \"tID\": \"darla_prefetch_1428165575579_1357006470_1\",
+        \"npv\": \"1\", \"ep\": \"{\\\"site-attribute\\\":\\\"can_suppress_ugc=\\\\\\\"1\\\\\\\"\\\",\\\"ult\\\":{\\\"ln\\\":{\\\"slk\\\":\\\"ads\\\"}},\\\"nopageview\\\":true,\\\"ref\\\":\\\"http:\\\\/\\\\/sports.yahoo.com\\\\/golf\\\\/pga\\\\/leaderboard\\\",\\\"filter\\\":\\\"no_expandable;exp_iframe_expandable;\\\",\\\"darlaID\\\":\\\"darla_instance_1428165575579_1877655457_0\\\"}\",
         \"pe\": \"\", \"pym\": \"\" } } } </script></center></div></center></div><!--
         ESI ad insert finished --><!-- ESI ad insert: SDARLAEXTRA--><div id=\"yom-ad-SDARLAEXTRA\"
         class=\"yom-ad yom-ad-SDARLAEXTRA\" style=\"visibility: inherit;\"><center><div
@@ -1460,8 +1460,8 @@ http_interactions:
         class=\"odd\"><a href=\"http://sports.yahoo.com/fantasy/soccer/jointhegame\">Soccer</a></li><li
         class=\"even\"><a href=\"http://fantasysports.yahoo.com/moregames\">More Games
         &raquo;</a></li></ul>' }, more_link : false    };</script>\n    </div>\n    <!--
-        End Footer -->\n  </div>\n</body>\n</html>\n\n<!-- fe45.sports.gq1.yahoo.com
-        Mon Apr  6 08:16:29 PDT 2015 -->\n<!-- ad prefetch pagecsc setting -->"
+        End Footer -->\n  </div>\n</body>\n</html>\n\n<!-- fe49.sports.gq1.yahoo.com
+        Sat Apr  4 09:39:35 PDT 2015 -->\n<!-- ad prefetch pagecsc setting -->"
     http_version: 
-  recorded_at: Mon, 06 Apr 2015 15:16:29 GMT
+  recorded_at: Sat, 04 Apr 2015 16:39:36 GMT
 recorded_with: VCR 2.9.3

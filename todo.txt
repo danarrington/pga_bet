@@ -1,8 +1,10 @@
 - Show all round scores
-  - Add accordion
-  - Get round scores in viewm model
+  x Add accordion
+  x Get round scores in viewm model
 
 - Colorize used/unused round scores
+  - Add feature spec
+  - Refactor scoring
 
 - Remove all usages of Timze.zone.now.wday (like we did for player_results)
 

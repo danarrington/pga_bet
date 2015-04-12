@@ -39,4 +39,16 @@ end
 # Get leaderboard
 # massage leaderboard
 # calculate scores, return a score object 
+# Scores
+#  :today
+#  :total
+#  Players
+#   :name
+#   :total
+#   :thru
+#   :today
+#   :today_used
+#   Round_1
+#     :score
+#     :used
 # OR 

@@ -23,7 +23,6 @@ group :development do
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
-  gem 'awesome_print'
   gem 'mr_video'
 end
 group :development, :test do
@@ -34,6 +33,7 @@ group :development, :test do
   gem 'vcr'
   gem 'webmock'
   gem 'vcr_cable'
+  gem 'awesome_print'
 end
 group :test do
   gem 'capybara'

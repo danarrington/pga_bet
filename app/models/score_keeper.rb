@@ -43,7 +43,11 @@ class ScoreCard
     players.each do |player|
         scores << player.today if player.started
     end
-    @today = scores.sort.take(scores_to_keep).inject(0){|sum, x| sum+x}
+    @today = 0 
+    scores.sort.take(scores_to_keep).each do |score|
+      @today += score.score
+      score.used = true
+    end
   end
 
   def scores_to_keep
@@ -52,23 +56,6 @@ class ScoreCard
 
 end
 
-class PlayerCard
-  attr_accessor :name, :total, :today, :thru, :today_used, :rounds, :started
-
-  def initialize(player_results)
-    @name = player_results.name
-    @today = player_results.today
-    @started = player_results.started
-    @thru = player_results.thru
-    @rounds = []
-    @rounds[0] = Score.new(player_results.first_round)
-    @rounds[1] = Score.new(player_results.second_round)
-    @rounds[2] = Score.new(player_results.third_round)
-    @rounds[3] = Score.new(player_results.fourth_round)
-    
-  end
-
-end
 
 class Score < Struct.new(:score, :used)
   def <=>(other)

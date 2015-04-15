@@ -1,12 +1,18 @@
-- Show all round scores
+x Show all round scores
   x Add accordion
   x Get round scores in viewm model
 
 - Colorize used/unused round scores
-  - Add feature spec
+  x Add feature spec
   - Refactor scoring
+    - get today_used to work
+    - refactor rounds so they are relative?
+    - then replace the last one with 'today'?
+  - Remove need for score_or_time
+    - Player card: if today == '-' set today to last round
 
 - Remove all usages of Timze.zone.now.wday (like we did for player_results)
+
 
 Old
 
@@ -27,3 +33,5 @@ x Better players list
   x Add a new 'in latest tourney' flag to users
   x Update players sets this if existing player
   x Creating a tourney does this.
+  
+

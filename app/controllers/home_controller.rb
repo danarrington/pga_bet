@@ -9,7 +9,7 @@ class HomeController < ApplicationController
       @my_scores = leaderboard.results_for_user(current_user)
       @my_today =  Player.calculate_today_score(@my_scores)
       @my_total =  Player.calculate_total_score(@my_scores, tournament)
-      @my_other_scores = ScoreKeeper.calculate(@my_scores, tournament)
+      @my_other_scores = ScoreKeeper.calculate_scores(@my_scores, tournament)
     end
 
     other_players = User.all.select{|u| u.picks.count > 0 && u.id != (current_user ? current_user.id : 0)}
@@ -32,7 +32,6 @@ class HomeController < ApplicationController
       @teams << scores
     end
   end
-
 
 end
 

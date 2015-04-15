@@ -14,7 +14,7 @@
     -@my_scores.each do |score|
       tr.js-player-row
         td = score.name
-        td = score_or_time(score)
+        td = score.today
         td = score.thru
         td = score.total
       tr.hide
@@ -23,6 +23,29 @@
         td = score.third_round
         td = score.fourth_round
 
+  h4 My (other) Team
+  table
+    tr
+      th Player
+      th Today
+      th Through
+      th Total
+    tr
+      td Total
+      td = @my_other_scores.today
+      td
+      td = @my_total
+    -@my_other_scores.players.each do |player|
+      tr.js-player-row
+        td = player.name
+        td = player.today.score
+        td = player.thru
+        td = player.total
+      tr.hide
+        td class=used_class(player.rounds[0]) = player.rounds[0].score
+        td class=used_class(player.rounds[1]) = player.rounds[1].score
+        td class=used_class(player.rounds[2]) = player.rounds[2].score
+        td class=used_class(player.rounds[3]) = player.rounds[3].score
 - @other_teams.each do |team|
   h4 =team[:user]
 
@@ -40,7 +63,7 @@
     -team[:scores].each do |score|
       tr.js-player-row
         td = score.name
-        td = score_or_time(score)
+        td = score.today
         td = score.thru
         td = score.total
       tr.hide

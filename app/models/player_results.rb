@@ -18,7 +18,6 @@ class PlayerResults
     case score_data.today
       when '-'
         round_score = get_round_score_for_today
-        puts round_score
         if round_score.include?(':')
           @started = false
           @tee_time = round_score

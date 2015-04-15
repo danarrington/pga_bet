@@ -16,15 +16,22 @@ describe ScoreKeeper do
         players << player_with_round_scores(70, '48', '-', 'E')
       end
 
-      it 'calculates the total score using top 4' do
+      it 'calculates the today score using top 4' do
         scores = ScoreKeeper.calculate_scores(players, tournament)
-        puts 'BACK'
-        pp scores
         expect(scores.today).to eq -3
       end
 
-    end
+      it 'sets today_used for the 4 highest scores' do 
+        scores = ScoreKeeper.calculate_scores(players, tournament)
+        used_scores = scores.players.select{ |p| p.today.used}
+        unused_scores = scores.players.select{ |p| p.today.used != true}
 
+        expect(used_scores.count).to eq 4
+        expect(unused_scores.count).to eq 1
+        expect(unused_scores.first.today.score).to eq 1 #+1
+
+      end
+    end
   end
 
   def players_with_scores(*scores)

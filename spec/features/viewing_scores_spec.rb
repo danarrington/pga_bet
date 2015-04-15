@@ -18,12 +18,12 @@ feature 'Creating tournaments' do
       visit '/'
       expect(page).to have_content '-7'
 
-      find('.use-score', text: '65')
-      find('.drop-score', text: '72')
-      find('.use-score', text: '69')
-      find('.drop-score', text: '70')
-      find('.drop-score', text: '-2')
-      find('.use-score', text: '-3')
+      find('.is-used', text: '65')
+      find('.is-dropped', text: '72')
+      find('.is-used', text: '69')
+      find('.is-dropped', text: '70')
+      find('.is-dropped', text: '-2')
+      find('.is-used', text: '-3')
     end
 
   end

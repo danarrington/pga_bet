@@ -8,30 +8,6 @@
       th Total
     tr
       td Total
-      td = @my_today
-      td
-      td = @my_total
-    -@my_scores.each do |score|
-      tr.js-player-row
-        td = score.name
-        td = score.today
-        td = score.thru
-        td = score.total
-      tr.hide
-        td = score.first_round
-        td = score.second_round
-        td = score.third_round
-        td = score.fourth_round
-
-  h4 My (other) Team
-  table
-    tr
-      th Player
-      th Today
-      th Through
-      th Total
-    tr
-      td Total
       td = @my_other_scores.today
       td
       td = @my_total

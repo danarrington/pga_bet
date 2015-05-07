@@ -3,10 +3,9 @@ require 'spec_helper'
 describe ScoreKeeper do
 
   describe '#calculate_scores' do
+    let!(:tournament) {create(:tournament, course_par: 70)}
+    let(:players){[]}
     context 'prior to the cut' do
-      let!(:user) {create(:user)}
-      let!(:tournament) {create(:tournament, course_par: 70)}
-      let(:players){[]}
 
       before do
         players << player_with_round_scores(70, '24', '-', '-1')
@@ -30,6 +29,26 @@ describe ScoreKeeper do
         expect(unused_scores.count).to eq 1
         expect(unused_scores.first.today.score).to eq 1 #+1
 
+      end
+    end
+
+    context 'after the cut' do
+      before do
+        players << player_with_round_scores('70', '72', 'MC', '-')
+        players << player_with_round_scores('70', '72', '24', 'E')
+        players << player_with_round_scores('70', '72', '38', '+1')
+      end
+
+      it 'does not use an MC score' do
+        scores = ScoreKeeper.calculate_scores(players, tournament)
+
+        scores.players.each do |player|
+          player.rounds.each do |round|
+            if round.score == 'MC'
+              expect(!!round.used).to eq false
+            end
+          end 
+        end
       end
     end
   end

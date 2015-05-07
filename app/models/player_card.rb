@@ -4,7 +4,6 @@ class PlayerCard
   def initialize(player_results)
     @name = player_results.name
     @today = Score.new(player_results.today)
-    puts @today
     @started = player_results.started
     @thru = player_results.thru
     @rounds = []

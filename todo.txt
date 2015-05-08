@@ -13,6 +13,8 @@ x Show all round scores
 
 - Remove all usages of Timze.zone.now.wday (like we did for player_results)
 
+- Colorize today rounds
+
 
 Old
 

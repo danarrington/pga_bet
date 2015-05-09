@@ -99,5 +99,15 @@ describe PlayerResults do
         end
       end
     end
+
+    context 'Withdrawing on second day' do #Paul Casey Players 2015
+      let(:hashie) {Hashie::Mash.new({today:'-', first_round: '78', 
+        second_round: 'WD', third_round: 'WD', fourth_round: 'WD', 
+        thru: '-'})}
+      subject(:result) { PlayerResults.new(hashie, 72)}
+      it 'should set started to false' do
+        expect(result.started).to be false
+      end
+    end
   end
 end

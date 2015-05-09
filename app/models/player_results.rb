@@ -24,6 +24,9 @@ class PlayerResults
         elsif round_score == 'MC'
           @started = false
           'MC'
+        elsif round_score == 'WD'
+          @started = false
+          'WD'
         else
           @started = true
           round_score.to_i-course_par

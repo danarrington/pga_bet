@@ -1,6 +1,10 @@
-x Show all round scores
-  x Add accordion
-  x Get round scores in viewm model
+- Fix jumping layout
+x Colorize all scores
+- Colorize Today score
+- Player total seems to have disappeared
+
+
+Old
 
 - Colorize used/unused round scores
   x Add feature spec
@@ -14,10 +18,6 @@ x Show all round scores
 - Remove all usages of Timze.zone.now.wday (like we did for player_results)
 
 - Colorize today rounds
-
-
-Old
-
 - Update pars to use tourney par
 - Desktop design needs some work
 - Add Hashie to gemfile if we use it.
@@ -36,4 +36,7 @@ x Better players list
   x Update players sets this if existing player
   x Creating a tourney does this.
   
+x Show all round scores
+  x Add accordion
+  x Get round scores in viewm model
 

@@ -1,0 +1,7 @@
+.row
+  - if current_user
+    .small-12.large-6.columns
+      = render partial: 'player_table', locals: {team: @my_team}
+  - @other_teams.each do |team|
+    .small-12.large-6.columns
+      = render partial: 'player_table', locals: {team: team}

@@ -10,7 +10,6 @@ describe PlayerCard do
       it 'should set started to false' do
         expect(player_card.started).to eq false
       end
-
     end
   end
 end

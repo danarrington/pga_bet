@@ -13,7 +13,7 @@ table.player-table
   - team[:scores].players.each do |player|
     tr.js-player-row
       td = player.name
-      td = player.today.score
+      td = player.today.score_or_time
       td = player.thru
       td = player.total
     tr.hide

@@ -17,4 +17,21 @@ describe Score do
     end
   end
 
+
+  describe '#score_or_time' do
+    
+    it 'should return a score if player has started' do
+      expect(Score.new(-1).score_or_time).to eq -1
+    end
+
+    it 'should return MC for missed cut' do
+      expect(Score.new('MC').score_or_time).to eq 'MC' 
+    end
+
+    it 'should return converted tee time for unstarted player' do
+      expect(Score.new('1:35 pm').score_or_time).to eq '10:35 am' 
+    end
+
+  end
+
 end

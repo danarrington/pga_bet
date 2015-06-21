@@ -6,6 +6,7 @@ class PlayerCard
     @today = Score.new(player_results.today)
     @started = player_results.started
     @thru = player_results.thru
+    @total = player_results.total
     @rounds = []
     @rounds[0] = Score.new(player_results.first_round)
     @rounds[1] = Score.new(player_results.second_round)

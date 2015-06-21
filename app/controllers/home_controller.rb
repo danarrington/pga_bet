@@ -21,7 +21,9 @@ class HomeController < ApplicationController
       today =  Player.calculate_today_score(scores)
       total =  Player.calculate_total_score(scores, tournament)
       calced_scores = ScoreKeeper.calculate_scores(scores, tournament)
-      @other_teams << {user: p.name, scores: calced_scores, today: today, total: total}
+      if calced_scores.players.any?
+        @other_teams << {user: p.name, scores: calced_scores, today: today, total: total}
+      end
     end
   end
 

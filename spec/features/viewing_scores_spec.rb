@@ -26,6 +26,20 @@ feature 'Creating tournaments' do
       find('.is-dropped', text: '-2')
       find('.is-used', text: '-3')
     end
+    
+    context 'With a former player not participating' do
+      let!(:non_user) {create(:user)}
+      let!(:new_tourney) {create(:tournament, course_par:70)}
+
+      scenario 'Hide users not participating in this event' do
+        Pick.create(user:user, player:ben, tournament: new_tourney)
+        Pick.create(user:non_user, player:jordan, tournament: tourney)
+
+        visit '/'
+        expect(page).to have_selector('.player-table', count: 1)
+
+      end
+    end
 
   end
 
